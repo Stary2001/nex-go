@@ -137,6 +137,12 @@ func (stream *InputStream) Struct(typeName string) interface{} {
         return stream.StructFriendData()
     case "FriendInfo":
         return stream.StructFriendInfo()
+    case "FriendMii":
+        return stream.StructFriendMii()
+    case "FriendMiiList":
+        return stream.StructFriendMiiList()
+    case "FriendMiiRequest":
+        return stream.StructFriendMiiRequest()
     case "FriendPersistentInfo":
         return stream.StructFriendPersistentInfo()
     case "FriendPicture":
@@ -381,6 +387,12 @@ func (stream *OutputStream) Struct(out interface{}) {
         stream.StructFriendData(out.(FriendData))
     case FriendInfo:
         stream.StructFriendInfo(out.(FriendInfo))
+    case FriendMii:
+        stream.StructFriendMii(out.(FriendMii))
+    case FriendMiiList:
+        stream.StructFriendMiiList(out.(FriendMiiList))
+    case FriendMiiRequest:
+        stream.StructFriendMiiRequest(out.(FriendMiiRequest))
     case FriendPersistentInfo:
         stream.StructFriendPersistentInfo(out.(FriendPersistentInfo))
     case FriendPicture:
@@ -516,6 +528,12 @@ switch typeName {
         return stream.ListFriendData(cb.(func(*InputStream)FriendData))
     case "FriendInfo":
         return stream.ListFriendInfo(cb.(func(*InputStream)FriendInfo))
+    case "FriendMii":
+        return stream.ListFriendMii(cb.(func(*InputStream)FriendMii))
+    case "FriendMiiList":
+        return stream.ListFriendMiiList(cb.(func(*InputStream)FriendMiiList))
+    case "FriendMiiRequest":
+        return stream.ListFriendMiiRequest(cb.(func(*InputStream)FriendMiiRequest))
     case "FriendPersistentInfo":
         return stream.ListFriendPersistentInfo(cb.(func(*InputStream)FriendPersistentInfo))
     case "FriendPicture":
@@ -622,6 +640,12 @@ switch list.(type) {
         stream.ListFriendData(cb.(func(*OutputStream,FriendData)), list.([]FriendData)) // FriendData
     case []FriendInfo:
         stream.ListFriendInfo(cb.(func(*OutputStream,FriendInfo)), list.([]FriendInfo)) // FriendInfo
+    case []FriendMii:
+        stream.ListFriendMii(cb.(func(*OutputStream,FriendMii)), list.([]FriendMii)) // FriendMii
+    case []FriendMiiList:
+        stream.ListFriendMiiList(cb.(func(*OutputStream,FriendMiiList)), list.([]FriendMiiList)) // FriendMiiList
+    case []FriendMiiRequest:
+        stream.ListFriendMiiRequest(cb.(func(*OutputStream,FriendMiiRequest)), list.([]FriendMiiRequest)) // FriendMiiRequest
     case []FriendPersistentInfo:
         stream.ListFriendPersistentInfo(cb.(func(*OutputStream,FriendPersistentInfo)), list.([]FriendPersistentInfo)) // FriendPersistentInfo
     case []FriendPicture:
@@ -1864,6 +1888,40 @@ func (stream *OutputStream) StructFriendInfo(out FriendInfo) {
     stream.UInt64LE(out.Unknown)
     return
 }
+func (stream *InputStream) StructFriendMii() (in FriendMii) {
+    in.Unknown = stream.UInt32LE()
+    in.Mii = stream.Struct("Mii").(Mii)
+    in.Unknown2 = DateTime(stream.UInt64LE())
+    return
+}
+func (stream *OutputStream) StructFriendMii(out FriendMii) {
+    stream.UInt32LE(out.Unknown)
+    stream.Struct(out.Mii)
+    stream.UInt64LE(uint64(out.Unknown2))
+    return
+}
+func (stream *InputStream) StructFriendMiiList() (in FriendMiiList) {
+    in.Unknown = stream.UInt32LE()
+    in.MiiList = stream.Struct("MiiList").(MiiList)
+    in.Unknown2 = DateTime(stream.UInt64LE())
+    return
+}
+func (stream *OutputStream) StructFriendMiiList(out FriendMiiList) {
+    stream.UInt32LE(out.Unknown)
+    stream.Struct(out.MiiList)
+    stream.UInt64LE(uint64(out.Unknown2))
+    return
+}
+func (stream *InputStream) StructFriendMiiRequest() (in FriendMiiRequest) {
+    in.Unknown = stream.UInt32LE()
+    in.Unknown2 = DateTime(stream.UInt64LE())
+    return
+}
+func (stream *OutputStream) StructFriendMiiRequest(out FriendMiiRequest) {
+    stream.UInt32LE(out.Unknown)
+    stream.UInt64LE(uint64(out.Unknown2))
+    return
+}
 func (stream *InputStream) StructFriendPersistentInfo() (in FriendPersistentInfo) {
     in.Unknown = stream.UInt32LE()
     in.Region = stream.UInt8()
@@ -2972,6 +3030,57 @@ func (stream *InputStream) ListFriendInfo(cb func(*InputStream)FriendInfo) []Fri
 	return list
 }
 func (stream *OutputStream) ListFriendInfo(cb func(*OutputStream,FriendInfo)(), out []FriendInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		cb(stream, item)
+	}
+	return
+}
+func (stream *InputStream) ListFriendMii(cb func(*InputStream)FriendMii) []FriendMii {
+    list_len := int(stream.UInt32LE())
+    list := make([]FriendMii, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = cb(stream)
+	}
+	return list
+}
+func (stream *OutputStream) ListFriendMii(cb func(*OutputStream,FriendMii)(), out []FriendMii) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		cb(stream, item)
+	}
+	return
+}
+func (stream *InputStream) ListFriendMiiList(cb func(*InputStream)FriendMiiList) []FriendMiiList {
+    list_len := int(stream.UInt32LE())
+    list := make([]FriendMiiList, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = cb(stream)
+	}
+	return list
+}
+func (stream *OutputStream) ListFriendMiiList(cb func(*OutputStream,FriendMiiList)(), out []FriendMiiList) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		cb(stream, item)
+	}
+	return
+}
+func (stream *InputStream) ListFriendMiiRequest(cb func(*InputStream)FriendMiiRequest) []FriendMiiRequest {
+    list_len := int(stream.UInt32LE())
+    list := make([]FriendMiiRequest, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = cb(stream)
+	}
+	return list
+}
+func (stream *OutputStream) ListFriendMiiRequest(cb func(*OutputStream,FriendMiiRequest)(), out []FriendMiiRequest) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))

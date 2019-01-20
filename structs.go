@@ -575,6 +575,23 @@ type FriendInfo struct {
     Unknown uint64
 }
 
+type FriendMii struct {
+    Unknown uint32
+    Mii Mii
+    Unknown2 DateTime
+}
+
+type FriendMiiList struct {
+    Unknown uint32
+    MiiList MiiList
+    Unknown2 DateTime
+}
+
+type FriendMiiRequest struct {
+    Unknown uint32
+    Unknown2 DateTime
+}
+
 type FriendPersistentInfo struct {
     Unknown uint32
     Region uint8
