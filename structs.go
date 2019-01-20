@@ -2,10 +2,6 @@
 // I apologise in advance.
 package nex
 
-
-type Variant struct {
-}
-
 type PID uint32
 type Result uint32
 type Buffer []byte
