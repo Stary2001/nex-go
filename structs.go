@@ -2,6 +2,7 @@
 // I apologise in advance.
 package nex
 
+
 type PID uint32
 type Result uint32
 type Buffer []byte
@@ -60,8 +61,8 @@ type Comment struct {
 
 type ConnectionData struct {
     Base Structure
-    StationUrl StationURL
-    ConnectionID uint32
+    Station StationURL
+    Connection_id uint32
 }
 
 type CreateMatchmakeSessionParam struct {
@@ -222,7 +223,7 @@ type DataStoreKeyValue struct {
 type DataStoreMetaInfo struct {
     Base Structure
     DataId uint64
-    OwnerId uint64
+    OwnerId PID
     Size uint32
     Name string
     DataType uint16
@@ -264,12 +265,12 @@ type DataStorePasswordInfo struct {
 type DataStorePermission struct {
     Base Structure
     Permission uint8
-    RecipientIds []uint64
+    RecipientIds []PID
 }
 
 type DataStorePersistenceInfo struct {
     Base Structure
-    OwnerId uint64
+    OwnerId PID
     PersistenceSlotId uint16
     DataId uint64
 }
@@ -282,7 +283,7 @@ type DataStorePersistenceInitParam struct {
 
 type DataStorePersistenceTarget struct {
     Base Structure
-    OwnerId uint64
+    OwnerId PID
     PersistenceSlotId uint16
 }
 
@@ -381,7 +382,7 @@ type DataStoreRatingInitParamWithSlot struct {
 type DataStoreRatingLog struct {
     Base Structure
     IsRated bool
-    Pid uint64
+    Pid PID
     RatingValue int32
     LockExpirationTime DateTime
 }
@@ -394,7 +395,7 @@ type DataStoreRatingTarget struct {
 
 type DataStoreReqGetAdditionalMeta struct {
     Base Structure
-    OwnerId uint64
+    OwnerId PID
     DataType uint16
     Version uint16
     MetaBinary QBuffer
@@ -462,7 +463,7 @@ type DataStoreSearchBalloonParam struct {
 type DataStoreSearchBalloonResult struct {
     Base Structure
     DataId uint64
-    OwnerId uint64
+    OwnerId PID
     Size uint32
     Name string
     DataType uint16
@@ -484,7 +485,7 @@ type DataStoreSearchBalloonResultSet struct {
 type DataStoreSearchParam struct {
     Base Structure
     SearchTarget uint8
-    OwnerIds []uint64
+    OwnerIds []PID
     OwnerType uint8
     DestinationIds []uint64
     DataType uint16
@@ -514,7 +515,7 @@ type DataStoreSearchResult struct {
 type DataStoreSpecificMetaInfo struct {
     Base Structure
     DataId uint64
-    OwnerId uint64
+    OwnerId PID
     Size uint32
     DataType uint16
     Version uint32
@@ -523,7 +524,7 @@ type DataStoreSpecificMetaInfo struct {
 type DataStoreSpecificMetaInfoV1 struct {
     Base Structure
     DataId uint32
-    OwnerId uint64
+    OwnerId PID
     Size uint32
     DataType uint16
     Version uint16

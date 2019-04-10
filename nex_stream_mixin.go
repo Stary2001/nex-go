@@ -6,247 +6,247 @@ import "reflect"
 func (stream *InputStream) Struct(typeName string) interface{} {
 	switch typeName {
     case "AccountData":
-        return stream.StructAccountData()
+        return stream.Struct_AccountData()
     case "AutoMatchmakeParam":
-        return stream.StructAutoMatchmakeParam()
+        return stream.Struct_AutoMatchmakeParam()
     case "BasicAccountInfo":
-        return stream.StructBasicAccountInfo()
+        return stream.Struct_BasicAccountInfo()
     case "BlacklistedPrincipal":
-        return stream.StructBlacklistedPrincipal()
+        return stream.Struct_BlacklistedPrincipal()
     case "BufferQueueParam":
-        return stream.StructBufferQueueParam()
+        return stream.Struct_BufferQueueParam()
     case "Comment":
-        return stream.StructComment()
+        return stream.Struct_Comment()
     case "ConnectionData":
-        return stream.StructConnectionData()
+        return stream.Struct_ConnectionData()
     case "CreateMatchmakeSessionParam":
-        return stream.StructCreateMatchmakeSessionParam()
+        return stream.Struct_CreateMatchmakeSessionParam()
     case "Data":
-        return stream.StructData()
+        return stream.Struct_Data()
     case "DataStoreChangeMetaCompareParam":
-        return stream.StructDataStoreChangeMetaCompareParam()
+        return stream.Struct_DataStoreChangeMetaCompareParam()
     case "DataStoreChangeMetaParam":
-        return stream.StructDataStoreChangeMetaParam()
+        return stream.Struct_DataStoreChangeMetaParam()
     case "DataStoreChangeMetaParamV1":
-        return stream.StructDataStoreChangeMetaParamV1()
+        return stream.Struct_DataStoreChangeMetaParamV1()
     case "DataStoreCompletePostParam":
-        return stream.StructDataStoreCompletePostParam()
+        return stream.Struct_DataStoreCompletePostParam()
     case "DataStoreCompletePostParamV1":
-        return stream.StructDataStoreCompletePostParamV1()
+        return stream.Struct_DataStoreCompletePostParamV1()
     case "DataStoreCompleteUpdateParam":
-        return stream.StructDataStoreCompleteUpdateParam()
+        return stream.Struct_DataStoreCompleteUpdateParam()
     case "DataStoreDeleteParam":
-        return stream.StructDataStoreDeleteParam()
+        return stream.Struct_DataStoreDeleteParam()
     case "DataStoreFetchMyInfosAchievementResult":
-        return stream.StructDataStoreFetchMyInfosAchievementResult()
+        return stream.Struct_DataStoreFetchMyInfosAchievementResult()
     case "DataStoreFetchMyInfosBalloonResult":
-        return stream.StructDataStoreFetchMyInfosBalloonResult()
+        return stream.Struct_DataStoreFetchMyInfosBalloonResult()
     case "DataStoreFetchMyInfosParam":
-        return stream.StructDataStoreFetchMyInfosParam()
+        return stream.Struct_DataStoreFetchMyInfosParam()
     case "DataStoreFetchMyInfosResult":
-        return stream.StructDataStoreFetchMyInfosResult()
+        return stream.Struct_DataStoreFetchMyInfosResult()
     case "DataStoreGetMetaParam":
-        return stream.StructDataStoreGetMetaParam()
+        return stream.Struct_DataStoreGetMetaParam()
     case "DataStoreGetNewArrivedNotificationsParam":
-        return stream.StructDataStoreGetNewArrivedNotificationsParam()
+        return stream.Struct_DataStoreGetNewArrivedNotificationsParam()
     case "DataStoreGetNotificationUrlParam":
-        return stream.StructDataStoreGetNotificationUrlParam()
+        return stream.Struct_DataStoreGetNotificationUrlParam()
     case "DataStoreGetSpecificMetaParam":
-        return stream.StructDataStoreGetSpecificMetaParam()
+        return stream.Struct_DataStoreGetSpecificMetaParam()
     case "DataStoreGetSpecificMetaParamV1":
-        return stream.StructDataStoreGetSpecificMetaParamV1()
+        return stream.Struct_DataStoreGetSpecificMetaParamV1()
     case "DataStoreKeyValue":
-        return stream.StructDataStoreKeyValue()
+        return stream.Struct_DataStoreKeyValue()
     case "DataStoreMetaInfo":
-        return stream.StructDataStoreMetaInfo()
+        return stream.Struct_DataStoreMetaInfo()
     case "DataStoreNotification":
-        return stream.StructDataStoreNotification()
+        return stream.Struct_DataStoreNotification()
     case "DataStoreNotificationV1":
-        return stream.StructDataStoreNotificationV1()
+        return stream.Struct_DataStoreNotificationV1()
     case "DataStorePasswordInfo":
-        return stream.StructDataStorePasswordInfo()
+        return stream.Struct_DataStorePasswordInfo()
     case "DataStorePermission":
-        return stream.StructDataStorePermission()
+        return stream.Struct_DataStorePermission()
     case "DataStorePersistenceInfo":
-        return stream.StructDataStorePersistenceInfo()
+        return stream.Struct_DataStorePersistenceInfo()
     case "DataStorePersistenceInitParam":
-        return stream.StructDataStorePersistenceInitParam()
+        return stream.Struct_DataStorePersistenceInitParam()
     case "DataStorePersistenceTarget":
-        return stream.StructDataStorePersistenceTarget()
+        return stream.Struct_DataStorePersistenceTarget()
     case "DataStorePrepareGetParam":
-        return stream.StructDataStorePrepareGetParam()
+        return stream.Struct_DataStorePrepareGetParam()
     case "DataStorePrepareGetParamV1":
-        return stream.StructDataStorePrepareGetParamV1()
+        return stream.Struct_DataStorePrepareGetParamV1()
     case "DataStorePreparePostParam":
-        return stream.StructDataStorePreparePostParam()
+        return stream.Struct_DataStorePreparePostParam()
     case "DataStorePreparePostParamV1":
-        return stream.StructDataStorePreparePostParamV1()
+        return stream.Struct_DataStorePreparePostParamV1()
     case "DataStorePrepareUpdateParam":
-        return stream.StructDataStorePrepareUpdateParam()
+        return stream.Struct_DataStorePrepareUpdateParam()
     case "DataStoreRateObjectParam":
-        return stream.StructDataStoreRateObjectParam()
+        return stream.Struct_DataStoreRateObjectParam()
     case "DataStoreRatingInfo":
-        return stream.StructDataStoreRatingInfo()
+        return stream.Struct_DataStoreRatingInfo()
     case "DataStoreRatingInfoWithSlot":
-        return stream.StructDataStoreRatingInfoWithSlot()
+        return stream.Struct_DataStoreRatingInfoWithSlot()
     case "DataStoreRatingInitParam":
-        return stream.StructDataStoreRatingInitParam()
+        return stream.Struct_DataStoreRatingInitParam()
     case "DataStoreRatingInitParamWithSlot":
-        return stream.StructDataStoreRatingInitParamWithSlot()
+        return stream.Struct_DataStoreRatingInitParamWithSlot()
     case "DataStoreRatingLog":
-        return stream.StructDataStoreRatingLog()
+        return stream.Struct_DataStoreRatingLog()
     case "DataStoreRatingTarget":
-        return stream.StructDataStoreRatingTarget()
+        return stream.Struct_DataStoreRatingTarget()
     case "DataStoreReqGetAdditionalMeta":
-        return stream.StructDataStoreReqGetAdditionalMeta()
+        return stream.Struct_DataStoreReqGetAdditionalMeta()
     case "DataStoreReqGetInfo":
-        return stream.StructDataStoreReqGetInfo()
+        return stream.Struct_DataStoreReqGetInfo()
     case "DataStoreReqGetInfoV1":
-        return stream.StructDataStoreReqGetInfoV1()
+        return stream.Struct_DataStoreReqGetInfoV1()
     case "DataStoreReqGetNotificationUrlInfo":
-        return stream.StructDataStoreReqGetNotificationUrlInfo()
+        return stream.Struct_DataStoreReqGetNotificationUrlInfo()
     case "DataStoreReqPostInfo":
-        return stream.StructDataStoreReqPostInfo()
+        return stream.Struct_DataStoreReqPostInfo()
     case "DataStoreReqPostInfoV1":
-        return stream.StructDataStoreReqPostInfoV1()
+        return stream.Struct_DataStoreReqPostInfoV1()
     case "DataStoreReqUpdateInfo":
-        return stream.StructDataStoreReqUpdateInfo()
+        return stream.Struct_DataStoreReqUpdateInfo()
     case "DataStoreSearchBalloonParam":
-        return stream.StructDataStoreSearchBalloonParam()
+        return stream.Struct_DataStoreSearchBalloonParam()
     case "DataStoreSearchBalloonResult":
-        return stream.StructDataStoreSearchBalloonResult()
+        return stream.Struct_DataStoreSearchBalloonResult()
     case "DataStoreSearchBalloonResultSet":
-        return stream.StructDataStoreSearchBalloonResultSet()
+        return stream.Struct_DataStoreSearchBalloonResultSet()
     case "DataStoreSearchParam":
-        return stream.StructDataStoreSearchParam()
+        return stream.Struct_DataStoreSearchParam()
     case "DataStoreSearchResult":
-        return stream.StructDataStoreSearchResult()
+        return stream.Struct_DataStoreSearchResult()
     case "DataStoreSpecificMetaInfo":
-        return stream.StructDataStoreSpecificMetaInfo()
+        return stream.Struct_DataStoreSpecificMetaInfo()
     case "DataStoreSpecificMetaInfoV1":
-        return stream.StructDataStoreSpecificMetaInfoV1()
+        return stream.Struct_DataStoreSpecificMetaInfoV1()
     case "DataStoreTouchObjectParam":
-        return stream.StructDataStoreTouchObjectParam()
+        return stream.Struct_DataStoreTouchObjectParam()
     case "DeletionEntry":
-        return stream.StructDeletionEntry()
+        return stream.Struct_DeletionEntry()
     case "FindMatchmakeSessionByParticipantParam":
-        return stream.StructFindMatchmakeSessionByParticipantParam()
+        return stream.Struct_FindMatchmakeSessionByParticipantParam()
     case "FindMatchmakeSessionByParticipantResult":
-        return stream.StructFindMatchmakeSessionByParticipantResult()
+        return stream.Struct_FindMatchmakeSessionByParticipantResult()
     case "FriendData":
-        return stream.StructFriendData()
+        return stream.Struct_FriendData()
     case "FriendInfo":
-        return stream.StructFriendInfo()
+        return stream.Struct_FriendInfo()
     case "FriendMii":
-        return stream.StructFriendMii()
+        return stream.Struct_FriendMii()
     case "FriendMiiList":
-        return stream.StructFriendMiiList()
+        return stream.Struct_FriendMiiList()
     case "FriendMiiRequest":
-        return stream.StructFriendMiiRequest()
+        return stream.Struct_FriendMiiRequest()
     case "FriendPersistentInfo":
-        return stream.StructFriendPersistentInfo()
+        return stream.Struct_FriendPersistentInfo()
     case "FriendPicture":
-        return stream.StructFriendPicture()
+        return stream.Struct_FriendPicture()
     case "FriendPresence":
-        return stream.StructFriendPresence()
+        return stream.Struct_FriendPresence()
     case "FriendRelationship":
-        return stream.StructFriendRelationship()
+        return stream.Struct_FriendRelationship()
     case "FriendRequest":
-        return stream.StructFriendRequest()
+        return stream.Struct_FriendRequest()
     case "FriendRequestMessage":
-        return stream.StructFriendRequestMessage()
+        return stream.Struct_FriendRequestMessage()
     case "GameKey":
-        return stream.StructGameKey()
+        return stream.Struct_GameKey()
     case "Gathering":
-        return stream.StructGathering()
+        return stream.Struct_Gathering()
     case "GatheringStats":
-        return stream.StructGatheringStats()
+        return stream.Struct_GatheringStats()
     case "GatheringURLs":
-        return stream.StructGatheringURLs()
+        return stream.Struct_GatheringURLs()
     case "Invitation":
-        return stream.StructInvitation()
+        return stream.Struct_Invitation()
     case "JoinMatchmakeSessionParam":
-        return stream.StructJoinMatchmakeSessionParam()
+        return stream.Struct_JoinMatchmakeSessionParam()
     case "MatchmakeBlockListParam":
-        return stream.StructMatchmakeBlockListParam()
+        return stream.Struct_MatchmakeBlockListParam()
     case "MatchmakeParam":
-        return stream.StructMatchmakeParam()
+        return stream.Struct_MatchmakeParam()
     case "MatchmakeSession":
-        return stream.StructMatchmakeSession()
+        return stream.Struct_MatchmakeSession()
     case "MatchmakeSessionSearchCriteria":
-        return stream.StructMatchmakeSessionSearchCriteria()
+        return stream.Struct_MatchmakeSessionSearchCriteria()
     case "MessageRecipient":
-        return stream.StructMessageRecipient()
+        return stream.Struct_MessageRecipient()
     case "Mii":
-        return stream.StructMii()
+        return stream.Struct_Mii()
     case "MiiList":
-        return stream.StructMiiList()
+        return stream.Struct_MiiList()
     case "MiiV2":
-        return stream.StructMiiV2()
+        return stream.Struct_MiiV2()
     case "MyProfile":
-        return stream.StructMyProfile()
+        return stream.Struct_MyProfile()
     case "NNAInfo":
-        return stream.StructNNAInfo()
+        return stream.Struct_NNAInfo()
     case "NintendoNotificationEvent":
-        return stream.StructNintendoNotificationEvent()
+        return stream.Struct_NintendoNotificationEvent()
     case "NintendoNotificationEventGeneral":
-        return stream.StructNintendoNotificationEventGeneral()
+        return stream.Struct_NintendoNotificationEventGeneral()
     case "NintendoNotificationEventProfile":
-        return stream.StructNintendoNotificationEventProfile()
+        return stream.Struct_NintendoNotificationEventProfile()
     case "NintendoPresence":
-        return stream.StructNintendoPresence()
+        return stream.Struct_NintendoPresence()
     case "NintendoPresenceV2":
-        return stream.StructNintendoPresenceV2()
+        return stream.Struct_NintendoPresenceV2()
     case "NotificationEvent":
-        return stream.StructNotificationEvent()
+        return stream.Struct_NotificationEvent()
     case "ParticipantDetails":
-        return stream.StructParticipantDetails()
+        return stream.Struct_ParticipantDetails()
     case "PersistentGathering":
-        return stream.StructPersistentGathering()
+        return stream.Struct_PersistentGathering()
     case "PersistentNotification":
-        return stream.StructPersistentNotification()
+        return stream.Struct_PersistentNotification()
     case "PlayedGame":
-        return stream.StructPlayedGame()
+        return stream.Struct_PlayedGame()
     case "PlayingSession":
-        return stream.StructPlayingSession()
+        return stream.Struct_PlayingSession()
     case "PrincipalBasicInfo":
-        return stream.StructPrincipalBasicInfo()
+        return stream.Struct_PrincipalBasicInfo()
     case "PrincipalPreference":
-        return stream.StructPrincipalPreference()
+        return stream.Struct_PrincipalPreference()
     case "PrincipalRequestBlockSetting":
-        return stream.StructPrincipalRequestBlockSetting()
+        return stream.Struct_PrincipalRequestBlockSetting()
     case "RVConnectionData":
-        return stream.StructRVConnectionData()
+        return stream.Struct_RVConnectionData()
     case "RankingCachedResult":
-        return stream.StructRankingCachedResult()
+        return stream.Struct_RankingCachedResult()
     case "RankingChangeAttributesParam":
-        return stream.StructRankingChangeAttributesParam()
+        return stream.Struct_RankingChangeAttributesParam()
     case "RankingOrderParam":
-        return stream.StructRankingOrderParam()
+        return stream.Struct_RankingOrderParam()
     case "RankingRankData":
-        return stream.StructRankingRankData()
+        return stream.Struct_RankingRankData()
     case "RankingResult":
-        return stream.StructRankingResult()
+        return stream.Struct_RankingResult()
     case "RankingScoreData":
-        return stream.StructRankingScoreData()
+        return stream.Struct_RankingScoreData()
     case "RankingStats":
-        return stream.StructRankingStats()
+        return stream.Struct_RankingStats()
     case "RelationshipData":
-        return stream.StructRelationshipData()
+        return stream.Struct_RelationshipData()
     case "ResultRange":
-        return stream.StructResultRange()
+        return stream.Struct_ResultRange()
     case "SimpleCommunity":
-        return stream.StructSimpleCommunity()
+        return stream.Struct_SimpleCommunity()
     case "SimplePlayingSession":
-        return stream.StructSimplePlayingSession()
+        return stream.Struct_SimplePlayingSession()
     case "Structure":
-        return stream.StructStructure()
+        return stream.Struct_Structure()
     case "UniqueIdInfo":
-        return stream.StructUniqueIdInfo()
+        return stream.Struct_UniqueIdInfo()
     case "UpdateMatchmakeSessionParam":
-        return stream.StructUpdateMatchmakeSessionParam()
+        return stream.Struct_UpdateMatchmakeSessionParam()
     case "UserMessage":
-        return stream.StructUserMessage()
+        return stream.Struct_UserMessage()
 
 	default:
 		fmt.Println("struct: invalid type", typeName)
@@ -256,514 +256,254 @@ func (stream *InputStream) Struct(typeName string) interface{} {
 func (stream *OutputStream) Struct(out interface{}) {
 	switch out.(type) {
     case AccountData:
-        stream.StructAccountData(out.(AccountData))
+        stream.Struct_AccountData(out.(AccountData))
     case AutoMatchmakeParam:
-        stream.StructAutoMatchmakeParam(out.(AutoMatchmakeParam))
+        stream.Struct_AutoMatchmakeParam(out.(AutoMatchmakeParam))
     case BasicAccountInfo:
-        stream.StructBasicAccountInfo(out.(BasicAccountInfo))
+        stream.Struct_BasicAccountInfo(out.(BasicAccountInfo))
     case BlacklistedPrincipal:
-        stream.StructBlacklistedPrincipal(out.(BlacklistedPrincipal))
+        stream.Struct_BlacklistedPrincipal(out.(BlacklistedPrincipal))
     case BufferQueueParam:
-        stream.StructBufferQueueParam(out.(BufferQueueParam))
+        stream.Struct_BufferQueueParam(out.(BufferQueueParam))
     case Comment:
-        stream.StructComment(out.(Comment))
+        stream.Struct_Comment(out.(Comment))
     case ConnectionData:
-        stream.StructConnectionData(out.(ConnectionData))
+        stream.Struct_ConnectionData(out.(ConnectionData))
     case CreateMatchmakeSessionParam:
-        stream.StructCreateMatchmakeSessionParam(out.(CreateMatchmakeSessionParam))
+        stream.Struct_CreateMatchmakeSessionParam(out.(CreateMatchmakeSessionParam))
     case Data:
-        stream.StructData(out.(Data))
+        stream.Struct_Data(out.(Data))
     case DataStoreChangeMetaCompareParam:
-        stream.StructDataStoreChangeMetaCompareParam(out.(DataStoreChangeMetaCompareParam))
+        stream.Struct_DataStoreChangeMetaCompareParam(out.(DataStoreChangeMetaCompareParam))
     case DataStoreChangeMetaParam:
-        stream.StructDataStoreChangeMetaParam(out.(DataStoreChangeMetaParam))
+        stream.Struct_DataStoreChangeMetaParam(out.(DataStoreChangeMetaParam))
     case DataStoreChangeMetaParamV1:
-        stream.StructDataStoreChangeMetaParamV1(out.(DataStoreChangeMetaParamV1))
+        stream.Struct_DataStoreChangeMetaParamV1(out.(DataStoreChangeMetaParamV1))
     case DataStoreCompletePostParam:
-        stream.StructDataStoreCompletePostParam(out.(DataStoreCompletePostParam))
+        stream.Struct_DataStoreCompletePostParam(out.(DataStoreCompletePostParam))
     case DataStoreCompletePostParamV1:
-        stream.StructDataStoreCompletePostParamV1(out.(DataStoreCompletePostParamV1))
+        stream.Struct_DataStoreCompletePostParamV1(out.(DataStoreCompletePostParamV1))
     case DataStoreCompleteUpdateParam:
-        stream.StructDataStoreCompleteUpdateParam(out.(DataStoreCompleteUpdateParam))
+        stream.Struct_DataStoreCompleteUpdateParam(out.(DataStoreCompleteUpdateParam))
     case DataStoreDeleteParam:
-        stream.StructDataStoreDeleteParam(out.(DataStoreDeleteParam))
+        stream.Struct_DataStoreDeleteParam(out.(DataStoreDeleteParam))
     case DataStoreFetchMyInfosAchievementResult:
-        stream.StructDataStoreFetchMyInfosAchievementResult(out.(DataStoreFetchMyInfosAchievementResult))
+        stream.Struct_DataStoreFetchMyInfosAchievementResult(out.(DataStoreFetchMyInfosAchievementResult))
     case DataStoreFetchMyInfosBalloonResult:
-        stream.StructDataStoreFetchMyInfosBalloonResult(out.(DataStoreFetchMyInfosBalloonResult))
+        stream.Struct_DataStoreFetchMyInfosBalloonResult(out.(DataStoreFetchMyInfosBalloonResult))
     case DataStoreFetchMyInfosParam:
-        stream.StructDataStoreFetchMyInfosParam(out.(DataStoreFetchMyInfosParam))
+        stream.Struct_DataStoreFetchMyInfosParam(out.(DataStoreFetchMyInfosParam))
     case DataStoreFetchMyInfosResult:
-        stream.StructDataStoreFetchMyInfosResult(out.(DataStoreFetchMyInfosResult))
+        stream.Struct_DataStoreFetchMyInfosResult(out.(DataStoreFetchMyInfosResult))
     case DataStoreGetMetaParam:
-        stream.StructDataStoreGetMetaParam(out.(DataStoreGetMetaParam))
+        stream.Struct_DataStoreGetMetaParam(out.(DataStoreGetMetaParam))
     case DataStoreGetNewArrivedNotificationsParam:
-        stream.StructDataStoreGetNewArrivedNotificationsParam(out.(DataStoreGetNewArrivedNotificationsParam))
+        stream.Struct_DataStoreGetNewArrivedNotificationsParam(out.(DataStoreGetNewArrivedNotificationsParam))
     case DataStoreGetNotificationUrlParam:
-        stream.StructDataStoreGetNotificationUrlParam(out.(DataStoreGetNotificationUrlParam))
+        stream.Struct_DataStoreGetNotificationUrlParam(out.(DataStoreGetNotificationUrlParam))
     case DataStoreGetSpecificMetaParam:
-        stream.StructDataStoreGetSpecificMetaParam(out.(DataStoreGetSpecificMetaParam))
+        stream.Struct_DataStoreGetSpecificMetaParam(out.(DataStoreGetSpecificMetaParam))
     case DataStoreGetSpecificMetaParamV1:
-        stream.StructDataStoreGetSpecificMetaParamV1(out.(DataStoreGetSpecificMetaParamV1))
+        stream.Struct_DataStoreGetSpecificMetaParamV1(out.(DataStoreGetSpecificMetaParamV1))
     case DataStoreKeyValue:
-        stream.StructDataStoreKeyValue(out.(DataStoreKeyValue))
+        stream.Struct_DataStoreKeyValue(out.(DataStoreKeyValue))
     case DataStoreMetaInfo:
-        stream.StructDataStoreMetaInfo(out.(DataStoreMetaInfo))
+        stream.Struct_DataStoreMetaInfo(out.(DataStoreMetaInfo))
     case DataStoreNotification:
-        stream.StructDataStoreNotification(out.(DataStoreNotification))
+        stream.Struct_DataStoreNotification(out.(DataStoreNotification))
     case DataStoreNotificationV1:
-        stream.StructDataStoreNotificationV1(out.(DataStoreNotificationV1))
+        stream.Struct_DataStoreNotificationV1(out.(DataStoreNotificationV1))
     case DataStorePasswordInfo:
-        stream.StructDataStorePasswordInfo(out.(DataStorePasswordInfo))
+        stream.Struct_DataStorePasswordInfo(out.(DataStorePasswordInfo))
     case DataStorePermission:
-        stream.StructDataStorePermission(out.(DataStorePermission))
+        stream.Struct_DataStorePermission(out.(DataStorePermission))
     case DataStorePersistenceInfo:
-        stream.StructDataStorePersistenceInfo(out.(DataStorePersistenceInfo))
+        stream.Struct_DataStorePersistenceInfo(out.(DataStorePersistenceInfo))
     case DataStorePersistenceInitParam:
-        stream.StructDataStorePersistenceInitParam(out.(DataStorePersistenceInitParam))
+        stream.Struct_DataStorePersistenceInitParam(out.(DataStorePersistenceInitParam))
     case DataStorePersistenceTarget:
-        stream.StructDataStorePersistenceTarget(out.(DataStorePersistenceTarget))
+        stream.Struct_DataStorePersistenceTarget(out.(DataStorePersistenceTarget))
     case DataStorePrepareGetParam:
-        stream.StructDataStorePrepareGetParam(out.(DataStorePrepareGetParam))
+        stream.Struct_DataStorePrepareGetParam(out.(DataStorePrepareGetParam))
     case DataStorePrepareGetParamV1:
-        stream.StructDataStorePrepareGetParamV1(out.(DataStorePrepareGetParamV1))
+        stream.Struct_DataStorePrepareGetParamV1(out.(DataStorePrepareGetParamV1))
     case DataStorePreparePostParam:
-        stream.StructDataStorePreparePostParam(out.(DataStorePreparePostParam))
+        stream.Struct_DataStorePreparePostParam(out.(DataStorePreparePostParam))
     case DataStorePreparePostParamV1:
-        stream.StructDataStorePreparePostParamV1(out.(DataStorePreparePostParamV1))
+        stream.Struct_DataStorePreparePostParamV1(out.(DataStorePreparePostParamV1))
     case DataStorePrepareUpdateParam:
-        stream.StructDataStorePrepareUpdateParam(out.(DataStorePrepareUpdateParam))
+        stream.Struct_DataStorePrepareUpdateParam(out.(DataStorePrepareUpdateParam))
     case DataStoreRateObjectParam:
-        stream.StructDataStoreRateObjectParam(out.(DataStoreRateObjectParam))
+        stream.Struct_DataStoreRateObjectParam(out.(DataStoreRateObjectParam))
     case DataStoreRatingInfo:
-        stream.StructDataStoreRatingInfo(out.(DataStoreRatingInfo))
+        stream.Struct_DataStoreRatingInfo(out.(DataStoreRatingInfo))
     case DataStoreRatingInfoWithSlot:
-        stream.StructDataStoreRatingInfoWithSlot(out.(DataStoreRatingInfoWithSlot))
+        stream.Struct_DataStoreRatingInfoWithSlot(out.(DataStoreRatingInfoWithSlot))
     case DataStoreRatingInitParam:
-        stream.StructDataStoreRatingInitParam(out.(DataStoreRatingInitParam))
+        stream.Struct_DataStoreRatingInitParam(out.(DataStoreRatingInitParam))
     case DataStoreRatingInitParamWithSlot:
-        stream.StructDataStoreRatingInitParamWithSlot(out.(DataStoreRatingInitParamWithSlot))
+        stream.Struct_DataStoreRatingInitParamWithSlot(out.(DataStoreRatingInitParamWithSlot))
     case DataStoreRatingLog:
-        stream.StructDataStoreRatingLog(out.(DataStoreRatingLog))
+        stream.Struct_DataStoreRatingLog(out.(DataStoreRatingLog))
     case DataStoreRatingTarget:
-        stream.StructDataStoreRatingTarget(out.(DataStoreRatingTarget))
+        stream.Struct_DataStoreRatingTarget(out.(DataStoreRatingTarget))
     case DataStoreReqGetAdditionalMeta:
-        stream.StructDataStoreReqGetAdditionalMeta(out.(DataStoreReqGetAdditionalMeta))
+        stream.Struct_DataStoreReqGetAdditionalMeta(out.(DataStoreReqGetAdditionalMeta))
     case DataStoreReqGetInfo:
-        stream.StructDataStoreReqGetInfo(out.(DataStoreReqGetInfo))
+        stream.Struct_DataStoreReqGetInfo(out.(DataStoreReqGetInfo))
     case DataStoreReqGetInfoV1:
-        stream.StructDataStoreReqGetInfoV1(out.(DataStoreReqGetInfoV1))
+        stream.Struct_DataStoreReqGetInfoV1(out.(DataStoreReqGetInfoV1))
     case DataStoreReqGetNotificationUrlInfo:
-        stream.StructDataStoreReqGetNotificationUrlInfo(out.(DataStoreReqGetNotificationUrlInfo))
+        stream.Struct_DataStoreReqGetNotificationUrlInfo(out.(DataStoreReqGetNotificationUrlInfo))
     case DataStoreReqPostInfo:
-        stream.StructDataStoreReqPostInfo(out.(DataStoreReqPostInfo))
+        stream.Struct_DataStoreReqPostInfo(out.(DataStoreReqPostInfo))
     case DataStoreReqPostInfoV1:
-        stream.StructDataStoreReqPostInfoV1(out.(DataStoreReqPostInfoV1))
+        stream.Struct_DataStoreReqPostInfoV1(out.(DataStoreReqPostInfoV1))
     case DataStoreReqUpdateInfo:
-        stream.StructDataStoreReqUpdateInfo(out.(DataStoreReqUpdateInfo))
+        stream.Struct_DataStoreReqUpdateInfo(out.(DataStoreReqUpdateInfo))
     case DataStoreSearchBalloonParam:
-        stream.StructDataStoreSearchBalloonParam(out.(DataStoreSearchBalloonParam))
+        stream.Struct_DataStoreSearchBalloonParam(out.(DataStoreSearchBalloonParam))
     case DataStoreSearchBalloonResult:
-        stream.StructDataStoreSearchBalloonResult(out.(DataStoreSearchBalloonResult))
+        stream.Struct_DataStoreSearchBalloonResult(out.(DataStoreSearchBalloonResult))
     case DataStoreSearchBalloonResultSet:
-        stream.StructDataStoreSearchBalloonResultSet(out.(DataStoreSearchBalloonResultSet))
+        stream.Struct_DataStoreSearchBalloonResultSet(out.(DataStoreSearchBalloonResultSet))
     case DataStoreSearchParam:
-        stream.StructDataStoreSearchParam(out.(DataStoreSearchParam))
+        stream.Struct_DataStoreSearchParam(out.(DataStoreSearchParam))
     case DataStoreSearchResult:
-        stream.StructDataStoreSearchResult(out.(DataStoreSearchResult))
+        stream.Struct_DataStoreSearchResult(out.(DataStoreSearchResult))
     case DataStoreSpecificMetaInfo:
-        stream.StructDataStoreSpecificMetaInfo(out.(DataStoreSpecificMetaInfo))
+        stream.Struct_DataStoreSpecificMetaInfo(out.(DataStoreSpecificMetaInfo))
     case DataStoreSpecificMetaInfoV1:
-        stream.StructDataStoreSpecificMetaInfoV1(out.(DataStoreSpecificMetaInfoV1))
+        stream.Struct_DataStoreSpecificMetaInfoV1(out.(DataStoreSpecificMetaInfoV1))
     case DataStoreTouchObjectParam:
-        stream.StructDataStoreTouchObjectParam(out.(DataStoreTouchObjectParam))
+        stream.Struct_DataStoreTouchObjectParam(out.(DataStoreTouchObjectParam))
     case DeletionEntry:
-        stream.StructDeletionEntry(out.(DeletionEntry))
+        stream.Struct_DeletionEntry(out.(DeletionEntry))
     case FindMatchmakeSessionByParticipantParam:
-        stream.StructFindMatchmakeSessionByParticipantParam(out.(FindMatchmakeSessionByParticipantParam))
+        stream.Struct_FindMatchmakeSessionByParticipantParam(out.(FindMatchmakeSessionByParticipantParam))
     case FindMatchmakeSessionByParticipantResult:
-        stream.StructFindMatchmakeSessionByParticipantResult(out.(FindMatchmakeSessionByParticipantResult))
+        stream.Struct_FindMatchmakeSessionByParticipantResult(out.(FindMatchmakeSessionByParticipantResult))
     case FriendData:
-        stream.StructFriendData(out.(FriendData))
+        stream.Struct_FriendData(out.(FriendData))
     case FriendInfo:
-        stream.StructFriendInfo(out.(FriendInfo))
+        stream.Struct_FriendInfo(out.(FriendInfo))
     case FriendMii:
-        stream.StructFriendMii(out.(FriendMii))
+        stream.Struct_FriendMii(out.(FriendMii))
     case FriendMiiList:
-        stream.StructFriendMiiList(out.(FriendMiiList))
+        stream.Struct_FriendMiiList(out.(FriendMiiList))
     case FriendMiiRequest:
-        stream.StructFriendMiiRequest(out.(FriendMiiRequest))
+        stream.Struct_FriendMiiRequest(out.(FriendMiiRequest))
     case FriendPersistentInfo:
-        stream.StructFriendPersistentInfo(out.(FriendPersistentInfo))
+        stream.Struct_FriendPersistentInfo(out.(FriendPersistentInfo))
     case FriendPicture:
-        stream.StructFriendPicture(out.(FriendPicture))
+        stream.Struct_FriendPicture(out.(FriendPicture))
     case FriendPresence:
-        stream.StructFriendPresence(out.(FriendPresence))
+        stream.Struct_FriendPresence(out.(FriendPresence))
     case FriendRelationship:
-        stream.StructFriendRelationship(out.(FriendRelationship))
+        stream.Struct_FriendRelationship(out.(FriendRelationship))
     case FriendRequest:
-        stream.StructFriendRequest(out.(FriendRequest))
+        stream.Struct_FriendRequest(out.(FriendRequest))
     case FriendRequestMessage:
-        stream.StructFriendRequestMessage(out.(FriendRequestMessage))
+        stream.Struct_FriendRequestMessage(out.(FriendRequestMessage))
     case GameKey:
-        stream.StructGameKey(out.(GameKey))
+        stream.Struct_GameKey(out.(GameKey))
     case Gathering:
-        stream.StructGathering(out.(Gathering))
+        stream.Struct_Gathering(out.(Gathering))
     case GatheringStats:
-        stream.StructGatheringStats(out.(GatheringStats))
+        stream.Struct_GatheringStats(out.(GatheringStats))
     case GatheringURLs:
-        stream.StructGatheringURLs(out.(GatheringURLs))
+        stream.Struct_GatheringURLs(out.(GatheringURLs))
     case Invitation:
-        stream.StructInvitation(out.(Invitation))
+        stream.Struct_Invitation(out.(Invitation))
     case JoinMatchmakeSessionParam:
-        stream.StructJoinMatchmakeSessionParam(out.(JoinMatchmakeSessionParam))
+        stream.Struct_JoinMatchmakeSessionParam(out.(JoinMatchmakeSessionParam))
     case MatchmakeBlockListParam:
-        stream.StructMatchmakeBlockListParam(out.(MatchmakeBlockListParam))
+        stream.Struct_MatchmakeBlockListParam(out.(MatchmakeBlockListParam))
     case MatchmakeParam:
-        stream.StructMatchmakeParam(out.(MatchmakeParam))
+        stream.Struct_MatchmakeParam(out.(MatchmakeParam))
     case MatchmakeSession:
-        stream.StructMatchmakeSession(out.(MatchmakeSession))
+        stream.Struct_MatchmakeSession(out.(MatchmakeSession))
     case MatchmakeSessionSearchCriteria:
-        stream.StructMatchmakeSessionSearchCriteria(out.(MatchmakeSessionSearchCriteria))
+        stream.Struct_MatchmakeSessionSearchCriteria(out.(MatchmakeSessionSearchCriteria))
     case MessageRecipient:
-        stream.StructMessageRecipient(out.(MessageRecipient))
+        stream.Struct_MessageRecipient(out.(MessageRecipient))
     case Mii:
-        stream.StructMii(out.(Mii))
+        stream.Struct_Mii(out.(Mii))
     case MiiList:
-        stream.StructMiiList(out.(MiiList))
+        stream.Struct_MiiList(out.(MiiList))
     case MiiV2:
-        stream.StructMiiV2(out.(MiiV2))
+        stream.Struct_MiiV2(out.(MiiV2))
     case MyProfile:
-        stream.StructMyProfile(out.(MyProfile))
+        stream.Struct_MyProfile(out.(MyProfile))
     case NNAInfo:
-        stream.StructNNAInfo(out.(NNAInfo))
+        stream.Struct_NNAInfo(out.(NNAInfo))
     case NintendoNotificationEvent:
-        stream.StructNintendoNotificationEvent(out.(NintendoNotificationEvent))
+        stream.Struct_NintendoNotificationEvent(out.(NintendoNotificationEvent))
     case NintendoNotificationEventGeneral:
-        stream.StructNintendoNotificationEventGeneral(out.(NintendoNotificationEventGeneral))
+        stream.Struct_NintendoNotificationEventGeneral(out.(NintendoNotificationEventGeneral))
     case NintendoNotificationEventProfile:
-        stream.StructNintendoNotificationEventProfile(out.(NintendoNotificationEventProfile))
+        stream.Struct_NintendoNotificationEventProfile(out.(NintendoNotificationEventProfile))
     case NintendoPresence:
-        stream.StructNintendoPresence(out.(NintendoPresence))
+        stream.Struct_NintendoPresence(out.(NintendoPresence))
     case NintendoPresenceV2:
-        stream.StructNintendoPresenceV2(out.(NintendoPresenceV2))
+        stream.Struct_NintendoPresenceV2(out.(NintendoPresenceV2))
     case NotificationEvent:
-        stream.StructNotificationEvent(out.(NotificationEvent))
+        stream.Struct_NotificationEvent(out.(NotificationEvent))
     case ParticipantDetails:
-        stream.StructParticipantDetails(out.(ParticipantDetails))
+        stream.Struct_ParticipantDetails(out.(ParticipantDetails))
     case PersistentGathering:
-        stream.StructPersistentGathering(out.(PersistentGathering))
+        stream.Struct_PersistentGathering(out.(PersistentGathering))
     case PersistentNotification:
-        stream.StructPersistentNotification(out.(PersistentNotification))
+        stream.Struct_PersistentNotification(out.(PersistentNotification))
     case PlayedGame:
-        stream.StructPlayedGame(out.(PlayedGame))
+        stream.Struct_PlayedGame(out.(PlayedGame))
     case PlayingSession:
-        stream.StructPlayingSession(out.(PlayingSession))
+        stream.Struct_PlayingSession(out.(PlayingSession))
     case PrincipalBasicInfo:
-        stream.StructPrincipalBasicInfo(out.(PrincipalBasicInfo))
+        stream.Struct_PrincipalBasicInfo(out.(PrincipalBasicInfo))
     case PrincipalPreference:
-        stream.StructPrincipalPreference(out.(PrincipalPreference))
+        stream.Struct_PrincipalPreference(out.(PrincipalPreference))
     case PrincipalRequestBlockSetting:
-        stream.StructPrincipalRequestBlockSetting(out.(PrincipalRequestBlockSetting))
+        stream.Struct_PrincipalRequestBlockSetting(out.(PrincipalRequestBlockSetting))
     case RVConnectionData:
-        stream.StructRVConnectionData(out.(RVConnectionData))
+        stream.Struct_RVConnectionData(out.(RVConnectionData))
     case RankingCachedResult:
-        stream.StructRankingCachedResult(out.(RankingCachedResult))
+        stream.Struct_RankingCachedResult(out.(RankingCachedResult))
     case RankingChangeAttributesParam:
-        stream.StructRankingChangeAttributesParam(out.(RankingChangeAttributesParam))
+        stream.Struct_RankingChangeAttributesParam(out.(RankingChangeAttributesParam))
     case RankingOrderParam:
-        stream.StructRankingOrderParam(out.(RankingOrderParam))
+        stream.Struct_RankingOrderParam(out.(RankingOrderParam))
     case RankingRankData:
-        stream.StructRankingRankData(out.(RankingRankData))
+        stream.Struct_RankingRankData(out.(RankingRankData))
     case RankingResult:
-        stream.StructRankingResult(out.(RankingResult))
+        stream.Struct_RankingResult(out.(RankingResult))
     case RankingScoreData:
-        stream.StructRankingScoreData(out.(RankingScoreData))
+        stream.Struct_RankingScoreData(out.(RankingScoreData))
     case RankingStats:
-        stream.StructRankingStats(out.(RankingStats))
+        stream.Struct_RankingStats(out.(RankingStats))
     case RelationshipData:
-        stream.StructRelationshipData(out.(RelationshipData))
+        stream.Struct_RelationshipData(out.(RelationshipData))
     case ResultRange:
-        stream.StructResultRange(out.(ResultRange))
+        stream.Struct_ResultRange(out.(ResultRange))
     case SimpleCommunity:
-        stream.StructSimpleCommunity(out.(SimpleCommunity))
+        stream.Struct_SimpleCommunity(out.(SimpleCommunity))
     case SimplePlayingSession:
-        stream.StructSimplePlayingSession(out.(SimplePlayingSession))
+        stream.Struct_SimplePlayingSession(out.(SimplePlayingSession))
     case Structure:
-        stream.StructStructure(out.(Structure))
+        stream.Struct_Structure(out.(Structure))
     case UniqueIdInfo:
-        stream.StructUniqueIdInfo(out.(UniqueIdInfo))
+        stream.Struct_UniqueIdInfo(out.(UniqueIdInfo))
     case UpdateMatchmakeSessionParam:
-        stream.StructUpdateMatchmakeSessionParam(out.(UpdateMatchmakeSessionParam))
+        stream.Struct_UpdateMatchmakeSessionParam(out.(UpdateMatchmakeSessionParam))
     case UserMessage:
-        stream.StructUserMessage(out.(UserMessage))
+        stream.Struct_UserMessage(out.(UserMessage))
 
 	default:
 	fmt.Println("struct: invalid type", reflect.TypeOf(out))
 	}
 }
-func (stream *InputStream) List(typeName string, cb interface{}) interface{} {
-switch typeName {
-    case "BasicAccountInfo":
-        return stream.ListBasicAccountInfo(cb.(func(*InputStream)BasicAccountInfo))
-    case "BlacklistedPrincipal":
-        return stream.ListBlacklistedPrincipal(cb.(func(*InputStream)BlacklistedPrincipal))
-    case "Buffer":
-        return stream.ListBuffer(cb.(func(*InputStream)Buffer))
-    case "BufferQueueParam":
-        return stream.ListBufferQueueParam(cb.(func(*InputStream)BufferQueueParam))
-    case "ConnectionData":
-        return stream.ListConnectionData(cb.(func(*InputStream)ConnectionData))
-    case "Data":
-        return stream.ListData(cb.(func(*InputStream)Data))
-    case "DeletionEntry":
-        return stream.ListDeletionEntry(cb.(func(*InputStream)DeletionEntry))
-    case "Double":
-        return stream.ListDouble(cb.(func(*InputStream)float64))
-    case "FindMatchmakeSessionByParticipantResult":
-        return stream.ListFindMatchmakeSessionByParticipantResult(cb.(func(*InputStream)FindMatchmakeSessionByParticipantResult))
-    case "Float":
-        return stream.ListFloat(cb.(func(*InputStream)float32))
-    case "FriendData":
-        return stream.ListFriendData(cb.(func(*InputStream)FriendData))
-    case "FriendInfo":
-        return stream.ListFriendInfo(cb.(func(*InputStream)FriendInfo))
-    case "FriendMii":
-        return stream.ListFriendMii(cb.(func(*InputStream)FriendMii))
-    case "FriendMiiList":
-        return stream.ListFriendMiiList(cb.(func(*InputStream)FriendMiiList))
-    case "FriendMiiRequest":
-        return stream.ListFriendMiiRequest(cb.(func(*InputStream)FriendMiiRequest))
-    case "FriendPersistentInfo":
-        return stream.ListFriendPersistentInfo(cb.(func(*InputStream)FriendPersistentInfo))
-    case "FriendPicture":
-        return stream.ListFriendPicture(cb.(func(*InputStream)FriendPicture))
-    case "FriendPresence":
-        return stream.ListFriendPresence(cb.(func(*InputStream)FriendPresence))
-    case "FriendRelationship":
-        return stream.ListFriendRelationship(cb.(func(*InputStream)FriendRelationship))
-    case "FriendRequest":
-        return stream.ListFriendRequest(cb.(func(*InputStream)FriendRequest))
-    case "GatheringStats":
-        return stream.ListGatheringStats(cb.(func(*InputStream)GatheringStats))
-    case "GatheringURLs":
-        return stream.ListGatheringURLs(cb.(func(*InputStream)GatheringURLs))
-    case "Invitation":
-        return stream.ListInvitation(cb.(func(*InputStream)Invitation))
-    case "List<DataStoreRatingInfoWithSlot>":
-        return stream.ListList_DataStoreRatingInfoWithSlot_(cb.(func(*InputStream)[]DataStoreRatingInfoWithSlot))
-    case "List<qBuffer>":
-        return stream.ListList_qBuffer_(cb.(func(*InputStream)[]QBuffer))
-    case "MatchmakeSession":
-        return stream.ListMatchmakeSession(cb.(func(*InputStream)MatchmakeSession))
-    case "MatchmakeSessionSearchCriteria":
-        return stream.ListMatchmakeSessionSearchCriteria(cb.(func(*InputStream)MatchmakeSessionSearchCriteria))
-    case "NotificationEvent":
-        return stream.ListNotificationEvent(cb.(func(*InputStream)NotificationEvent))
-    case "PID":
-        return stream.ListPID(cb.(func(*InputStream)PID))
-    case "ParticipantDetails":
-        return stream.ListParticipantDetails(cb.(func(*InputStream)ParticipantDetails))
-    case "PersistentGathering":
-        return stream.ListPersistentGathering(cb.(func(*InputStream)PersistentGathering))
-    case "PersistentNotification":
-        return stream.ListPersistentNotification(cb.(func(*InputStream)PersistentNotification))
-    case "PlayedGame":
-        return stream.ListPlayedGame(cb.(func(*InputStream)PlayedGame))
-    case "PlayingSession":
-        return stream.ListPlayingSession(cb.(func(*InputStream)PlayingSession))
-    case "PrincipalBasicInfo":
-        return stream.ListPrincipalBasicInfo(cb.(func(*InputStream)PrincipalBasicInfo))
-    case "PrincipalRequestBlockSetting":
-        return stream.ListPrincipalRequestBlockSetting(cb.(func(*InputStream)PrincipalRequestBlockSetting))
-    case "RankingCachedResult":
-        return stream.ListRankingCachedResult(cb.(func(*InputStream)RankingCachedResult))
-    case "RankingOrderParam":
-        return stream.ListRankingOrderParam(cb.(func(*InputStream)RankingOrderParam))
-    case "RankingRankData":
-        return stream.ListRankingRankData(cb.(func(*InputStream)RankingRankData))
-    case "RelationshipData":
-        return stream.ListRelationshipData(cb.(func(*InputStream)RelationshipData))
-    case "Result":
-        return stream.ListResult(cb.(func(*InputStream)Result))
-    case "SimpleCommunity":
-        return stream.ListSimpleCommunity(cb.(func(*InputStream)SimpleCommunity))
-    case "SimplePlayingSession":
-        return stream.ListSimplePlayingSession(cb.(func(*InputStream)SimplePlayingSession))
-    case "StationURL":
-        return stream.ListStationURL(cb.(func(*InputStream)StationURL))
-    case "String":
-        return stream.ListString(cb.(func(*InputStream)string))
-    case "Uint16":
-        return stream.ListUint16(cb.(func(*InputStream)uint16))
-    case "Uint32":
-        return stream.ListUint32(cb.(func(*InputStream)uint32))
-    case "Uint64":
-        return stream.ListUint64(cb.(func(*InputStream)uint64))
-    case "Uint8":
-        return stream.ListUint8(cb.(func(*InputStream)uint8))
-    case "UniqueIdInfo":
-        return stream.ListUniqueIdInfo(cb.(func(*InputStream)UniqueIdInfo))
-    case "UserMessage":
-        return stream.ListUserMessage(cb.(func(*InputStream)UserMessage))
-    case "qBuffer":
-        return stream.ListqBuffer(cb.(func(*InputStream)QBuffer))
-
-	default:
-		fmt.Printf("list: invalid type", typeName)
-		return nil
-	}
-}
-func (stream *OutputStream) List(cb interface{}, list interface{}) {
-switch list.(type) {
-    case []BasicAccountInfo:
-        stream.ListBasicAccountInfo(cb.(func(*OutputStream,BasicAccountInfo)), list.([]BasicAccountInfo)) // BasicAccountInfo
-    case []BlacklistedPrincipal:
-        stream.ListBlacklistedPrincipal(cb.(func(*OutputStream,BlacklistedPrincipal)), list.([]BlacklistedPrincipal)) // BlacklistedPrincipal
-    case []Buffer:
-        stream.ListBuffer(cb.(func(*OutputStream,Buffer)), list.([]Buffer)) // Buffer
-    case []BufferQueueParam:
-        stream.ListBufferQueueParam(cb.(func(*OutputStream,BufferQueueParam)), list.([]BufferQueueParam)) // BufferQueueParam
-    case []ConnectionData:
-        stream.ListConnectionData(cb.(func(*OutputStream,ConnectionData)), list.([]ConnectionData)) // ConnectionData
-    case []Data:
-        stream.ListData(cb.(func(*OutputStream,Data)), list.([]Data)) // Data
-    case []DeletionEntry:
-        stream.ListDeletionEntry(cb.(func(*OutputStream,DeletionEntry)), list.([]DeletionEntry)) // DeletionEntry
-    case []float64:
-        stream.ListDouble(cb.(func(*OutputStream,float64)), list.([]float64)) // Double
-    case []FindMatchmakeSessionByParticipantResult:
-        stream.ListFindMatchmakeSessionByParticipantResult(cb.(func(*OutputStream,FindMatchmakeSessionByParticipantResult)), list.([]FindMatchmakeSessionByParticipantResult)) // FindMatchmakeSessionByParticipantResult
-    case []float32:
-        stream.ListFloat(cb.(func(*OutputStream,float32)), list.([]float32)) // Float
-    case []FriendData:
-        stream.ListFriendData(cb.(func(*OutputStream,FriendData)), list.([]FriendData)) // FriendData
-    case []FriendInfo:
-        stream.ListFriendInfo(cb.(func(*OutputStream,FriendInfo)), list.([]FriendInfo)) // FriendInfo
-    case []FriendMii:
-        stream.ListFriendMii(cb.(func(*OutputStream,FriendMii)), list.([]FriendMii)) // FriendMii
-    case []FriendMiiList:
-        stream.ListFriendMiiList(cb.(func(*OutputStream,FriendMiiList)), list.([]FriendMiiList)) // FriendMiiList
-    case []FriendMiiRequest:
-        stream.ListFriendMiiRequest(cb.(func(*OutputStream,FriendMiiRequest)), list.([]FriendMiiRequest)) // FriendMiiRequest
-    case []FriendPersistentInfo:
-        stream.ListFriendPersistentInfo(cb.(func(*OutputStream,FriendPersistentInfo)), list.([]FriendPersistentInfo)) // FriendPersistentInfo
-    case []FriendPicture:
-        stream.ListFriendPicture(cb.(func(*OutputStream,FriendPicture)), list.([]FriendPicture)) // FriendPicture
-    case []FriendPresence:
-        stream.ListFriendPresence(cb.(func(*OutputStream,FriendPresence)), list.([]FriendPresence)) // FriendPresence
-    case []FriendRelationship:
-        stream.ListFriendRelationship(cb.(func(*OutputStream,FriendRelationship)), list.([]FriendRelationship)) // FriendRelationship
-    case []FriendRequest:
-        stream.ListFriendRequest(cb.(func(*OutputStream,FriendRequest)), list.([]FriendRequest)) // FriendRequest
-    case []GatheringStats:
-        stream.ListGatheringStats(cb.(func(*OutputStream,GatheringStats)), list.([]GatheringStats)) // GatheringStats
-    case []GatheringURLs:
-        stream.ListGatheringURLs(cb.(func(*OutputStream,GatheringURLs)), list.([]GatheringURLs)) // GatheringURLs
-    case []Invitation:
-        stream.ListInvitation(cb.(func(*OutputStream,Invitation)), list.([]Invitation)) // Invitation
-    case [][]DataStoreRatingInfoWithSlot:
-        stream.ListList_DataStoreRatingInfoWithSlot_(cb.(func(*OutputStream,[]DataStoreRatingInfoWithSlot)), list.([][]DataStoreRatingInfoWithSlot)) // List<DataStoreRatingInfoWithSlot>
-    case [][]QBuffer:
-        stream.ListList_qBuffer_(cb.(func(*OutputStream,[]QBuffer)), list.([][]QBuffer)) // List<qBuffer>
-    case []MatchmakeSession:
-        stream.ListMatchmakeSession(cb.(func(*OutputStream,MatchmakeSession)), list.([]MatchmakeSession)) // MatchmakeSession
-    case []MatchmakeSessionSearchCriteria:
-        stream.ListMatchmakeSessionSearchCriteria(cb.(func(*OutputStream,MatchmakeSessionSearchCriteria)), list.([]MatchmakeSessionSearchCriteria)) // MatchmakeSessionSearchCriteria
-    case []NotificationEvent:
-        stream.ListNotificationEvent(cb.(func(*OutputStream,NotificationEvent)), list.([]NotificationEvent)) // NotificationEvent
-    case []PID:
-        stream.ListPID(cb.(func(*OutputStream,PID)), list.([]PID)) // PID
-    case []ParticipantDetails:
-        stream.ListParticipantDetails(cb.(func(*OutputStream,ParticipantDetails)), list.([]ParticipantDetails)) // ParticipantDetails
-    case []PersistentGathering:
-        stream.ListPersistentGathering(cb.(func(*OutputStream,PersistentGathering)), list.([]PersistentGathering)) // PersistentGathering
-    case []PersistentNotification:
-        stream.ListPersistentNotification(cb.(func(*OutputStream,PersistentNotification)), list.([]PersistentNotification)) // PersistentNotification
-    case []PlayedGame:
-        stream.ListPlayedGame(cb.(func(*OutputStream,PlayedGame)), list.([]PlayedGame)) // PlayedGame
-    case []PlayingSession:
-        stream.ListPlayingSession(cb.(func(*OutputStream,PlayingSession)), list.([]PlayingSession)) // PlayingSession
-    case []PrincipalBasicInfo:
-        stream.ListPrincipalBasicInfo(cb.(func(*OutputStream,PrincipalBasicInfo)), list.([]PrincipalBasicInfo)) // PrincipalBasicInfo
-    case []PrincipalRequestBlockSetting:
-        stream.ListPrincipalRequestBlockSetting(cb.(func(*OutputStream,PrincipalRequestBlockSetting)), list.([]PrincipalRequestBlockSetting)) // PrincipalRequestBlockSetting
-    case []RankingCachedResult:
-        stream.ListRankingCachedResult(cb.(func(*OutputStream,RankingCachedResult)), list.([]RankingCachedResult)) // RankingCachedResult
-    case []RankingOrderParam:
-        stream.ListRankingOrderParam(cb.(func(*OutputStream,RankingOrderParam)), list.([]RankingOrderParam)) // RankingOrderParam
-    case []RankingRankData:
-        stream.ListRankingRankData(cb.(func(*OutputStream,RankingRankData)), list.([]RankingRankData)) // RankingRankData
-    case []RelationshipData:
-        stream.ListRelationshipData(cb.(func(*OutputStream,RelationshipData)), list.([]RelationshipData)) // RelationshipData
-    case []Result:
-        stream.ListResult(cb.(func(*OutputStream,Result)), list.([]Result)) // Result
-    case []SimpleCommunity:
-        stream.ListSimpleCommunity(cb.(func(*OutputStream,SimpleCommunity)), list.([]SimpleCommunity)) // SimpleCommunity
-    case []SimplePlayingSession:
-        stream.ListSimplePlayingSession(cb.(func(*OutputStream,SimplePlayingSession)), list.([]SimplePlayingSession)) // SimplePlayingSession
-    case []StationURL:
-        stream.ListStationURL(cb.(func(*OutputStream,StationURL)), list.([]StationURL)) // StationURL
-    case []string:
-        stream.ListString(cb.(func(*OutputStream,string)), list.([]string)) // String
-    case []uint16:
-        stream.ListUint16(cb.(func(*OutputStream,uint16)), list.([]uint16)) // Uint16
-    case []uint32:
-        stream.ListUint32(cb.(func(*OutputStream,uint32)), list.([]uint32)) // Uint32
-    case []uint64:
-        stream.ListUint64(cb.(func(*OutputStream,uint64)), list.([]uint64)) // Uint64
-    case []uint8:
-        stream.ListUint8(cb.(func(*OutputStream,uint8)), list.([]uint8)) // Uint8
-    case []UniqueIdInfo:
-        stream.ListUniqueIdInfo(cb.(func(*OutputStream,UniqueIdInfo)), list.([]UniqueIdInfo)) // UniqueIdInfo
-    case []UserMessage:
-        stream.ListUserMessage(cb.(func(*OutputStream,UserMessage)), list.([]UserMessage)) // UserMessage
-    case []QBuffer:
-        stream.ListqBuffer(cb.(func(*OutputStream,QBuffer)), list.([]QBuffer)) // qBuffer
-
-	default:
-	fmt.Printf("list: invalid type", reflect.TypeOf(list))
-	}
-	return
-}
-func (stream *InputStream) Map(typeName string, cb interface{}) interface{} {
-switch typeName {
-    case "Map<Sint8,DataStoreRatingInfo>":
-        return stream.MapSint8_DataStoreRatingInfo(cb.(func(*InputStream)(int8,DataStoreRatingInfo)))
-    case "Map<Sint8,List<qBuffer>>":
-        return stream.MapSint8_List_qBuffer_(cb.(func(*InputStream)(int8,[]QBuffer)))
-    case "Map<String,Variant>":
-        return stream.MapString_Variant(cb.(func(*InputStream)(string,Variant)))
-    case "Map<Uint16,Sint32>":
-        return stream.MapUint16_Sint32(cb.(func(*InputStream)(uint16,int32)))
-    case "Map<Uint16,String>":
-        return stream.MapUint16_String(cb.(func(*InputStream)(uint16,string)))
-
-	default:
-		fmt.Printf("map: invalid type", typeName)
-		return nil
-	}
-}
-func (stream *OutputStream) Map(cb interface{}, m interface{}) {
-switch m.(type) {
-    case map[int8]DataStoreRatingInfo:
-        stream.MapSint8_DataStoreRatingInfo(cb.(func(*OutputStream,int8,DataStoreRatingInfo)), m.(map[int8]DataStoreRatingInfo))
-    case map[int8][]QBuffer:
-        stream.MapSint8_List_qBuffer_(cb.(func(*OutputStream,int8,[]QBuffer)), m.(map[int8][]QBuffer))
-    case map[string]Variant:
-        stream.MapString_Variant(cb.(func(*OutputStream,string,Variant)), m.(map[string]Variant))
-    case map[uint16]int32:
-        stream.MapUint16_Sint32(cb.(func(*OutputStream,uint16,int32)), m.(map[uint16]int32))
-    case map[uint16]string:
-        stream.MapUint16_String(cb.(func(*OutputStream,uint16,string)), m.(map[uint16]string))
-
-	default:
-		fmt.Printf("map: invalid type", reflect.TypeOf(m))
-	}
-	return
-}
-func (stream *InputStream) StructAccountData() (in AccountData) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_AccountData() (in AccountData) {
+    in.Base = stream.Struct_Structure()
     in.Pid = PID(stream.UInt32LE())
     in.StrName = string(stream.String())
     in.UiGroups = stream.UInt32LE()
@@ -775,8 +515,8 @@ func (stream *InputStream) StructAccountData() (in AccountData) {
     in.StrExpiredMsg = string(stream.String())
     return
 }
-func (stream *OutputStream) StructAccountData(out AccountData) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_AccountData(out AccountData) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.Pid))
     stream.String(string(out.StrName))
     stream.UInt32LE(out.UiGroups)
@@ -788,412 +528,412 @@ func (stream *OutputStream) StructAccountData(out AccountData) {
     stream.String(string(out.StrExpiredMsg))
     return
 }
-func (stream *InputStream) StructAutoMatchmakeParam() (in AutoMatchmakeParam) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.SourceMatchmakeSession = stream.Struct("MatchmakeSession").(MatchmakeSession)
-    in.AdditionalParticipants = stream.List("PID", func (innerStream *InputStream) PID { return PID(innerStream.UInt32LE()) }).([]PID)
+func (stream *InputStream) Struct_AutoMatchmakeParam() (in AutoMatchmakeParam) {
+    in.Base = stream.Struct_Structure()
+    in.SourceMatchmakeSession = stream.Struct_MatchmakeSession()
+    in.AdditionalParticipants = stream.List_PID()
     in.GidForParticipationCheck = stream.UInt32LE()
     in.AutoMatchmakeOption = stream.UInt32LE()
     in.JoinMessage = string(stream.String())
     in.ParticipationCount = stream.UInt16LE()
-    in.LstSearchCriteria = stream.List("MatchmakeSessionSearchCriteria", func (innerStream *InputStream) MatchmakeSessionSearchCriteria { return innerStream.Struct("MatchmakeSessionSearchCriteria").(MatchmakeSessionSearchCriteria) }).([]MatchmakeSessionSearchCriteria)
-    in.TargetGids = stream.List("Uint32", func (innerStream *InputStream) uint32 { return innerStream.UInt32LE() }).([]uint32)
-    in.BlockListParam = stream.Struct("MatchmakeBlockListParam").(MatchmakeBlockListParam)
+    in.LstSearchCriteria = stream.List_MatchmakeSessionSearchCriteria()
+    in.TargetGids = stream.List_uint32()
+    in.BlockListParam = stream.Struct_MatchmakeBlockListParam()
     return
 }
-func (stream *OutputStream) StructAutoMatchmakeParam(out AutoMatchmakeParam) {
-    stream.Struct(out.Base)
-    stream.Struct(out.SourceMatchmakeSession)
-    stream.List(func (innerStream *OutputStream, data PID) { innerStream.UInt32LE(uint32(data)) }, out.AdditionalParticipants)
+func (stream *OutputStream) Struct_AutoMatchmakeParam(out AutoMatchmakeParam) {
+    stream.Struct_Structure(out.Base)
+    stream.Struct_MatchmakeSession(out.SourceMatchmakeSession)
+    stream.List_PID(out.AdditionalParticipants)
     stream.UInt32LE(out.GidForParticipationCheck)
     stream.UInt32LE(out.AutoMatchmakeOption)
     stream.String(string(out.JoinMessage))
     stream.UInt16LE(out.ParticipationCount)
-    stream.List(func (innerStream *OutputStream, data MatchmakeSessionSearchCriteria) { innerStream.Struct(data) }, out.LstSearchCriteria)
-    stream.List(func (innerStream *OutputStream, data uint32) { innerStream.UInt32LE(data) }, out.TargetGids)
-    stream.Struct(out.BlockListParam)
+    stream.List_MatchmakeSessionSearchCriteria(out.LstSearchCriteria)
+    stream.List_uint32(out.TargetGids)
+    stream.Struct_MatchmakeBlockListParam(out.BlockListParam)
     return
 }
-func (stream *InputStream) StructBasicAccountInfo() (in BasicAccountInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_BasicAccountInfo() (in BasicAccountInfo) {
+    in.Base = stream.Struct_Structure()
     in.PidOwner = PID(stream.UInt32LE())
     in.StrName = string(stream.String())
     return
 }
-func (stream *OutputStream) StructBasicAccountInfo(out BasicAccountInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_BasicAccountInfo(out BasicAccountInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PidOwner))
     stream.String(string(out.StrName))
     return
 }
-func (stream *InputStream) StructBlacklistedPrincipal() (in BlacklistedPrincipal) {
-    in.PrincipalBasicInfo = stream.Struct("PrincipalBasicInfo").(PrincipalBasicInfo)
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+func (stream *InputStream) Struct_BlacklistedPrincipal() (in BlacklistedPrincipal) {
+    in.PrincipalBasicInfo = stream.Struct_PrincipalBasicInfo()
+    in.GameKey = stream.Struct_GameKey()
     in.BlacklistedSince = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructBlacklistedPrincipal(out BlacklistedPrincipal) {
-    stream.Struct(out.PrincipalBasicInfo)
-    stream.Struct(out.GameKey)
+func (stream *OutputStream) Struct_BlacklistedPrincipal(out BlacklistedPrincipal) {
+    stream.Struct_PrincipalBasicInfo(out.PrincipalBasicInfo)
+    stream.Struct_GameKey(out.GameKey)
     stream.UInt64LE(uint64(out.BlacklistedSince))
     return
 }
-func (stream *InputStream) StructBufferQueueParam() (in BufferQueueParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_BufferQueueParam() (in BufferQueueParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.Slot = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructBufferQueueParam(out BufferQueueParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_BufferQueueParam(out BufferQueueParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.Slot)
     return
 }
-func (stream *InputStream) StructComment() (in Comment) {
+func (stream *InputStream) Struct_Comment() (in Comment) {
     in.Unknown = stream.UInt8()
     in.StatusMessage = string(stream.String())
     in.LastChangedOn = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructComment(out Comment) {
+func (stream *OutputStream) Struct_Comment(out Comment) {
     stream.UInt8(out.Unknown)
     stream.String(string(out.StatusMessage))
     stream.UInt64LE(uint64(out.LastChangedOn))
     return
 }
-func (stream *InputStream) StructConnectionData() (in ConnectionData) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.StationUrl = StationURL(stream.String())
-    in.ConnectionID = stream.UInt32LE()
+func (stream *InputStream) Struct_ConnectionData() (in ConnectionData) {
+    in.Base = stream.Struct_Structure()
+    in.Station = StationURL(stream.String())
+    in.Connection_id = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructConnectionData(out ConnectionData) {
-    stream.Struct(out.Base)
-    stream.String(string(out.StationUrl))
-    stream.UInt32LE(out.ConnectionID)
+func (stream *OutputStream) Struct_ConnectionData(out ConnectionData) {
+    stream.Struct_Structure(out.Base)
+    stream.String(string(out.Station))
+    stream.UInt32LE(out.Connection_id)
     return
 }
-func (stream *InputStream) StructCreateMatchmakeSessionParam() (in CreateMatchmakeSessionParam) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.SourceMatchmakeSession = stream.Struct("MatchmakeSession").(MatchmakeSession)
-    in.AdditionalParticipants = stream.List("PID", func (innerStream *InputStream) PID { return PID(innerStream.UInt32LE()) }).([]PID)
+func (stream *InputStream) Struct_CreateMatchmakeSessionParam() (in CreateMatchmakeSessionParam) {
+    in.Base = stream.Struct_Structure()
+    in.SourceMatchmakeSession = stream.Struct_MatchmakeSession()
+    in.AdditionalParticipants = stream.List_PID()
     in.GidForParticipationCheck = stream.UInt32LE()
     in.CreateMatchmakeSessionOption = stream.UInt32LE()
     in.JoinMessage = string(stream.String())
     in.ParticipationCount = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructCreateMatchmakeSessionParam(out CreateMatchmakeSessionParam) {
-    stream.Struct(out.Base)
-    stream.Struct(out.SourceMatchmakeSession)
-    stream.List(func (innerStream *OutputStream, data PID) { innerStream.UInt32LE(uint32(data)) }, out.AdditionalParticipants)
+func (stream *OutputStream) Struct_CreateMatchmakeSessionParam(out CreateMatchmakeSessionParam) {
+    stream.Struct_Structure(out.Base)
+    stream.Struct_MatchmakeSession(out.SourceMatchmakeSession)
+    stream.List_PID(out.AdditionalParticipants)
     stream.UInt32LE(out.GidForParticipationCheck)
     stream.UInt32LE(out.CreateMatchmakeSessionOption)
     stream.String(string(out.JoinMessage))
     stream.UInt16LE(out.ParticipationCount)
     return
 }
-func (stream *InputStream) StructData() (in Data) {
+func (stream *InputStream) Struct_Data() (in Data) {
     in.type_name = string(stream.String())
     in.len_plus_four = stream.UInt32LE()
     in.data = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructData(out Data) {
+func (stream *OutputStream) Struct_Data(out Data) {
     stream.String(string(out.type_name))
     stream.UInt32LE(out.len_plus_four)
     stream.Buffer(out.data)
     return
 }
-func (stream *InputStream) StructDataStoreChangeMetaCompareParam() (in DataStoreChangeMetaCompareParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreChangeMetaCompareParam() (in DataStoreChangeMetaCompareParam) {
+    in.Base = stream.Struct_Structure()
     in.ComparisonFlag = stream.UInt32LE()
     in.Name = string(stream.String())
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.Period = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.MetaBinary = stream.QBuffer()
+    in.Tags = stream.List_string()
     in.ReferredCnt = stream.UInt32LE()
     in.DataType = stream.UInt16LE()
     in.Status = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructDataStoreChangeMetaCompareParam(out DataStoreChangeMetaCompareParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreChangeMetaCompareParam(out DataStoreChangeMetaCompareParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.ComparisonFlag)
     stream.String(string(out.Name))
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt16LE(out.Period)
-    stream.Buffer(out.MetaBinary)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
+    stream.QBuffer(out.MetaBinary)
+    stream.List_string(out.Tags)
     stream.UInt32LE(out.ReferredCnt)
     stream.UInt16LE(out.DataType)
     stream.UInt8(out.Status)
     return
 }
-func (stream *InputStream) StructDataStoreChangeMetaParam() (in DataStoreChangeMetaParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreChangeMetaParam() (in DataStoreChangeMetaParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.ModifiesFlag = stream.UInt32LE()
     in.Name = string(stream.String())
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.Period = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.MetaBinary = stream.QBuffer()
+    in.Tags = stream.List_string()
     in.UpdatePassword = stream.UInt64LE()
     in.ReferredCnt = stream.UInt32LE()
     in.DataType = stream.UInt16LE()
     in.Status = stream.UInt8()
-    in.CompareParam = stream.Struct("DataStoreChangeMetaCompareParam").(DataStoreChangeMetaCompareParam)
-    in.PersistenceTarget = stream.Struct("DataStorePersistenceTarget").(DataStorePersistenceTarget)
+    in.CompareParam = stream.Struct_DataStoreChangeMetaCompareParam()
+    in.PersistenceTarget = stream.Struct_DataStorePersistenceTarget()
     return
 }
-func (stream *OutputStream) StructDataStoreChangeMetaParam(out DataStoreChangeMetaParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreChangeMetaParam(out DataStoreChangeMetaParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.ModifiesFlag)
     stream.String(string(out.Name))
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt16LE(out.Period)
-    stream.Buffer(out.MetaBinary)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
+    stream.QBuffer(out.MetaBinary)
+    stream.List_string(out.Tags)
     stream.UInt64LE(out.UpdatePassword)
     stream.UInt32LE(out.ReferredCnt)
     stream.UInt16LE(out.DataType)
     stream.UInt8(out.Status)
-    stream.Struct(out.CompareParam)
-    stream.Struct(out.PersistenceTarget)
+    stream.Struct_DataStoreChangeMetaCompareParam(out.CompareParam)
+    stream.Struct_DataStorePersistenceTarget(out.PersistenceTarget)
     return
 }
-func (stream *InputStream) StructDataStoreChangeMetaParamV1() (in DataStoreChangeMetaParamV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreChangeMetaParamV1() (in DataStoreChangeMetaParamV1) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.ModifiesFlag = stream.UInt32LE()
     in.Name = string(stream.String())
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.Period = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.MetaBinary = stream.QBuffer()
+    in.Tags = stream.List_string()
     in.UpdatePassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreChangeMetaParamV1(out DataStoreChangeMetaParamV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreChangeMetaParamV1(out DataStoreChangeMetaParamV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.ModifiesFlag)
     stream.String(string(out.Name))
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt16LE(out.Period)
-    stream.Buffer(out.MetaBinary)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
+    stream.QBuffer(out.MetaBinary)
+    stream.List_string(out.Tags)
     stream.UInt64LE(out.UpdatePassword)
     return
 }
-func (stream *InputStream) StructDataStoreCompletePostParam() (in DataStoreCompletePostParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreCompletePostParam() (in DataStoreCompletePostParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.IsSuccess = stream.Bool()
     return
 }
-func (stream *OutputStream) StructDataStoreCompletePostParam(out DataStoreCompletePostParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreCompletePostParam(out DataStoreCompletePostParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.Bool(out.IsSuccess)
     return
 }
-func (stream *InputStream) StructDataStoreCompletePostParamV1() (in DataStoreCompletePostParamV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreCompletePostParamV1() (in DataStoreCompletePostParamV1) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt32LE()
     in.IsSuccess = stream.Bool()
     return
 }
-func (stream *OutputStream) StructDataStoreCompletePostParamV1(out DataStoreCompletePostParamV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreCompletePostParamV1(out DataStoreCompletePostParamV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.DataId)
     stream.Bool(out.IsSuccess)
     return
 }
-func (stream *InputStream) StructDataStoreCompleteUpdateParam() (in DataStoreCompleteUpdateParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreCompleteUpdateParam() (in DataStoreCompleteUpdateParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.Version = stream.UInt32LE()
     in.IsSuccess = stream.Bool()
     return
 }
-func (stream *OutputStream) StructDataStoreCompleteUpdateParam(out DataStoreCompleteUpdateParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreCompleteUpdateParam(out DataStoreCompleteUpdateParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.Version)
     stream.Bool(out.IsSuccess)
     return
 }
-func (stream *InputStream) StructDataStoreDeleteParam() (in DataStoreDeleteParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreDeleteParam() (in DataStoreDeleteParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.UpdatePassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreDeleteParam(out DataStoreDeleteParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreDeleteParam(out DataStoreDeleteParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt64LE(out.UpdatePassword)
     return
 }
-func (stream *InputStream) StructDataStoreFetchMyInfosAchievementResult() (in DataStoreFetchMyInfosAchievementResult) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreFetchMyInfosAchievementResult() (in DataStoreFetchMyInfosAchievementResult) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
+    in.MetaBinary = stream.QBuffer()
     in.CreatedTime = DateTime(stream.UInt64LE())
-    in.Ratings = stream.Map("Map<Sint8,DataStoreRatingInfo>", func (innerStream *InputStream)(int8, DataStoreRatingInfo) { return innerStream.Int8(), innerStream.Struct("DataStoreRatingInfo").(DataStoreRatingInfo) }).(map[int8]DataStoreRatingInfo)
-    in.Buffers = stream.Map("Map<Sint8,List<QBuffer>>", func (innerStream *InputStream)(int8, []QBuffer) { return innerStream.Int8(), innerStream.List("QBuffer", func (innerStream *InputStream) QBuffer { return innerStream.Buffer() }).([]QBuffer) }).(map[int8][]QBuffer)
+    in.Ratings = stream.Map_int8_DataStoreRatingInfo()
+    in.Buffers = stream.Map_int8_List_QBuffer()
     return
 }
-func (stream *OutputStream) StructDataStoreFetchMyInfosAchievementResult(out DataStoreFetchMyInfosAchievementResult) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreFetchMyInfosAchievementResult(out DataStoreFetchMyInfosAchievementResult) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
+    stream.QBuffer(out.MetaBinary)
     stream.UInt64LE(uint64(out.CreatedTime))
-    stream.Map(func (innerStream *OutputStream, key int8, value DataStoreRatingInfo) { innerStream.Int8(key); innerStream.Struct(value) }, out.Ratings)
-    stream.Map(func (innerStream *OutputStream, key int8, value []QBuffer) { innerStream.Int8(key); innerStream.List(func (innerStream *OutputStream, data QBuffer) { innerStream.Buffer(data) }, value) }, out.Buffers)
+    stream.Map_int8_DataStoreRatingInfo(out.Ratings)
+    stream.Map_int8_List_QBuffer(out.Buffers)
     return
 }
-func (stream *InputStream) StructDataStoreFetchMyInfosBalloonResult() (in DataStoreFetchMyInfosBalloonResult) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreFetchMyInfosBalloonResult() (in DataStoreFetchMyInfosBalloonResult) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
+    in.MetaBinary = stream.QBuffer()
     in.CreatedTime = DateTime(stream.UInt64LE())
     in.UpdatedTime = DateTime(stream.UInt64LE())
     in.IsCleared = stream.Bool()
-    in.Ratings = stream.Map("Map<Sint8,DataStoreRatingInfo>", func (innerStream *InputStream)(int8, DataStoreRatingInfo) { return innerStream.Int8(), innerStream.Struct("DataStoreRatingInfo").(DataStoreRatingInfo) }).(map[int8]DataStoreRatingInfo)
-    in.Buffers = stream.Map("Map<Sint8,List<QBuffer>>", func (innerStream *InputStream)(int8, []QBuffer) { return innerStream.Int8(), innerStream.List("QBuffer", func (innerStream *InputStream) QBuffer { return innerStream.Buffer() }).([]QBuffer) }).(map[int8][]QBuffer)
+    in.Ratings = stream.Map_int8_DataStoreRatingInfo()
+    in.Buffers = stream.Map_int8_List_QBuffer()
     return
 }
-func (stream *OutputStream) StructDataStoreFetchMyInfosBalloonResult(out DataStoreFetchMyInfosBalloonResult) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreFetchMyInfosBalloonResult(out DataStoreFetchMyInfosBalloonResult) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
+    stream.QBuffer(out.MetaBinary)
     stream.UInt64LE(uint64(out.CreatedTime))
     stream.UInt64LE(uint64(out.UpdatedTime))
     stream.Bool(out.IsCleared)
-    stream.Map(func (innerStream *OutputStream, key int8, value DataStoreRatingInfo) { innerStream.Int8(key); innerStream.Struct(value) }, out.Ratings)
-    stream.Map(func (innerStream *OutputStream, key int8, value []QBuffer) { innerStream.Int8(key); innerStream.List(func (innerStream *OutputStream, data QBuffer) { innerStream.Buffer(data) }, value) }, out.Buffers)
+    stream.Map_int8_DataStoreRatingInfo(out.Ratings)
+    stream.Map_int8_List_QBuffer(out.Buffers)
     return
 }
-func (stream *InputStream) StructDataStoreFetchMyInfosParam() (in DataStoreFetchMyInfosParam) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.BalloonDataTypes = stream.List("Uint16", func (innerStream *InputStream) uint16 { return innerStream.UInt16LE() }).([]uint16)
+func (stream *InputStream) Struct_DataStoreFetchMyInfosParam() (in DataStoreFetchMyInfosParam) {
+    in.Base = stream.Struct_Structure()
+    in.BalloonDataTypes = stream.List_uint16()
     in.AdditionalOperation = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructDataStoreFetchMyInfosParam(out DataStoreFetchMyInfosParam) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data uint16) { innerStream.UInt16LE(data) }, out.BalloonDataTypes)
+func (stream *OutputStream) Struct_DataStoreFetchMyInfosParam(out DataStoreFetchMyInfosParam) {
+    stream.Struct_Structure(out.Base)
+    stream.List_uint16(out.BalloonDataTypes)
     stream.UInt16LE(out.AdditionalOperation)
     return
 }
-func (stream *InputStream) StructDataStoreFetchMyInfosResult() (in DataStoreFetchMyInfosResult) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Balloons = stream.List("DataStoreFetchMyInfosBalloonResult", func (innerStream *InputStream) DataStoreFetchMyInfosBalloonResult { return innerStream.Struct("DataStoreFetchMyInfosBalloonResult").(DataStoreFetchMyInfosBalloonResult) }).([]DataStoreFetchMyInfosBalloonResult)
-    in.Achievement = stream.Struct("DataStoreFetchMyInfosAchievementResult").(DataStoreFetchMyInfosAchievementResult)
+func (stream *InputStream) Struct_DataStoreFetchMyInfosResult() (in DataStoreFetchMyInfosResult) {
+    in.Base = stream.Struct_Structure()
+    in.Balloons = stream.List_DataStoreFetchMyInfosBalloonResult()
+    in.Achievement = stream.Struct_DataStoreFetchMyInfosAchievementResult()
     return
 }
-func (stream *OutputStream) StructDataStoreFetchMyInfosResult(out DataStoreFetchMyInfosResult) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data DataStoreFetchMyInfosBalloonResult) { innerStream.Struct(data) }, out.Balloons)
-    stream.Struct(out.Achievement)
+func (stream *OutputStream) Struct_DataStoreFetchMyInfosResult(out DataStoreFetchMyInfosResult) {
+    stream.Struct_Structure(out.Base)
+    stream.List_DataStoreFetchMyInfosBalloonResult(out.Balloons)
+    stream.Struct_DataStoreFetchMyInfosAchievementResult(out.Achievement)
     return
 }
-func (stream *InputStream) StructDataStoreGetMetaParam() (in DataStoreGetMetaParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreGetMetaParam() (in DataStoreGetMetaParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
-    in.PersistenceTarget = stream.Struct("DataStorePersistenceTarget").(DataStorePersistenceTarget)
+    in.PersistenceTarget = stream.Struct_DataStorePersistenceTarget()
     in.ResultOption = stream.UInt8()
     in.AccessPassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreGetMetaParam(out DataStoreGetMetaParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreGetMetaParam(out DataStoreGetMetaParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
-    stream.Struct(out.PersistenceTarget)
+    stream.Struct_DataStorePersistenceTarget(out.PersistenceTarget)
     stream.UInt8(out.ResultOption)
     stream.UInt64LE(out.AccessPassword)
     return
 }
-func (stream *InputStream) StructDataStoreGetNewArrivedNotificationsParam() (in DataStoreGetNewArrivedNotificationsParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreGetNewArrivedNotificationsParam() (in DataStoreGetNewArrivedNotificationsParam) {
+    in.Base = stream.Struct_Structure()
     in.LastNotificationId = stream.UInt64LE()
     in.Limit = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructDataStoreGetNewArrivedNotificationsParam(out DataStoreGetNewArrivedNotificationsParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreGetNewArrivedNotificationsParam(out DataStoreGetNewArrivedNotificationsParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.LastNotificationId)
     stream.UInt16LE(out.Limit)
     return
 }
-func (stream *InputStream) StructDataStoreGetNotificationUrlParam() (in DataStoreGetNotificationUrlParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreGetNotificationUrlParam() (in DataStoreGetNotificationUrlParam) {
+    in.Base = stream.Struct_Structure()
     in.PreviousUrl = string(stream.String())
     return
 }
-func (stream *OutputStream) StructDataStoreGetNotificationUrlParam(out DataStoreGetNotificationUrlParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreGetNotificationUrlParam(out DataStoreGetNotificationUrlParam) {
+    stream.Struct_Structure(out.Base)
     stream.String(string(out.PreviousUrl))
     return
 }
-func (stream *InputStream) StructDataStoreGetSpecificMetaParam() (in DataStoreGetSpecificMetaParam) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.DataIds = stream.List("Uint64", func (innerStream *InputStream) uint64 { return innerStream.UInt64LE() }).([]uint64)
+func (stream *InputStream) Struct_DataStoreGetSpecificMetaParam() (in DataStoreGetSpecificMetaParam) {
+    in.Base = stream.Struct_Structure()
+    in.DataIds = stream.List_uint64()
     return
 }
-func (stream *OutputStream) StructDataStoreGetSpecificMetaParam(out DataStoreGetSpecificMetaParam) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data uint64) { innerStream.UInt64LE(data) }, out.DataIds)
+func (stream *OutputStream) Struct_DataStoreGetSpecificMetaParam(out DataStoreGetSpecificMetaParam) {
+    stream.Struct_Structure(out.Base)
+    stream.List_uint64(out.DataIds)
     return
 }
-func (stream *InputStream) StructDataStoreGetSpecificMetaParamV1() (in DataStoreGetSpecificMetaParamV1) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.DataIds = stream.List("Uint32", func (innerStream *InputStream) uint32 { return innerStream.UInt32LE() }).([]uint32)
+func (stream *InputStream) Struct_DataStoreGetSpecificMetaParamV1() (in DataStoreGetSpecificMetaParamV1) {
+    in.Base = stream.Struct_Structure()
+    in.DataIds = stream.List_uint32()
     return
 }
-func (stream *OutputStream) StructDataStoreGetSpecificMetaParamV1(out DataStoreGetSpecificMetaParamV1) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data uint32) { innerStream.UInt32LE(data) }, out.DataIds)
+func (stream *OutputStream) Struct_DataStoreGetSpecificMetaParamV1(out DataStoreGetSpecificMetaParamV1) {
+    stream.Struct_Structure(out.Base)
+    stream.List_uint32(out.DataIds)
     return
 }
-func (stream *InputStream) StructDataStoreKeyValue() (in DataStoreKeyValue) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreKeyValue() (in DataStoreKeyValue) {
+    in.Base = stream.Struct_Structure()
     in.Key = string(stream.String())
     in.Value = string(stream.String())
     return
 }
-func (stream *OutputStream) StructDataStoreKeyValue(out DataStoreKeyValue) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreKeyValue(out DataStoreKeyValue) {
+    stream.Struct_Structure(out.Base)
     stream.String(string(out.Key))
     stream.String(string(out.Value))
     return
 }
-func (stream *InputStream) StructDataStoreMetaInfo() (in DataStoreMetaInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreMetaInfo() (in DataStoreMetaInfo) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
-    in.OwnerId = stream.UInt64LE()
+    in.OwnerId = PID(stream.UInt32LE())
     in.Size = stream.UInt32LE()
     in.Name = string(stream.String())
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.MetaBinary = stream.QBuffer()
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.CreatedTime = DateTime(stream.UInt64LE())
     in.UpdatedTime = DateTime(stream.UInt64LE())
     in.Period = stream.UInt16LE()
@@ -1203,20 +943,20 @@ func (stream *InputStream) StructDataStoreMetaInfo() (in DataStoreMetaInfo) {
     in.Flag = stream.UInt32LE()
     in.ReferredTime = DateTime(stream.UInt64LE())
     in.ExpireTime = DateTime(stream.UInt64LE())
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
-    in.Ratings = stream.List("DataStoreRatingInfoWithSlot", func (innerStream *InputStream) DataStoreRatingInfoWithSlot { return innerStream.Struct("DataStoreRatingInfoWithSlot").(DataStoreRatingInfoWithSlot) }).([]DataStoreRatingInfoWithSlot)
+    in.Tags = stream.List_string()
+    in.Ratings = stream.List_DataStoreRatingInfoWithSlot()
     return
 }
-func (stream *OutputStream) StructDataStoreMetaInfo(out DataStoreMetaInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreMetaInfo(out DataStoreMetaInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
-    stream.UInt64LE(out.OwnerId)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt32LE(out.Size)
     stream.String(string(out.Name))
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.QBuffer(out.MetaBinary)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt64LE(uint64(out.CreatedTime))
     stream.UInt64LE(uint64(out.UpdatedTime))
     stream.UInt16LE(out.Period)
@@ -1226,248 +966,248 @@ func (stream *OutputStream) StructDataStoreMetaInfo(out DataStoreMetaInfo) {
     stream.UInt32LE(out.Flag)
     stream.UInt64LE(uint64(out.ReferredTime))
     stream.UInt64LE(uint64(out.ExpireTime))
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
-    stream.List(func (innerStream *OutputStream, data DataStoreRatingInfoWithSlot) { innerStream.Struct(data) }, out.Ratings)
+    stream.List_string(out.Tags)
+    stream.List_DataStoreRatingInfoWithSlot(out.Ratings)
     return
 }
-func (stream *InputStream) StructDataStoreNotification() (in DataStoreNotification) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreNotification() (in DataStoreNotification) {
+    in.Base = stream.Struct_Structure()
     in.NotificationId = stream.UInt64LE()
     in.DataId = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreNotification(out DataStoreNotification) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreNotification(out DataStoreNotification) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.NotificationId)
     stream.UInt64LE(out.DataId)
     return
 }
-func (stream *InputStream) StructDataStoreNotificationV1() (in DataStoreNotificationV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreNotificationV1() (in DataStoreNotificationV1) {
+    in.Base = stream.Struct_Structure()
     in.NotificationId = stream.UInt64LE()
     in.DataId = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructDataStoreNotificationV1(out DataStoreNotificationV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreNotificationV1(out DataStoreNotificationV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.NotificationId)
     stream.UInt32LE(out.DataId)
     return
 }
-func (stream *InputStream) StructDataStorePasswordInfo() (in DataStorePasswordInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePasswordInfo() (in DataStorePasswordInfo) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.AccessPassword = stream.UInt64LE()
     in.UpdatePassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStorePasswordInfo(out DataStorePasswordInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePasswordInfo(out DataStorePasswordInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt64LE(out.AccessPassword)
     stream.UInt64LE(out.UpdatePassword)
     return
 }
-func (stream *InputStream) StructDataStorePermission() (in DataStorePermission) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePermission() (in DataStorePermission) {
+    in.Base = stream.Struct_Structure()
     in.Permission = stream.UInt8()
-    in.RecipientIds = stream.List("Uint64", func (innerStream *InputStream) uint64 { return innerStream.UInt64LE() }).([]uint64)
+    in.RecipientIds = stream.List_PID()
     return
 }
-func (stream *OutputStream) StructDataStorePermission(out DataStorePermission) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePermission(out DataStorePermission) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.Permission)
-    stream.List(func (innerStream *OutputStream, data uint64) { innerStream.UInt64LE(data) }, out.RecipientIds)
+    stream.List_PID(out.RecipientIds)
     return
 }
-func (stream *InputStream) StructDataStorePersistenceInfo() (in DataStorePersistenceInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.OwnerId = stream.UInt64LE()
+func (stream *InputStream) Struct_DataStorePersistenceInfo() (in DataStorePersistenceInfo) {
+    in.Base = stream.Struct_Structure()
+    in.OwnerId = PID(stream.UInt32LE())
     in.PersistenceSlotId = stream.UInt16LE()
     in.DataId = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStorePersistenceInfo(out DataStorePersistenceInfo) {
-    stream.Struct(out.Base)
-    stream.UInt64LE(out.OwnerId)
+func (stream *OutputStream) Struct_DataStorePersistenceInfo(out DataStorePersistenceInfo) {
+    stream.Struct_Structure(out.Base)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt16LE(out.PersistenceSlotId)
     stream.UInt64LE(out.DataId)
     return
 }
-func (stream *InputStream) StructDataStorePersistenceInitParam() (in DataStorePersistenceInitParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePersistenceInitParam() (in DataStorePersistenceInitParam) {
+    in.Base = stream.Struct_Structure()
     in.PersistenceSlotId = stream.UInt16LE()
     in.DeleteLastObject = stream.Bool()
     return
 }
-func (stream *OutputStream) StructDataStorePersistenceInitParam(out DataStorePersistenceInitParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePersistenceInitParam(out DataStorePersistenceInitParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt16LE(out.PersistenceSlotId)
     stream.Bool(out.DeleteLastObject)
     return
 }
-func (stream *InputStream) StructDataStorePersistenceTarget() (in DataStorePersistenceTarget) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.OwnerId = stream.UInt64LE()
+func (stream *InputStream) Struct_DataStorePersistenceTarget() (in DataStorePersistenceTarget) {
+    in.Base = stream.Struct_Structure()
+    in.OwnerId = PID(stream.UInt32LE())
     in.PersistenceSlotId = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructDataStorePersistenceTarget(out DataStorePersistenceTarget) {
-    stream.Struct(out.Base)
-    stream.UInt64LE(out.OwnerId)
+func (stream *OutputStream) Struct_DataStorePersistenceTarget(out DataStorePersistenceTarget) {
+    stream.Struct_Structure(out.Base)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt16LE(out.PersistenceSlotId)
     return
 }
-func (stream *InputStream) StructDataStorePrepareGetParam() (in DataStorePrepareGetParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePrepareGetParam() (in DataStorePrepareGetParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.LockId = stream.UInt32LE()
-    in.PersistenceTarget = stream.Struct("DataStorePersistenceTarget").(DataStorePersistenceTarget)
+    in.PersistenceTarget = stream.Struct_DataStorePersistenceTarget()
     in.AccessPassword = stream.UInt64LE()
-    in.ExtraData = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.ExtraData = stream.List_string()
     return
 }
-func (stream *OutputStream) StructDataStorePrepareGetParam(out DataStorePrepareGetParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePrepareGetParam(out DataStorePrepareGetParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.LockId)
-    stream.Struct(out.PersistenceTarget)
+    stream.Struct_DataStorePersistenceTarget(out.PersistenceTarget)
     stream.UInt64LE(out.AccessPassword)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.ExtraData)
+    stream.List_string(out.ExtraData)
     return
 }
-func (stream *InputStream) StructDataStorePrepareGetParamV1() (in DataStorePrepareGetParamV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePrepareGetParamV1() (in DataStorePrepareGetParamV1) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt32LE()
     in.LockId = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructDataStorePrepareGetParamV1(out DataStorePrepareGetParamV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePrepareGetParamV1(out DataStorePrepareGetParamV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.DataId)
     stream.UInt32LE(out.LockId)
     return
 }
-func (stream *InputStream) StructDataStorePreparePostParam() (in DataStorePreparePostParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePreparePostParam() (in DataStorePreparePostParam) {
+    in.Base = stream.Struct_Structure()
     in.Size = stream.UInt32LE()
     in.Name = string(stream.String())
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.MetaBinary = stream.QBuffer()
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.Flag = stream.UInt32LE()
     in.Period = stream.UInt16LE()
     in.ReferDataId = stream.UInt32LE()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
-    in.RatingInitParams = stream.List("DataStoreRatingInitParamWithSlot", func (innerStream *InputStream) DataStoreRatingInitParamWithSlot { return innerStream.Struct("DataStoreRatingInitParamWithSlot").(DataStoreRatingInitParamWithSlot) }).([]DataStoreRatingInitParamWithSlot)
-    in.PersistenceInitParam = stream.Struct("DataStorePersistenceInitParam").(DataStorePersistenceInitParam)
-    in.ExtraData = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.Tags = stream.List_string()
+    in.RatingInitParams = stream.List_DataStoreRatingInitParamWithSlot()
+    in.PersistenceInitParam = stream.Struct_DataStorePersistenceInitParam()
+    in.ExtraData = stream.List_string()
     return
 }
-func (stream *OutputStream) StructDataStorePreparePostParam(out DataStorePreparePostParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePreparePostParam(out DataStorePreparePostParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Size)
     stream.String(string(out.Name))
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.QBuffer(out.MetaBinary)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt32LE(out.Flag)
     stream.UInt16LE(out.Period)
     stream.UInt32LE(out.ReferDataId)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
-    stream.List(func (innerStream *OutputStream, data DataStoreRatingInitParamWithSlot) { innerStream.Struct(data) }, out.RatingInitParams)
-    stream.Struct(out.PersistenceInitParam)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.ExtraData)
+    stream.List_string(out.Tags)
+    stream.List_DataStoreRatingInitParamWithSlot(out.RatingInitParams)
+    stream.Struct_DataStorePersistenceInitParam(out.PersistenceInitParam)
+    stream.List_string(out.ExtraData)
     return
 }
-func (stream *InputStream) StructDataStorePreparePostParamV1() (in DataStorePreparePostParamV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePreparePostParamV1() (in DataStorePreparePostParamV1) {
+    in.Base = stream.Struct_Structure()
     in.Size = stream.UInt32LE()
     in.Name = string(stream.String())
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
-    in.Permission = stream.Struct("DataStorePermission").(DataStorePermission)
-    in.DelPermission = stream.Struct("DataStorePermission").(DataStorePermission)
+    in.MetaBinary = stream.QBuffer()
+    in.Permission = stream.Struct_DataStorePermission()
+    in.DelPermission = stream.Struct_DataStorePermission()
     in.Flag = stream.UInt32LE()
     in.Period = stream.UInt16LE()
     in.ReferDataId = stream.UInt32LE()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
-    in.RatingInitParams = stream.List("DataStoreRatingInitParamWithSlot", func (innerStream *InputStream) DataStoreRatingInitParamWithSlot { return innerStream.Struct("DataStoreRatingInitParamWithSlot").(DataStoreRatingInitParamWithSlot) }).([]DataStoreRatingInitParamWithSlot)
+    in.Tags = stream.List_string()
+    in.RatingInitParams = stream.List_DataStoreRatingInitParamWithSlot()
     return
 }
-func (stream *OutputStream) StructDataStorePreparePostParamV1(out DataStorePreparePostParamV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePreparePostParamV1(out DataStorePreparePostParamV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Size)
     stream.String(string(out.Name))
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
-    stream.Struct(out.Permission)
-    stream.Struct(out.DelPermission)
+    stream.QBuffer(out.MetaBinary)
+    stream.Struct_DataStorePermission(out.Permission)
+    stream.Struct_DataStorePermission(out.DelPermission)
     stream.UInt32LE(out.Flag)
     stream.UInt16LE(out.Period)
     stream.UInt32LE(out.ReferDataId)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
-    stream.List(func (innerStream *OutputStream, data DataStoreRatingInitParamWithSlot) { innerStream.Struct(data) }, out.RatingInitParams)
+    stream.List_string(out.Tags)
+    stream.List_DataStoreRatingInitParamWithSlot(out.RatingInitParams)
     return
 }
-func (stream *InputStream) StructDataStorePrepareUpdateParam() (in DataStorePrepareUpdateParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStorePrepareUpdateParam() (in DataStorePrepareUpdateParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.Size = stream.UInt32LE()
     in.UpdatePassword = stream.UInt64LE()
-    in.ExtraData = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.ExtraData = stream.List_string()
     return
 }
-func (stream *OutputStream) StructDataStorePrepareUpdateParam(out DataStorePrepareUpdateParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStorePrepareUpdateParam(out DataStorePrepareUpdateParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.Size)
     stream.UInt64LE(out.UpdatePassword)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.ExtraData)
+    stream.List_string(out.ExtraData)
     return
 }
-func (stream *InputStream) StructDataStoreRateObjectParam() (in DataStoreRateObjectParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRateObjectParam() (in DataStoreRateObjectParam) {
+    in.Base = stream.Struct_Structure()
     in.RatingValue = stream.Int32LE()
     in.AccessPassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreRateObjectParam(out DataStoreRateObjectParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRateObjectParam(out DataStoreRateObjectParam) {
+    stream.Struct_Structure(out.Base)
     stream.Int32LE(out.RatingValue)
     stream.UInt64LE(out.AccessPassword)
     return
 }
-func (stream *InputStream) StructDataStoreRatingInfo() (in DataStoreRatingInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingInfo() (in DataStoreRatingInfo) {
+    in.Base = stream.Struct_Structure()
     in.TotalValue = stream.Int64LE()
     in.Count = stream.UInt32LE()
     in.InitialValue = stream.Int64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreRatingInfo(out DataStoreRatingInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingInfo(out DataStoreRatingInfo) {
+    stream.Struct_Structure(out.Base)
     stream.Int64LE(out.TotalValue)
     stream.UInt32LE(out.Count)
     stream.Int64LE(out.InitialValue)
     return
 }
-func (stream *InputStream) StructDataStoreRatingInfoWithSlot() (in DataStoreRatingInfoWithSlot) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingInfoWithSlot() (in DataStoreRatingInfoWithSlot) {
+    in.Base = stream.Struct_Structure()
     in.Slot = stream.Int8()
-    in.Rating = stream.Struct("DataStoreRatingInfo").(DataStoreRatingInfo)
+    in.Rating = stream.Struct_DataStoreRatingInfo()
     return
 }
-func (stream *OutputStream) StructDataStoreRatingInfoWithSlot(out DataStoreRatingInfoWithSlot) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingInfoWithSlot(out DataStoreRatingInfoWithSlot) {
+    stream.Struct_Structure(out.Base)
     stream.Int8(out.Slot)
-    stream.Struct(out.Rating)
+    stream.Struct_DataStoreRatingInfo(out.Rating)
     return
 }
-func (stream *InputStream) StructDataStoreRatingInitParam() (in DataStoreRatingInitParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingInitParam() (in DataStoreRatingInitParam) {
+    in.Base = stream.Struct_Structure()
     in.Flag = stream.UInt8()
     in.InternalFlag = stream.UInt8()
     in.LockType = stream.UInt8()
@@ -1478,8 +1218,8 @@ func (stream *InputStream) StructDataStoreRatingInitParam() (in DataStoreRatingI
     in.PeriodDuration = stream.Int16LE()
     return
 }
-func (stream *OutputStream) StructDataStoreRatingInitParam(out DataStoreRatingInitParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingInitParam(out DataStoreRatingInitParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.Flag)
     stream.UInt8(out.InternalFlag)
     stream.UInt8(out.LockType)
@@ -1490,371 +1230,371 @@ func (stream *OutputStream) StructDataStoreRatingInitParam(out DataStoreRatingIn
     stream.Int16LE(out.PeriodDuration)
     return
 }
-func (stream *InputStream) StructDataStoreRatingInitParamWithSlot() (in DataStoreRatingInitParamWithSlot) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingInitParamWithSlot() (in DataStoreRatingInitParamWithSlot) {
+    in.Base = stream.Struct_Structure()
     in.Slot = stream.Int8()
-    in.Param = stream.Struct("DataStoreRatingInitParam").(DataStoreRatingInitParam)
+    in.Param = stream.Struct_DataStoreRatingInitParam()
     return
 }
-func (stream *OutputStream) StructDataStoreRatingInitParamWithSlot(out DataStoreRatingInitParamWithSlot) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingInitParamWithSlot(out DataStoreRatingInitParamWithSlot) {
+    stream.Struct_Structure(out.Base)
     stream.Int8(out.Slot)
-    stream.Struct(out.Param)
+    stream.Struct_DataStoreRatingInitParam(out.Param)
     return
 }
-func (stream *InputStream) StructDataStoreRatingLog() (in DataStoreRatingLog) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingLog() (in DataStoreRatingLog) {
+    in.Base = stream.Struct_Structure()
     in.IsRated = stream.Bool()
-    in.Pid = stream.UInt64LE()
+    in.Pid = PID(stream.UInt32LE())
     in.RatingValue = stream.Int32LE()
     in.LockExpirationTime = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructDataStoreRatingLog(out DataStoreRatingLog) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingLog(out DataStoreRatingLog) {
+    stream.Struct_Structure(out.Base)
     stream.Bool(out.IsRated)
-    stream.UInt64LE(out.Pid)
+    stream.UInt32LE(uint32(out.Pid))
     stream.Int32LE(out.RatingValue)
     stream.UInt64LE(uint64(out.LockExpirationTime))
     return
 }
-func (stream *InputStream) StructDataStoreRatingTarget() (in DataStoreRatingTarget) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreRatingTarget() (in DataStoreRatingTarget) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.Slot = stream.Int8()
     return
 }
-func (stream *OutputStream) StructDataStoreRatingTarget(out DataStoreRatingTarget) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreRatingTarget(out DataStoreRatingTarget) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.Int8(out.Slot)
     return
 }
-func (stream *InputStream) StructDataStoreReqGetAdditionalMeta() (in DataStoreReqGetAdditionalMeta) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.OwnerId = stream.UInt64LE()
+func (stream *InputStream) Struct_DataStoreReqGetAdditionalMeta() (in DataStoreReqGetAdditionalMeta) {
+    in.Base = stream.Struct_Structure()
+    in.OwnerId = PID(stream.UInt32LE())
     in.DataType = stream.UInt16LE()
     in.Version = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
+    in.MetaBinary = stream.QBuffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqGetAdditionalMeta(out DataStoreReqGetAdditionalMeta) {
-    stream.Struct(out.Base)
-    stream.UInt64LE(out.OwnerId)
+func (stream *OutputStream) Struct_DataStoreReqGetAdditionalMeta(out DataStoreReqGetAdditionalMeta) {
+    stream.Struct_Structure(out.Base)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt16LE(out.DataType)
     stream.UInt16LE(out.Version)
-    stream.Buffer(out.MetaBinary)
+    stream.QBuffer(out.MetaBinary)
     return
 }
-func (stream *InputStream) StructDataStoreReqGetInfo() (in DataStoreReqGetInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqGetInfo() (in DataStoreReqGetInfo) {
+    in.Base = stream.Struct_Structure()
     in.Url = string(stream.String())
-    in.RequestHeaders = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
+    in.RequestHeaders = stream.List_DataStoreKeyValue()
     in.Size = stream.UInt32LE()
     in.RootCaCert = stream.Buffer()
     in.DataId = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreReqGetInfo(out DataStoreReqGetInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqGetInfo(out DataStoreReqGetInfo) {
+    stream.Struct_Structure(out.Base)
     stream.String(string(out.Url))
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.RequestHeaders)
+    stream.List_DataStoreKeyValue(out.RequestHeaders)
     stream.UInt32LE(out.Size)
     stream.Buffer(out.RootCaCert)
     stream.UInt64LE(out.DataId)
     return
 }
-func (stream *InputStream) StructDataStoreReqGetInfoV1() (in DataStoreReqGetInfoV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqGetInfoV1() (in DataStoreReqGetInfoV1) {
+    in.Base = stream.Struct_Structure()
     in.Url = string(stream.String())
-    in.RequestHeaders = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
+    in.RequestHeaders = stream.List_DataStoreKeyValue()
     in.Size = stream.UInt32LE()
     in.RootCaCert = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqGetInfoV1(out DataStoreReqGetInfoV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqGetInfoV1(out DataStoreReqGetInfoV1) {
+    stream.Struct_Structure(out.Base)
     stream.String(string(out.Url))
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.RequestHeaders)
+    stream.List_DataStoreKeyValue(out.RequestHeaders)
     stream.UInt32LE(out.Size)
     stream.Buffer(out.RootCaCert)
     return
 }
-func (stream *InputStream) StructDataStoreReqGetNotificationUrlInfo() (in DataStoreReqGetNotificationUrlInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqGetNotificationUrlInfo() (in DataStoreReqGetNotificationUrlInfo) {
+    in.Base = stream.Struct_Structure()
     in.Url = string(stream.String())
     in.Key = string(stream.String())
     in.Query = string(stream.String())
     in.RootCaCert = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqGetNotificationUrlInfo(out DataStoreReqGetNotificationUrlInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqGetNotificationUrlInfo(out DataStoreReqGetNotificationUrlInfo) {
+    stream.Struct_Structure(out.Base)
     stream.String(string(out.Url))
     stream.String(string(out.Key))
     stream.String(string(out.Query))
     stream.Buffer(out.RootCaCert)
     return
 }
-func (stream *InputStream) StructDataStoreReqPostInfo() (in DataStoreReqPostInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqPostInfo() (in DataStoreReqPostInfo) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.Url = string(stream.String())
-    in.RequestHeaders = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
-    in.FormFields = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
+    in.RequestHeaders = stream.List_DataStoreKeyValue()
+    in.FormFields = stream.List_DataStoreKeyValue()
     in.RootCaCert = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqPostInfo(out DataStoreReqPostInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqPostInfo(out DataStoreReqPostInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.String(string(out.Url))
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.RequestHeaders)
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.FormFields)
+    stream.List_DataStoreKeyValue(out.RequestHeaders)
+    stream.List_DataStoreKeyValue(out.FormFields)
     stream.Buffer(out.RootCaCert)
     return
 }
-func (stream *InputStream) StructDataStoreReqPostInfoV1() (in DataStoreReqPostInfoV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqPostInfoV1() (in DataStoreReqPostInfoV1) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt32LE()
     in.Url = string(stream.String())
-    in.RequestHeaders = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
-    in.FormFields = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
+    in.RequestHeaders = stream.List_DataStoreKeyValue()
+    in.FormFields = stream.List_DataStoreKeyValue()
     in.RootCaCert = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqPostInfoV1(out DataStoreReqPostInfoV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqPostInfoV1(out DataStoreReqPostInfoV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.DataId)
     stream.String(string(out.Url))
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.RequestHeaders)
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.FormFields)
+    stream.List_DataStoreKeyValue(out.RequestHeaders)
+    stream.List_DataStoreKeyValue(out.FormFields)
     stream.Buffer(out.RootCaCert)
     return
 }
-func (stream *InputStream) StructDataStoreReqUpdateInfo() (in DataStoreReqUpdateInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreReqUpdateInfo() (in DataStoreReqUpdateInfo) {
+    in.Base = stream.Struct_Structure()
     in.Version = stream.UInt32LE()
     in.Url = string(stream.String())
-    in.RequestHeaders = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
-    in.FormFields = stream.List("DataStoreKeyValue", func (innerStream *InputStream) DataStoreKeyValue { return innerStream.Struct("DataStoreKeyValue").(DataStoreKeyValue) }).([]DataStoreKeyValue)
+    in.RequestHeaders = stream.List_DataStoreKeyValue()
+    in.FormFields = stream.List_DataStoreKeyValue()
     in.RootCaCert = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructDataStoreReqUpdateInfo(out DataStoreReqUpdateInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreReqUpdateInfo(out DataStoreReqUpdateInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Version)
     stream.String(string(out.Url))
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.RequestHeaders)
-    stream.List(func (innerStream *OutputStream, data DataStoreKeyValue) { innerStream.Struct(data) }, out.FormFields)
+    stream.List_DataStoreKeyValue(out.RequestHeaders)
+    stream.List_DataStoreKeyValue(out.FormFields)
     stream.Buffer(out.RootCaCert)
     return
 }
-func (stream *InputStream) StructDataStoreSearchBalloonParam() (in DataStoreSearchBalloonParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSearchBalloonParam() (in DataStoreSearchBalloonParam) {
+    in.Base = stream.Struct_Structure()
     in.DataType = stream.UInt16LE()
     in.UserRank = stream.UInt8()
     in.ResultSetCount = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructDataStoreSearchBalloonParam(out DataStoreSearchBalloonParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSearchBalloonParam(out DataStoreSearchBalloonParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt16LE(out.DataType)
     stream.UInt8(out.UserRank)
     stream.UInt8(out.ResultSetCount)
     return
 }
-func (stream *InputStream) StructDataStoreSearchBalloonResult() (in DataStoreSearchBalloonResult) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSearchBalloonResult() (in DataStoreSearchBalloonResult) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
-    in.OwnerId = stream.UInt64LE()
+    in.OwnerId = PID(stream.UInt32LE())
     in.Size = stream.UInt32LE()
     in.Name = string(stream.String())
     in.DataType = stream.UInt16LE()
-    in.MetaBinary = stream.Buffer()
+    in.MetaBinary = stream.QBuffer()
     in.CreatedTime = DateTime(stream.UInt64LE())
     in.UpdatedTime = DateTime(stream.UInt64LE())
     in.OwnerDataId = stream.UInt64LE()
     in.OwnerName = string(stream.String())
     in.IsFriendBalloon = stream.Bool()
-    in.Ratings = stream.Map("Map<Sint8,DataStoreRatingInfo>", func (innerStream *InputStream)(int8, DataStoreRatingInfo) { return innerStream.Int8(), innerStream.Struct("DataStoreRatingInfo").(DataStoreRatingInfo) }).(map[int8]DataStoreRatingInfo)
-    in.OwnerRatings = stream.Map("Map<Sint8,DataStoreRatingInfo>", func (innerStream *InputStream)(int8, DataStoreRatingInfo) { return innerStream.Int8(), innerStream.Struct("DataStoreRatingInfo").(DataStoreRatingInfo) }).(map[int8]DataStoreRatingInfo)
+    in.Ratings = stream.Map_int8_DataStoreRatingInfo()
+    in.OwnerRatings = stream.Map_int8_DataStoreRatingInfo()
     return
 }
-func (stream *OutputStream) StructDataStoreSearchBalloonResult(out DataStoreSearchBalloonResult) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSearchBalloonResult(out DataStoreSearchBalloonResult) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
-    stream.UInt64LE(out.OwnerId)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt32LE(out.Size)
     stream.String(string(out.Name))
     stream.UInt16LE(out.DataType)
-    stream.Buffer(out.MetaBinary)
+    stream.QBuffer(out.MetaBinary)
     stream.UInt64LE(uint64(out.CreatedTime))
     stream.UInt64LE(uint64(out.UpdatedTime))
     stream.UInt64LE(out.OwnerDataId)
     stream.String(string(out.OwnerName))
     stream.Bool(out.IsFriendBalloon)
-    stream.Map(func (innerStream *OutputStream, key int8, value DataStoreRatingInfo) { innerStream.Int8(key); innerStream.Struct(value) }, out.Ratings)
-    stream.Map(func (innerStream *OutputStream, key int8, value DataStoreRatingInfo) { innerStream.Int8(key); innerStream.Struct(value) }, out.OwnerRatings)
+    stream.Map_int8_DataStoreRatingInfo(out.Ratings)
+    stream.Map_int8_DataStoreRatingInfo(out.OwnerRatings)
     return
 }
-func (stream *InputStream) StructDataStoreSearchBalloonResultSet() (in DataStoreSearchBalloonResultSet) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Balloons = stream.List("DataStoreSearchBalloonResult", func (innerStream *InputStream) DataStoreSearchBalloonResult { return innerStream.Struct("DataStoreSearchBalloonResult").(DataStoreSearchBalloonResult) }).([]DataStoreSearchBalloonResult)
+func (stream *InputStream) Struct_DataStoreSearchBalloonResultSet() (in DataStoreSearchBalloonResultSet) {
+    in.Base = stream.Struct_Structure()
+    in.Balloons = stream.List_DataStoreSearchBalloonResult()
     return
 }
-func (stream *OutputStream) StructDataStoreSearchBalloonResultSet(out DataStoreSearchBalloonResultSet) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data DataStoreSearchBalloonResult) { innerStream.Struct(data) }, out.Balloons)
+func (stream *OutputStream) Struct_DataStoreSearchBalloonResultSet(out DataStoreSearchBalloonResultSet) {
+    stream.Struct_Structure(out.Base)
+    stream.List_DataStoreSearchBalloonResult(out.Balloons)
     return
 }
-func (stream *InputStream) StructDataStoreSearchParam() (in DataStoreSearchParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSearchParam() (in DataStoreSearchParam) {
+    in.Base = stream.Struct_Structure()
     in.SearchTarget = stream.UInt8()
-    in.OwnerIds = stream.List("Uint64", func (innerStream *InputStream) uint64 { return innerStream.UInt64LE() }).([]uint64)
+    in.OwnerIds = stream.List_PID()
     in.OwnerType = stream.UInt8()
-    in.DestinationIds = stream.List("Uint64", func (innerStream *InputStream) uint64 { return innerStream.UInt64LE() }).([]uint64)
+    in.DestinationIds = stream.List_uint64()
     in.DataType = stream.UInt16LE()
     in.CreatedAfter = DateTime(stream.UInt64LE())
     in.CreatedBefore = DateTime(stream.UInt64LE())
     in.UpdatedAfter = DateTime(stream.UInt64LE())
     in.UpdatedBefore = DateTime(stream.UInt64LE())
     in.ReferDataId = stream.UInt32LE()
-    in.Tags = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+    in.Tags = stream.List_string()
     in.ResultOrderColumn = stream.UInt8()
     in.ResultOrder = stream.UInt8()
-    in.ResultRange = stream.Struct("ResultRange").(ResultRange)
+    in.ResultRange = stream.Struct_ResultRange()
     in.ResultOption = stream.UInt8()
     in.MinimalRatingFrequency = stream.UInt32LE()
     in.UseCache = stream.Bool()
     in.TotalCountEnabled = stream.Bool()
-    in.DataTypes = stream.List("Uint16", func (innerStream *InputStream) uint16 { return innerStream.UInt16LE() }).([]uint16)
+    in.DataTypes = stream.List_uint16()
     return
 }
-func (stream *OutputStream) StructDataStoreSearchParam(out DataStoreSearchParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSearchParam(out DataStoreSearchParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.SearchTarget)
-    stream.List(func (innerStream *OutputStream, data uint64) { innerStream.UInt64LE(data) }, out.OwnerIds)
+    stream.List_PID(out.OwnerIds)
     stream.UInt8(out.OwnerType)
-    stream.List(func (innerStream *OutputStream, data uint64) { innerStream.UInt64LE(data) }, out.DestinationIds)
+    stream.List_uint64(out.DestinationIds)
     stream.UInt16LE(out.DataType)
     stream.UInt64LE(uint64(out.CreatedAfter))
     stream.UInt64LE(uint64(out.CreatedBefore))
     stream.UInt64LE(uint64(out.UpdatedAfter))
     stream.UInt64LE(uint64(out.UpdatedBefore))
     stream.UInt32LE(out.ReferDataId)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Tags)
+    stream.List_string(out.Tags)
     stream.UInt8(out.ResultOrderColumn)
     stream.UInt8(out.ResultOrder)
-    stream.Struct(out.ResultRange)
+    stream.Struct_ResultRange(out.ResultRange)
     stream.UInt8(out.ResultOption)
     stream.UInt32LE(out.MinimalRatingFrequency)
     stream.Bool(out.UseCache)
     stream.Bool(out.TotalCountEnabled)
-    stream.List(func (innerStream *OutputStream, data uint16) { innerStream.UInt16LE(data) }, out.DataTypes)
+    stream.List_uint16(out.DataTypes)
     return
 }
-func (stream *InputStream) StructDataStoreSearchResult() (in DataStoreSearchResult) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSearchResult() (in DataStoreSearchResult) {
+    in.Base = stream.Struct_Structure()
     in.TotalCount = stream.UInt32LE()
-    in.Result = stream.List("DataStoreMetaInfo", func (innerStream *InputStream) DataStoreMetaInfo { return innerStream.Struct("DataStoreMetaInfo").(DataStoreMetaInfo) }).([]DataStoreMetaInfo)
+    in.Result = stream.List_DataStoreMetaInfo()
     in.TotalCountType = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructDataStoreSearchResult(out DataStoreSearchResult) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSearchResult(out DataStoreSearchResult) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.TotalCount)
-    stream.List(func (innerStream *OutputStream, data DataStoreMetaInfo) { innerStream.Struct(data) }, out.Result)
+    stream.List_DataStoreMetaInfo(out.Result)
     stream.UInt8(out.TotalCountType)
     return
 }
-func (stream *InputStream) StructDataStoreSpecificMetaInfo() (in DataStoreSpecificMetaInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSpecificMetaInfo() (in DataStoreSpecificMetaInfo) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
-    in.OwnerId = stream.UInt64LE()
+    in.OwnerId = PID(stream.UInt32LE())
     in.Size = stream.UInt32LE()
     in.DataType = stream.UInt16LE()
     in.Version = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructDataStoreSpecificMetaInfo(out DataStoreSpecificMetaInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSpecificMetaInfo(out DataStoreSpecificMetaInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
-    stream.UInt64LE(out.OwnerId)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt32LE(out.Size)
     stream.UInt16LE(out.DataType)
     stream.UInt32LE(out.Version)
     return
 }
-func (stream *InputStream) StructDataStoreSpecificMetaInfoV1() (in DataStoreSpecificMetaInfoV1) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreSpecificMetaInfoV1() (in DataStoreSpecificMetaInfoV1) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt32LE()
-    in.OwnerId = stream.UInt64LE()
+    in.OwnerId = PID(stream.UInt32LE())
     in.Size = stream.UInt32LE()
     in.DataType = stream.UInt16LE()
     in.Version = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructDataStoreSpecificMetaInfoV1(out DataStoreSpecificMetaInfoV1) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreSpecificMetaInfoV1(out DataStoreSpecificMetaInfoV1) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.DataId)
-    stream.UInt64LE(out.OwnerId)
+    stream.UInt32LE(uint32(out.OwnerId))
     stream.UInt32LE(out.Size)
     stream.UInt16LE(out.DataType)
     stream.UInt16LE(out.Version)
     return
 }
-func (stream *InputStream) StructDataStoreTouchObjectParam() (in DataStoreTouchObjectParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DataStoreTouchObjectParam() (in DataStoreTouchObjectParam) {
+    in.Base = stream.Struct_Structure()
     in.DataId = stream.UInt64LE()
     in.LockId = stream.UInt32LE()
     in.AccessPassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructDataStoreTouchObjectParam(out DataStoreTouchObjectParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DataStoreTouchObjectParam(out DataStoreTouchObjectParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.DataId)
     stream.UInt32LE(out.LockId)
     stream.UInt64LE(out.AccessPassword)
     return
 }
-func (stream *InputStream) StructDeletionEntry() (in DeletionEntry) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_DeletionEntry() (in DeletionEntry) {
+    in.Base = stream.Struct_Structure()
     in.IdGathering = stream.UInt32LE()
     in.Pid = PID(stream.UInt32LE())
     in.UiReason = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructDeletionEntry(out DeletionEntry) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_DeletionEntry(out DeletionEntry) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.IdGathering)
     stream.UInt32LE(uint32(out.Pid))
     stream.UInt32LE(out.UiReason)
     return
 }
-func (stream *InputStream) StructFindMatchmakeSessionByParticipantParam() (in FindMatchmakeSessionByParticipantParam) {
-    in.PrincipalIdList = stream.List("PID", func (innerStream *InputStream) PID { return PID(innerStream.UInt32LE()) }).([]PID)
+func (stream *InputStream) Struct_FindMatchmakeSessionByParticipantParam() (in FindMatchmakeSessionByParticipantParam) {
+    in.PrincipalIdList = stream.List_PID()
     in.ResultOptions = stream.UInt32LE()
-    in.BlockListParam = stream.Struct("MatchmakeBlockListParam").(MatchmakeBlockListParam)
+    in.BlockListParam = stream.Struct_MatchmakeBlockListParam()
     return
 }
-func (stream *OutputStream) StructFindMatchmakeSessionByParticipantParam(out FindMatchmakeSessionByParticipantParam) {
-    stream.List(func (innerStream *OutputStream, data PID) { innerStream.UInt32LE(uint32(data)) }, out.PrincipalIdList)
+func (stream *OutputStream) Struct_FindMatchmakeSessionByParticipantParam(out FindMatchmakeSessionByParticipantParam) {
+    stream.List_PID(out.PrincipalIdList)
     stream.UInt32LE(out.ResultOptions)
-    stream.Struct(out.BlockListParam)
+    stream.Struct_MatchmakeBlockListParam(out.BlockListParam)
     return
 }
-func (stream *InputStream) StructFindMatchmakeSessionByParticipantResult() (in FindMatchmakeSessionByParticipantResult) {
+func (stream *InputStream) Struct_FindMatchmakeSessionByParticipantResult() (in FindMatchmakeSessionByParticipantResult) {
     in.PrincipalId = PID(stream.UInt32LE())
-    in.Session = stream.Struct("MatchmakeSession").(MatchmakeSession)
+    in.Session = stream.Struct_MatchmakeSession()
     return
 }
-func (stream *OutputStream) StructFindMatchmakeSessionByParticipantResult(out FindMatchmakeSessionByParticipantResult) {
+func (stream *OutputStream) Struct_FindMatchmakeSessionByParticipantResult(out FindMatchmakeSessionByParticipantResult) {
     stream.UInt32LE(uint32(out.PrincipalId))
-    stream.Struct(out.Session)
+    stream.Struct_MatchmakeSession(out.Session)
     return
 }
-func (stream *InputStream) StructFriendData() (in FriendData) {
+func (stream *InputStream) Struct_FriendData() (in FriendData) {
     in.Pid = stream.UInt32LE()
     in.StrName = string(stream.String())
     in.ByRelationship = stream.UInt8()
@@ -1862,7 +1602,7 @@ func (stream *InputStream) StructFriendData() (in FriendData) {
     in.StrStatus = string(stream.String())
     return
 }
-func (stream *OutputStream) StructFriendData(out FriendData) {
+func (stream *OutputStream) Struct_FriendData(out FriendData) {
     stream.UInt32LE(out.Pid)
     stream.String(string(out.StrName))
     stream.UInt8(out.ByRelationship)
@@ -1870,168 +1610,168 @@ func (stream *OutputStream) StructFriendData(out FriendData) {
     stream.String(string(out.StrStatus))
     return
 }
-func (stream *InputStream) StructFriendInfo() (in FriendInfo) {
-    in.NNAInfo = stream.Struct("NNAInfo").(NNAInfo)
-    in.NintendoPresence = stream.Struct("NintendoPresenceV2").(NintendoPresenceV2)
-    in.StatusMessage = stream.Struct("Comment").(Comment)
+func (stream *InputStream) Struct_FriendInfo() (in FriendInfo) {
+    in.NNAInfo = stream.Struct_NNAInfo()
+    in.NintendoPresence = stream.Struct_NintendoPresenceV2()
+    in.StatusMessage = stream.Struct_Comment()
     in.BecameFriend = DateTime(stream.UInt64LE())
     in.LastOnline = DateTime(stream.UInt64LE())
     in.Unknown = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructFriendInfo(out FriendInfo) {
-    stream.Struct(out.NNAInfo)
-    stream.Struct(out.NintendoPresence)
-    stream.Struct(out.StatusMessage)
+func (stream *OutputStream) Struct_FriendInfo(out FriendInfo) {
+    stream.Struct_NNAInfo(out.NNAInfo)
+    stream.Struct_NintendoPresenceV2(out.NintendoPresence)
+    stream.Struct_Comment(out.StatusMessage)
     stream.UInt64LE(uint64(out.BecameFriend))
     stream.UInt64LE(uint64(out.LastOnline))
     stream.UInt64LE(out.Unknown)
     return
 }
-func (stream *InputStream) StructFriendMii() (in FriendMii) {
+func (stream *InputStream) Struct_FriendMii() (in FriendMii) {
     in.Unknown = stream.UInt32LE()
-    in.Mii = stream.Struct("Mii").(Mii)
+    in.Mii = stream.Struct_Mii()
     in.Unknown2 = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendMii(out FriendMii) {
+func (stream *OutputStream) Struct_FriendMii(out FriendMii) {
     stream.UInt32LE(out.Unknown)
-    stream.Struct(out.Mii)
+    stream.Struct_Mii(out.Mii)
     stream.UInt64LE(uint64(out.Unknown2))
     return
 }
-func (stream *InputStream) StructFriendMiiList() (in FriendMiiList) {
+func (stream *InputStream) Struct_FriendMiiList() (in FriendMiiList) {
     in.Unknown = stream.UInt32LE()
-    in.MiiList = stream.Struct("MiiList").(MiiList)
+    in.MiiList = stream.Struct_MiiList()
     in.Unknown2 = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendMiiList(out FriendMiiList) {
+func (stream *OutputStream) Struct_FriendMiiList(out FriendMiiList) {
     stream.UInt32LE(out.Unknown)
-    stream.Struct(out.MiiList)
+    stream.Struct_MiiList(out.MiiList)
     stream.UInt64LE(uint64(out.Unknown2))
     return
 }
-func (stream *InputStream) StructFriendMiiRequest() (in FriendMiiRequest) {
+func (stream *InputStream) Struct_FriendMiiRequest() (in FriendMiiRequest) {
     in.Unknown = stream.UInt32LE()
     in.Unknown2 = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendMiiRequest(out FriendMiiRequest) {
+func (stream *OutputStream) Struct_FriendMiiRequest(out FriendMiiRequest) {
     stream.UInt32LE(out.Unknown)
     stream.UInt64LE(uint64(out.Unknown2))
     return
 }
-func (stream *InputStream) StructFriendPersistentInfo() (in FriendPersistentInfo) {
+func (stream *InputStream) Struct_FriendPersistentInfo() (in FriendPersistentInfo) {
     in.Unknown = stream.UInt32LE()
     in.Region = stream.UInt8()
     in.Country = stream.UInt8()
     in.Area = stream.UInt8()
     in.Language = stream.UInt8()
     in.Platform = stream.UInt8()
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+    in.GameKey = stream.Struct_GameKey()
     in.Unknown2 = string(stream.String())
     in.Unknown3 = DateTime(stream.UInt64LE())
     in.Unknown4 = DateTime(stream.UInt64LE())
     in.Unknown5 = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendPersistentInfo(out FriendPersistentInfo) {
+func (stream *OutputStream) Struct_FriendPersistentInfo(out FriendPersistentInfo) {
     stream.UInt32LE(out.Unknown)
     stream.UInt8(out.Region)
     stream.UInt8(out.Country)
     stream.UInt8(out.Area)
     stream.UInt8(out.Language)
     stream.UInt8(out.Platform)
-    stream.Struct(out.GameKey)
+    stream.Struct_GameKey(out.GameKey)
     stream.String(string(out.Unknown2))
     stream.UInt64LE(uint64(out.Unknown3))
     stream.UInt64LE(uint64(out.Unknown4))
     stream.UInt64LE(uint64(out.Unknown5))
     return
 }
-func (stream *InputStream) StructFriendPicture() (in FriendPicture) {
+func (stream *InputStream) Struct_FriendPicture() (in FriendPicture) {
     in.Unknown = stream.UInt32LE()
     in.Data = stream.Buffer()
     in.DateTime = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendPicture(out FriendPicture) {
+func (stream *OutputStream) Struct_FriendPicture(out FriendPicture) {
     stream.UInt32LE(out.Unknown)
     stream.Buffer(out.Data)
     stream.UInt64LE(uint64(out.DateTime))
     return
 }
-func (stream *InputStream) StructFriendPresence() (in FriendPresence) {
+func (stream *InputStream) Struct_FriendPresence() (in FriendPresence) {
     in.Unknown = stream.UInt32LE()
-    in.NintendoPresence = stream.Struct("NintendoPresence").(NintendoPresence)
+    in.NintendoPresence = stream.Struct_NintendoPresence()
     return
 }
-func (stream *OutputStream) StructFriendPresence(out FriendPresence) {
+func (stream *OutputStream) Struct_FriendPresence(out FriendPresence) {
     stream.UInt32LE(out.Unknown)
-    stream.Struct(out.NintendoPresence)
+    stream.Struct_NintendoPresence(out.NintendoPresence)
     return
 }
-func (stream *InputStream) StructFriendRelationship() (in FriendRelationship) {
+func (stream *InputStream) Struct_FriendRelationship() (in FriendRelationship) {
     in.Unknown = stream.UInt32LE()
     in.Unknown2 = stream.UInt64LE()
     in.Unknown3 = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructFriendRelationship(out FriendRelationship) {
+func (stream *OutputStream) Struct_FriendRelationship(out FriendRelationship) {
     stream.UInt32LE(out.Unknown)
     stream.UInt64LE(out.Unknown2)
     stream.UInt8(out.Unknown3)
     return
 }
-func (stream *InputStream) StructFriendRequest() (in FriendRequest) {
-    in.PrincipalBasicInfo = stream.Struct("PrincipalBasicInfo").(PrincipalBasicInfo)
-    in.Message = stream.Struct("FriendRequestMessage").(FriendRequestMessage)
+func (stream *InputStream) Struct_FriendRequest() (in FriendRequest) {
+    in.PrincipalBasicInfo = stream.Struct_PrincipalBasicInfo()
+    in.Message = stream.Struct_FriendRequestMessage()
     in.SentOn = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendRequest(out FriendRequest) {
-    stream.Struct(out.PrincipalBasicInfo)
-    stream.Struct(out.Message)
+func (stream *OutputStream) Struct_FriendRequest(out FriendRequest) {
+    stream.Struct_PrincipalBasicInfo(out.PrincipalBasicInfo)
+    stream.Struct_FriendRequestMessage(out.Message)
     stream.UInt64LE(uint64(out.SentOn))
     return
 }
-func (stream *InputStream) StructFriendRequestMessage() (in FriendRequestMessage) {
+func (stream *InputStream) Struct_FriendRequestMessage() (in FriendRequestMessage) {
     in.Unknown = stream.UInt64LE()
     in.Unknown2 = stream.UInt8()
     in.Unknown3 = stream.UInt8()
     in.Message = string(stream.String())
     in.Unknown4 = stream.UInt8()
     in.Unknown5 = string(stream.String())
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+    in.GameKey = stream.Struct_GameKey()
     in.Unknown6 = DateTime(stream.UInt64LE())
     in.ExpiresOn = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructFriendRequestMessage(out FriendRequestMessage) {
+func (stream *OutputStream) Struct_FriendRequestMessage(out FriendRequestMessage) {
     stream.UInt64LE(out.Unknown)
     stream.UInt8(out.Unknown2)
     stream.UInt8(out.Unknown3)
     stream.String(string(out.Message))
     stream.UInt8(out.Unknown4)
     stream.String(string(out.Unknown5))
-    stream.Struct(out.GameKey)
+    stream.Struct_GameKey(out.GameKey)
     stream.UInt64LE(uint64(out.Unknown6))
     stream.UInt64LE(uint64(out.ExpiresOn))
     return
 }
-func (stream *InputStream) StructGameKey() (in GameKey) {
+func (stream *InputStream) Struct_GameKey() (in GameKey) {
     in.TitleId = stream.UInt64LE()
     in.TitleVersion = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructGameKey(out GameKey) {
+func (stream *OutputStream) Struct_GameKey(out GameKey) {
     stream.UInt64LE(out.TitleId)
     stream.UInt16LE(out.TitleVersion)
     return
 }
-func (stream *InputStream) StructGathering() (in Gathering) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_Gathering() (in Gathering) {
+    in.Base = stream.Struct_Structure()
     in.IdMyself = stream.UInt32LE()
     in.PidOwner = PID(stream.UInt32LE())
     in.PidHost = PID(stream.UInt32LE())
@@ -2044,8 +1784,8 @@ func (stream *InputStream) StructGathering() (in Gathering) {
     in.StrDescription = string(stream.String())
     return
 }
-func (stream *OutputStream) StructGathering(out Gathering) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_Gathering(out Gathering) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.IdMyself)
     stream.UInt32LE(uint32(out.PidOwner))
     stream.UInt32LE(uint32(out.PidHost))
@@ -2058,50 +1798,50 @@ func (stream *OutputStream) StructGathering(out Gathering) {
     stream.String(string(out.StrDescription))
     return
 }
-func (stream *InputStream) StructGatheringStats() (in GatheringStats) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_GatheringStats() (in GatheringStats) {
+    in.Base = stream.Struct_Structure()
     in.PidParticipant = stream.UInt32LE()
     in.UiFlags = stream.UInt32LE()
-    in.LstValues = stream.List("Float", func (innerStream *InputStream) float32 { return innerStream.Float32LE() }).([]float32)
+    in.LstValues = stream.List_float32()
     return
 }
-func (stream *OutputStream) StructGatheringStats(out GatheringStats) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_GatheringStats(out GatheringStats) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.PidParticipant)
     stream.UInt32LE(out.UiFlags)
-    stream.List(func (innerStream *OutputStream, data float32) { innerStream.Float32LE(data) }, out.LstValues)
+    stream.List_float32(out.LstValues)
     return
 }
-func (stream *InputStream) StructGatheringURLs() (in GatheringURLs) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_GatheringURLs() (in GatheringURLs) {
+    in.Base = stream.Struct_Structure()
     in.Gid = stream.UInt32LE()
-    in.LstStationURLs = stream.List("StationURL", func (innerStream *InputStream) StationURL { return StationURL(innerStream.String()) }).([]StationURL)
+    in.LstStationURLs = stream.List_StationURL()
     return
 }
-func (stream *OutputStream) StructGatheringURLs(out GatheringURLs) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_GatheringURLs(out GatheringURLs) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Gid)
-    stream.List(func (innerStream *OutputStream, data StationURL) { innerStream.String(string(data)) }, out.LstStationURLs)
+    stream.List_StationURL(out.LstStationURLs)
     return
 }
-func (stream *InputStream) StructInvitation() (in Invitation) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_Invitation() (in Invitation) {
+    in.Base = stream.Struct_Structure()
     in.IdGathering = stream.UInt32LE()
     in.IdGuest = stream.UInt32LE()
     in.StrMessage = string(stream.String())
     return
 }
-func (stream *OutputStream) StructInvitation(out Invitation) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_Invitation(out Invitation) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.IdGathering)
     stream.UInt32LE(out.IdGuest)
     stream.String(string(out.StrMessage))
     return
 }
-func (stream *InputStream) StructJoinMatchmakeSessionParam() (in JoinMatchmakeSessionParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_JoinMatchmakeSessionParam() (in JoinMatchmakeSessionParam) {
+    in.Base = stream.Struct_Structure()
     in.Gid = stream.UInt32LE()
-    in.AdditionalParticipants = stream.List("PID", func (innerStream *InputStream) PID { return PID(innerStream.UInt32LE()) }).([]PID)
+    in.AdditionalParticipants = stream.List_PID()
     in.GidForParticipationCheck = stream.UInt32LE()
     in.JoinMatchmakeSessionOption = stream.UInt32LE()
     in.JoinMatchmakeSessionBehavior = stream.UInt8()
@@ -2110,13 +1850,13 @@ func (stream *InputStream) StructJoinMatchmakeSessionParam() (in JoinMatchmakeSe
     in.JoinMessage = string(stream.String())
     in.ParticipationCount = stream.UInt16LE()
     in.ExtraParticipants = stream.UInt16LE()
-    in.BlockListParam = stream.Struct("MatchmakeBlockListParam").(MatchmakeBlockListParam)
+    in.BlockListParam = stream.Struct_MatchmakeBlockListParam()
     return
 }
-func (stream *OutputStream) StructJoinMatchmakeSessionParam(out JoinMatchmakeSessionParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_JoinMatchmakeSessionParam(out JoinMatchmakeSessionParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Gid)
-    stream.List(func (innerStream *OutputStream, data PID) { innerStream.UInt32LE(uint32(data)) }, out.AdditionalParticipants)
+    stream.List_PID(out.AdditionalParticipants)
     stream.UInt32LE(out.GidForParticipationCheck)
     stream.UInt32LE(out.JoinMatchmakeSessionOption)
     stream.UInt8(out.JoinMatchmakeSessionBehavior)
@@ -2125,34 +1865,34 @@ func (stream *OutputStream) StructJoinMatchmakeSessionParam(out JoinMatchmakeSes
     stream.String(string(out.JoinMessage))
     stream.UInt16LE(out.ParticipationCount)
     stream.UInt16LE(out.ExtraParticipants)
-    stream.Struct(out.BlockListParam)
+    stream.Struct_MatchmakeBlockListParam(out.BlockListParam)
     return
 }
-func (stream *InputStream) StructMatchmakeBlockListParam() (in MatchmakeBlockListParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_MatchmakeBlockListParam() (in MatchmakeBlockListParam) {
+    in.Base = stream.Struct_Structure()
     in.OptionFlag = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructMatchmakeBlockListParam(out MatchmakeBlockListParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_MatchmakeBlockListParam(out MatchmakeBlockListParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.OptionFlag)
     return
 }
-func (stream *InputStream) StructMatchmakeParam() (in MatchmakeParam) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Params = stream.Map("Map<String,Variant>", func (innerStream *InputStream)(string, Variant) { return string(innerStream.String()), innerStream.Variant() }).(map[string]Variant)
+func (stream *InputStream) Struct_MatchmakeParam() (in MatchmakeParam) {
+    in.Base = stream.Struct_Structure()
+    in.Params = stream.Map_string_Variant()
     return
 }
-func (stream *OutputStream) StructMatchmakeParam(out MatchmakeParam) {
-    stream.Struct(out.Base)
-    stream.Map(func (innerStream *OutputStream, key string, value Variant) { innerStream.String(string(key)); innerStream.Variant(value) }, out.Params)
+func (stream *OutputStream) Struct_MatchmakeParam(out MatchmakeParam) {
+    stream.Struct_Structure(out.Base)
+    stream.Map_string_Variant(out.Params)
     return
 }
-func (stream *InputStream) StructMatchmakeSession() (in MatchmakeSession) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Base2 = stream.Struct("Gathering").(Gathering)
+func (stream *InputStream) Struct_MatchmakeSession() (in MatchmakeSession) {
+    in.Base = stream.Struct_Structure()
+    in.Base2 = stream.Struct_Gathering()
     in.GameMode = stream.UInt32LE()
-    in.Attribs = stream.List("Uint32", func (innerStream *InputStream) uint32 { return innerStream.UInt32LE() }).([]uint32)
+    in.Attribs = stream.List_uint32()
     in.OpenParticipation = stream.Bool()
     in.MatchmakeSystemType = stream.UInt32LE()
     in.ApplicationBuffer = stream.Buffer()
@@ -2160,7 +1900,7 @@ func (stream *InputStream) StructMatchmakeSession() (in MatchmakeSession) {
     in.ProgressScore = stream.UInt8()
     in.SessionKey = stream.Buffer()
     in.Option0 = stream.UInt32LE()
-    in.MatchmakeParam = stream.Struct("MatchmakeParam").(MatchmakeParam)
+    in.MatchmakeParam = stream.Struct_MatchmakeParam()
     in.StartedTime = DateTime(stream.UInt64LE())
     in.UserPassword = string(stream.String())
     in.ReferGid = stream.UInt32LE()
@@ -2169,11 +1909,11 @@ func (stream *InputStream) StructMatchmakeSession() (in MatchmakeSession) {
     in.Codeword = string(stream.String())
     return
 }
-func (stream *OutputStream) StructMatchmakeSession(out MatchmakeSession) {
-    stream.Struct(out.Base)
-    stream.Struct(out.Base2)
+func (stream *OutputStream) Struct_MatchmakeSession(out MatchmakeSession) {
+    stream.Struct_Structure(out.Base)
+    stream.Struct_Gathering(out.Base2)
     stream.UInt32LE(out.GameMode)
-    stream.List(func (innerStream *OutputStream, data uint32) { innerStream.UInt32LE(data) }, out.Attribs)
+    stream.List_uint32(out.Attribs)
     stream.Bool(out.OpenParticipation)
     stream.UInt32LE(out.MatchmakeSystemType)
     stream.Buffer(out.ApplicationBuffer)
@@ -2181,7 +1921,7 @@ func (stream *OutputStream) StructMatchmakeSession(out MatchmakeSession) {
     stream.UInt8(out.ProgressScore)
     stream.Buffer(out.SessionKey)
     stream.UInt32LE(out.Option0)
-    stream.Struct(out.MatchmakeParam)
+    stream.Struct_MatchmakeParam(out.MatchmakeParam)
     stream.UInt64LE(uint64(out.StartedTime))
     stream.String(string(out.UserPassword))
     stream.UInt32LE(out.ReferGid)
@@ -2190,9 +1930,9 @@ func (stream *OutputStream) StructMatchmakeSession(out MatchmakeSession) {
     stream.String(string(out.Codeword))
     return
 }
-func (stream *InputStream) StructMatchmakeSessionSearchCriteria() (in MatchmakeSessionSearchCriteria) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Attribs = stream.List("String", func (innerStream *InputStream) string { return string(innerStream.String()) }).([]string)
+func (stream *InputStream) Struct_MatchmakeSessionSearchCriteria() (in MatchmakeSessionSearchCriteria) {
+    in.Base = stream.Struct_Structure()
+    in.Attribs = stream.List_string()
     in.GameMode = string(stream.String())
     in.MinParticipants = string(stream.String())
     in.MaxParticipants = string(stream.String())
@@ -2202,17 +1942,17 @@ func (stream *InputStream) StructMatchmakeSessionSearchCriteria() (in MatchmakeS
     in.ExcludeNonHostPid = stream.Bool()
     in.SelectionMethod = stream.UInt32LE()
     in.VacantParticipants = stream.UInt16LE()
-    in.MatchmakeParam = stream.Struct("MatchmakeParam").(MatchmakeParam)
+    in.MatchmakeParam = stream.Struct_MatchmakeParam()
     in.ExcludeUserPasswordSet = stream.Bool()
     in.ExcludeSystemPasswordSet = stream.Bool()
     in.ReferGid = stream.UInt32LE()
     in.Codeword = string(stream.String())
-    in.ResultRange = stream.Struct("ResultRange").(ResultRange)
+    in.ResultRange = stream.Struct_ResultRange()
     return
 }
-func (stream *OutputStream) StructMatchmakeSessionSearchCriteria(out MatchmakeSessionSearchCriteria) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data string) { innerStream.String(string(data)) }, out.Attribs)
+func (stream *OutputStream) Struct_MatchmakeSessionSearchCriteria(out MatchmakeSessionSearchCriteria) {
+    stream.Struct_Structure(out.Base)
+    stream.List_string(out.Attribs)
     stream.String(string(out.GameMode))
     stream.String(string(out.MinParticipants))
     stream.String(string(out.MaxParticipants))
@@ -2222,55 +1962,55 @@ func (stream *OutputStream) StructMatchmakeSessionSearchCriteria(out MatchmakeSe
     stream.Bool(out.ExcludeNonHostPid)
     stream.UInt32LE(out.SelectionMethod)
     stream.UInt16LE(out.VacantParticipants)
-    stream.Struct(out.MatchmakeParam)
+    stream.Struct_MatchmakeParam(out.MatchmakeParam)
     stream.Bool(out.ExcludeUserPasswordSet)
     stream.Bool(out.ExcludeSystemPasswordSet)
     stream.UInt32LE(out.ReferGid)
     stream.String(string(out.Codeword))
-    stream.Struct(out.ResultRange)
+    stream.Struct_ResultRange(out.ResultRange)
     return
 }
-func (stream *InputStream) StructMessageRecipient() (in MessageRecipient) {
+func (stream *InputStream) Struct_MessageRecipient() (in MessageRecipient) {
     in.UiRecipientType = stream.UInt32LE()
     in.PrincipalId = PID(stream.UInt32LE())
     in.GatheringId = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructMessageRecipient(out MessageRecipient) {
+func (stream *OutputStream) Struct_MessageRecipient(out MessageRecipient) {
     stream.UInt32LE(out.UiRecipientType)
     stream.UInt32LE(uint32(out.PrincipalId))
     stream.UInt32LE(out.GatheringId)
     return
 }
-func (stream *InputStream) StructMii() (in Mii) {
+func (stream *InputStream) Struct_Mii() (in Mii) {
     in.Unknown = string(stream.String())
     in.Unknown2 = stream.Bool()
     in.Unknown3 = stream.UInt8()
     in.MiiData = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructMii(out Mii) {
+func (stream *OutputStream) Struct_Mii(out Mii) {
     stream.String(string(out.Unknown))
     stream.Bool(out.Unknown2)
     stream.UInt8(out.Unknown3)
     stream.Buffer(out.MiiData)
     return
 }
-func (stream *InputStream) StructMiiList() (in MiiList) {
+func (stream *InputStream) Struct_MiiList() (in MiiList) {
     in.Unknown = string(stream.String())
     in.Unknown2 = stream.Bool()
     in.Unknown3 = stream.UInt8()
-    in.MiiDataList = stream.List("Buffer", func (innerStream *InputStream) Buffer { return innerStream.Buffer() }).([]Buffer)
+    in.MiiDataList = stream.List_Buffer()
     return
 }
-func (stream *OutputStream) StructMiiList(out MiiList) {
+func (stream *OutputStream) Struct_MiiList(out MiiList) {
     stream.String(string(out.Unknown))
     stream.Bool(out.Unknown2)
     stream.UInt8(out.Unknown3)
-    stream.List(func (innerStream *OutputStream, data Buffer) { innerStream.Buffer(data) }, out.MiiDataList)
+    stream.List_Buffer(out.MiiDataList)
     return
 }
-func (stream *InputStream) StructMiiV2() (in MiiV2) {
+func (stream *InputStream) Struct_MiiV2() (in MiiV2) {
     in.Name = string(stream.String())
     in.Unknown = stream.UInt8()
     in.Unknown2 = stream.UInt8()
@@ -2278,7 +2018,7 @@ func (stream *InputStream) StructMiiV2() (in MiiV2) {
     in.Unknown3 = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructMiiV2(out MiiV2) {
+func (stream *OutputStream) Struct_MiiV2(out MiiV2) {
     stream.String(string(out.Name))
     stream.UInt8(out.Unknown)
     stream.UInt8(out.Unknown2)
@@ -2286,7 +2026,7 @@ func (stream *OutputStream) StructMiiV2(out MiiV2) {
     stream.UInt64LE(uint64(out.Unknown3))
     return
 }
-func (stream *InputStream) StructMyProfile() (in MyProfile) {
+func (stream *InputStream) Struct_MyProfile() (in MyProfile) {
     in.Region = stream.UInt8()
     in.Country = stream.UInt8()
     in.Area = stream.UInt8()
@@ -2297,7 +2037,7 @@ func (stream *InputStream) StructMyProfile() (in MyProfile) {
     in.Unknown3 = string(stream.String())
     return
 }
-func (stream *OutputStream) StructMyProfile(out MyProfile) {
+func (stream *OutputStream) Struct_MyProfile(out MyProfile) {
     stream.UInt8(out.Region)
     stream.UInt8(out.Country)
     stream.UInt8(out.Area)
@@ -2308,50 +2048,50 @@ func (stream *OutputStream) StructMyProfile(out MyProfile) {
     stream.String(string(out.Unknown3))
     return
 }
-func (stream *InputStream) StructNNAInfo() (in NNAInfo) {
-    in.PrincipalBasicInfo = stream.Struct("PrincipalBasicInfo").(PrincipalBasicInfo)
+func (stream *InputStream) Struct_NNAInfo() (in NNAInfo) {
+    in.PrincipalBasicInfo = stream.Struct_PrincipalBasicInfo()
     in.Unknown = stream.UInt8()
     in.Unknown2 = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructNNAInfo(out NNAInfo) {
-    stream.Struct(out.PrincipalBasicInfo)
+func (stream *OutputStream) Struct_NNAInfo(out NNAInfo) {
+    stream.Struct_PrincipalBasicInfo(out.PrincipalBasicInfo)
     stream.UInt8(out.Unknown)
     stream.UInt8(out.Unknown2)
     return
 }
-func (stream *InputStream) StructNintendoNotificationEvent() (in NintendoNotificationEvent) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_NintendoNotificationEvent() (in NintendoNotificationEvent) {
+    in.Base = stream.Struct_Structure()
     in.UiType = stream.UInt32LE()
     in.PidSender = PID(stream.UInt32LE())
-    in.Dataholder = stream.Struct("Data").(Data)
+    in.Dataholder = stream.Struct_Data()
     return
 }
-func (stream *OutputStream) StructNintendoNotificationEvent(out NintendoNotificationEvent) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_NintendoNotificationEvent(out NintendoNotificationEvent) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.UiType)
     stream.UInt32LE(uint32(out.PidSender))
-    stream.Struct(out.Dataholder)
+    stream.Struct_Data(out.Dataholder)
     return
 }
-func (stream *InputStream) StructNintendoNotificationEventGeneral() (in NintendoNotificationEventGeneral) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_NintendoNotificationEventGeneral() (in NintendoNotificationEventGeneral) {
+    in.Base = stream.Struct_Structure()
     in.U32Param = stream.UInt32LE()
     in.U64Param1 = stream.UInt64LE()
     in.U64Param2 = stream.UInt64LE()
     in.StrParam = string(stream.String())
     return
 }
-func (stream *OutputStream) StructNintendoNotificationEventGeneral(out NintendoNotificationEventGeneral) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_NintendoNotificationEventGeneral(out NintendoNotificationEventGeneral) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.U32Param)
     stream.UInt64LE(out.U64Param1)
     stream.UInt64LE(out.U64Param2)
     stream.String(string(out.StrParam))
     return
 }
-func (stream *InputStream) StructNintendoNotificationEventProfile() (in NintendoNotificationEventProfile) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_NintendoNotificationEventProfile() (in NintendoNotificationEventProfile) {
+    in.Base = stream.Struct_Structure()
     in.Region = stream.UInt8()
     in.Country = stream.UInt8()
     in.Area = stream.UInt8()
@@ -2359,8 +2099,8 @@ func (stream *InputStream) StructNintendoNotificationEventProfile() (in Nintendo
     in.Platform = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructNintendoNotificationEventProfile(out NintendoNotificationEventProfile) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_NintendoNotificationEventProfile(out NintendoNotificationEventProfile) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.Region)
     stream.UInt8(out.Country)
     stream.UInt8(out.Area)
@@ -2368,9 +2108,9 @@ func (stream *OutputStream) StructNintendoNotificationEventProfile(out NintendoN
     stream.UInt8(out.Platform)
     return
 }
-func (stream *InputStream) StructNintendoPresence() (in NintendoPresence) {
+func (stream *InputStream) Struct_NintendoPresence() (in NintendoPresence) {
     in.ChangedBitFlag = stream.UInt32LE()
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+    in.GameKey = stream.Struct_GameKey()
     in.GameModeDescription = string(stream.String())
     in.JoinAvailabilityFlag = stream.UInt32LE()
     in.MatchmakeSystemType = stream.UInt8()
@@ -2381,9 +2121,9 @@ func (stream *InputStream) StructNintendoPresence() (in NintendoPresence) {
     in.ApplicationArg = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructNintendoPresence(out NintendoPresence) {
+func (stream *OutputStream) Struct_NintendoPresence(out NintendoPresence) {
     stream.UInt32LE(out.ChangedBitFlag)
-    stream.Struct(out.GameKey)
+    stream.Struct_GameKey(out.GameKey)
     stream.String(string(out.GameModeDescription))
     stream.UInt32LE(out.JoinAvailabilityFlag)
     stream.UInt8(out.MatchmakeSystemType)
@@ -2394,10 +2134,10 @@ func (stream *OutputStream) StructNintendoPresence(out NintendoPresence) {
     stream.Buffer(out.ApplicationArg)
     return
 }
-func (stream *InputStream) StructNintendoPresenceV2() (in NintendoPresenceV2) {
+func (stream *InputStream) Struct_NintendoPresenceV2() (in NintendoPresenceV2) {
     in.ChangedFlags = stream.UInt32LE()
     in.IsOnline = stream.Bool()
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+    in.GameKey = stream.Struct_GameKey()
     in.Unknown1 = stream.UInt8()
     in.Message = string(stream.String())
     in.Unknown2 = stream.UInt32LE()
@@ -2412,10 +2152,10 @@ func (stream *InputStream) StructNintendoPresenceV2() (in NintendoPresenceV2) {
     in.Unknown7 = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructNintendoPresenceV2(out NintendoPresenceV2) {
+func (stream *OutputStream) Struct_NintendoPresenceV2(out NintendoPresenceV2) {
     stream.UInt32LE(out.ChangedFlags)
     stream.Bool(out.IsOnline)
-    stream.Struct(out.GameKey)
+    stream.Struct_GameKey(out.GameKey)
     stream.UInt8(out.Unknown1)
     stream.String(string(out.Message))
     stream.UInt32LE(out.Unknown2)
@@ -2430,8 +2170,8 @@ func (stream *OutputStream) StructNintendoPresenceV2(out NintendoPresenceV2) {
     stream.UInt8(out.Unknown7)
     return
 }
-func (stream *InputStream) StructNotificationEvent() (in NotificationEvent) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_NotificationEvent() (in NotificationEvent) {
+    in.Base = stream.Struct_Structure()
     in.PidSource = PID(stream.UInt32LE())
     in.UiType = stream.UInt32LE()
     in.UiParam1 = stream.UInt32LE()
@@ -2439,8 +2179,8 @@ func (stream *InputStream) StructNotificationEvent() (in NotificationEvent) {
     in.StrParam = string(stream.String())
     return
 }
-func (stream *OutputStream) StructNotificationEvent(out NotificationEvent) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_NotificationEvent(out NotificationEvent) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PidSource))
     stream.UInt32LE(out.UiType)
     stream.UInt32LE(out.UiParam1)
@@ -2448,28 +2188,28 @@ func (stream *OutputStream) StructNotificationEvent(out NotificationEvent) {
     stream.String(string(out.StrParam))
     return
 }
-func (stream *InputStream) StructParticipantDetails() (in ParticipantDetails) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_ParticipantDetails() (in ParticipantDetails) {
+    in.Base = stream.Struct_Structure()
     in.IdParticipant = stream.UInt32LE()
     in.StrName = string(stream.String())
     in.StrMessage = string(stream.String())
     in.UiParticipants = stream.UInt16LE()
     return
 }
-func (stream *OutputStream) StructParticipantDetails(out ParticipantDetails) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_ParticipantDetails(out ParticipantDetails) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.IdParticipant)
     stream.String(string(out.StrName))
     stream.String(string(out.StrMessage))
     stream.UInt16LE(out.UiParticipants)
     return
 }
-func (stream *InputStream) StructPersistentGathering() (in PersistentGathering) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.Base2 = stream.Struct("Gathering").(Gathering)
+func (stream *InputStream) Struct_PersistentGathering() (in PersistentGathering) {
+    in.Base = stream.Struct_Structure()
+    in.Base2 = stream.Struct_Gathering()
     in.CommunityType = stream.UInt32LE()
     in.Password = string(stream.String())
-    in.Attribs = stream.List("Uint32", func (innerStream *InputStream) uint32 { return innerStream.UInt32LE() }).([]uint32)
+    in.Attribs = stream.List_uint32()
     in.ApplicationBuffer = stream.Buffer()
     in.ParticipationStartDate = DateTime(stream.UInt64LE())
     in.ParticipationEndDate = DateTime(stream.UInt64LE())
@@ -2477,12 +2217,12 @@ func (stream *InputStream) StructPersistentGathering() (in PersistentGathering) 
     in.ParticipationCount = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructPersistentGathering(out PersistentGathering) {
-    stream.Struct(out.Base)
-    stream.Struct(out.Base2)
+func (stream *OutputStream) Struct_PersistentGathering(out PersistentGathering) {
+    stream.Struct_Structure(out.Base)
+    stream.Struct_Gathering(out.Base2)
     stream.UInt32LE(out.CommunityType)
     stream.String(string(out.Password))
-    stream.List(func (innerStream *OutputStream, data uint32) { innerStream.UInt32LE(data) }, out.Attribs)
+    stream.List_uint32(out.Attribs)
     stream.Buffer(out.ApplicationBuffer)
     stream.UInt64LE(uint64(out.ParticipationStartDate))
     stream.UInt64LE(uint64(out.ParticipationEndDate))
@@ -2490,7 +2230,7 @@ func (stream *OutputStream) StructPersistentGathering(out PersistentGathering) {
     stream.UInt32LE(out.ParticipationCount)
     return
 }
-func (stream *InputStream) StructPersistentNotification() (in PersistentNotification) {
+func (stream *InputStream) Struct_PersistentNotification() (in PersistentNotification) {
     in.Unknown = stream.UInt64LE()
     in.Unknown2 = stream.UInt32LE()
     in.Unknown3 = stream.UInt32LE()
@@ -2498,7 +2238,7 @@ func (stream *InputStream) StructPersistentNotification() (in PersistentNotifica
     in.Unknown5 = string(stream.String())
     return
 }
-func (stream *OutputStream) StructPersistentNotification(out PersistentNotification) {
+func (stream *OutputStream) Struct_PersistentNotification(out PersistentNotification) {
     stream.UInt64LE(out.Unknown)
     stream.UInt32LE(out.Unknown2)
     stream.UInt32LE(out.Unknown3)
@@ -2506,104 +2246,104 @@ func (stream *OutputStream) StructPersistentNotification(out PersistentNotificat
     stream.String(string(out.Unknown5))
     return
 }
-func (stream *InputStream) StructPlayedGame() (in PlayedGame) {
-    in.GameKey = stream.Struct("GameKey").(GameKey)
+func (stream *InputStream) Struct_PlayedGame() (in PlayedGame) {
+    in.GameKey = stream.Struct_GameKey()
     in.DateTime = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructPlayedGame(out PlayedGame) {
-    stream.Struct(out.GameKey)
+func (stream *OutputStream) Struct_PlayedGame(out PlayedGame) {
+    stream.Struct_GameKey(out.GameKey)
     stream.UInt64LE(uint64(out.DateTime))
     return
 }
-func (stream *InputStream) StructPlayingSession() (in PlayingSession) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_PlayingSession() (in PlayingSession) {
+    in.Base = stream.Struct_Structure()
     in.PrincipalId = PID(stream.UInt32LE())
-    in.Gathering = stream.Struct("Data").(Data)
+    in.Gathering = stream.Struct_Data()
     return
 }
-func (stream *OutputStream) StructPlayingSession(out PlayingSession) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_PlayingSession(out PlayingSession) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PrincipalId))
-    stream.Struct(out.Gathering)
+    stream.Struct_Data(out.Gathering)
     return
 }
-func (stream *InputStream) StructPrincipalBasicInfo() (in PrincipalBasicInfo) {
+func (stream *InputStream) Struct_PrincipalBasicInfo() (in PrincipalBasicInfo) {
     in.Pid = PID(stream.UInt32LE())
     in.NNID = string(stream.String())
-    in.Mii = stream.Struct("MiiV2").(MiiV2)
+    in.Mii = stream.Struct_MiiV2()
     in.Unknown = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructPrincipalBasicInfo(out PrincipalBasicInfo) {
+func (stream *OutputStream) Struct_PrincipalBasicInfo(out PrincipalBasicInfo) {
     stream.UInt32LE(uint32(out.Pid))
     stream.String(string(out.NNID))
-    stream.Struct(out.Mii)
+    stream.Struct_MiiV2(out.Mii)
     stream.UInt8(out.Unknown)
     return
 }
-func (stream *InputStream) StructPrincipalPreference() (in PrincipalPreference) {
+func (stream *InputStream) Struct_PrincipalPreference() (in PrincipalPreference) {
     in.Unknown = stream.Bool()
     in.Unknown2 = stream.Bool()
     in.Unknown3 = stream.Bool()
     return
 }
-func (stream *OutputStream) StructPrincipalPreference(out PrincipalPreference) {
+func (stream *OutputStream) Struct_PrincipalPreference(out PrincipalPreference) {
     stream.Bool(out.Unknown)
     stream.Bool(out.Unknown2)
     stream.Bool(out.Unknown3)
     return
 }
-func (stream *InputStream) StructPrincipalRequestBlockSetting() (in PrincipalRequestBlockSetting) {
+func (stream *InputStream) Struct_PrincipalRequestBlockSetting() (in PrincipalRequestBlockSetting) {
     in.Unknown = stream.UInt32LE()
     in.Unknown2 = stream.Bool()
     return
 }
-func (stream *OutputStream) StructPrincipalRequestBlockSetting(out PrincipalRequestBlockSetting) {
+func (stream *OutputStream) Struct_PrincipalRequestBlockSetting(out PrincipalRequestBlockSetting) {
     stream.UInt32LE(out.Unknown)
     stream.Bool(out.Unknown2)
     return
 }
-func (stream *InputStream) StructRVConnectionData() (in RVConnectionData) {
+func (stream *InputStream) Struct_RVConnectionData() (in RVConnectionData) {
     in.UrlRegularProtocols = string(stream.String())
-    in.LstSpecialProtocols = stream.List("byte", func (innerStream *InputStream) uint8 { return innerStream.UInt8() }).([]uint8)
+    in.LstSpecialProtocols = stream.List_uint8()
     in.UrlSpecialProtocols = string(stream.String())
     return
 }
-func (stream *OutputStream) StructRVConnectionData(out RVConnectionData) {
+func (stream *OutputStream) Struct_RVConnectionData(out RVConnectionData) {
     stream.String(string(out.UrlRegularProtocols))
-    stream.List(func (innerStream *OutputStream, data uint8) { innerStream.UInt8(data) }, out.LstSpecialProtocols)
+    stream.List_uint8(out.LstSpecialProtocols)
     stream.String(string(out.UrlSpecialProtocols))
     return
 }
-func (stream *InputStream) StructRankingCachedResult() (in RankingCachedResult) {
+func (stream *InputStream) Struct_RankingCachedResult() (in RankingCachedResult) {
     in.CreatedTime = DateTime(stream.UInt64LE())
     in.ExpiredTime = DateTime(stream.UInt64LE())
     in.MaxLength = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructRankingCachedResult(out RankingCachedResult) {
+func (stream *OutputStream) Struct_RankingCachedResult(out RankingCachedResult) {
     stream.UInt64LE(uint64(out.CreatedTime))
     stream.UInt64LE(uint64(out.ExpiredTime))
     stream.UInt8(out.MaxLength)
     return
 }
-func (stream *InputStream) StructRankingChangeAttributesParam() (in RankingChangeAttributesParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_RankingChangeAttributesParam() (in RankingChangeAttributesParam) {
+    in.Base = stream.Struct_Structure()
     in.ModificationFlag = stream.UInt8()
-    in.Groups = stream.List("Uint8", func (innerStream *InputStream) uint8 { return innerStream.UInt8() }).([]uint8)
+    in.Groups = stream.List_uint8()
     in.Param = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructRankingChangeAttributesParam(out RankingChangeAttributesParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_RankingChangeAttributesParam(out RankingChangeAttributesParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.ModificationFlag)
-    stream.List(func (innerStream *OutputStream, data uint8) { innerStream.UInt8(data) }, out.Groups)
+    stream.List_uint8(out.Groups)
     stream.UInt64LE(out.Param)
     return
 }
-func (stream *InputStream) StructRankingOrderParam() (in RankingOrderParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_RankingOrderParam() (in RankingOrderParam) {
+    in.Base = stream.Struct_Structure()
     in.OrderCalculation = stream.UInt8()
     in.GroupIndex = stream.UInt8()
     in.GroupNum = stream.UInt8()
@@ -2612,8 +2352,8 @@ func (stream *InputStream) StructRankingOrderParam() (in RankingOrderParam) {
     in.Length = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructRankingOrderParam(out RankingOrderParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_RankingOrderParam(out RankingOrderParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt8(out.OrderCalculation)
     stream.UInt8(out.GroupIndex)
     stream.UInt8(out.GroupNum)
@@ -2622,79 +2362,79 @@ func (stream *OutputStream) StructRankingOrderParam(out RankingOrderParam) {
     stream.UInt8(out.Length)
     return
 }
-func (stream *InputStream) StructRankingRankData() (in RankingRankData) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_RankingRankData() (in RankingRankData) {
+    in.Base = stream.Struct_Structure()
     in.PrincipalId = PID(stream.UInt32LE())
     in.UniqueId = stream.UInt64LE()
     in.Order = stream.UInt32LE()
     in.Category = stream.UInt32LE()
     in.Score = stream.UInt32LE()
-    in.Groups = stream.List("byte", func (innerStream *InputStream) uint8 { return innerStream.UInt8() }).([]uint8)
+    in.Groups = stream.List_uint8()
     in.Param = stream.UInt64LE()
     in.CommonData = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructRankingRankData(out RankingRankData) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_RankingRankData(out RankingRankData) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PrincipalId))
     stream.UInt64LE(out.UniqueId)
     stream.UInt32LE(out.Order)
     stream.UInt32LE(out.Category)
     stream.UInt32LE(out.Score)
-    stream.List(func (innerStream *OutputStream, data uint8) { innerStream.UInt8(data) }, out.Groups)
+    stream.List_uint8(out.Groups)
     stream.UInt64LE(out.Param)
     stream.Buffer(out.CommonData)
     return
 }
-func (stream *InputStream) StructRankingResult() (in RankingResult) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.RankDataList = stream.List("RankingRankData", func (innerStream *InputStream) RankingRankData { return innerStream.Struct("RankingRankData").(RankingRankData) }).([]RankingRankData)
+func (stream *InputStream) Struct_RankingResult() (in RankingResult) {
+    in.Base = stream.Struct_Structure()
+    in.RankDataList = stream.List_RankingRankData()
     in.TotalCount = stream.UInt32LE()
     in.SinceTime = DateTime(stream.UInt64LE())
     return
 }
-func (stream *OutputStream) StructRankingResult(out RankingResult) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data RankingRankData) { innerStream.Struct(data) }, out.RankDataList)
+func (stream *OutputStream) Struct_RankingResult(out RankingResult) {
+    stream.Struct_Structure(out.Base)
+    stream.List_RankingRankData(out.RankDataList)
     stream.UInt32LE(out.TotalCount)
     stream.UInt64LE(uint64(out.SinceTime))
     return
 }
-func (stream *InputStream) StructRankingScoreData() (in RankingScoreData) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_RankingScoreData() (in RankingScoreData) {
+    in.Base = stream.Struct_Structure()
     in.PrincipalId = PID(stream.UInt32LE())
     in.UniqueId = stream.UInt64LE()
     in.Order = stream.UInt32LE()
     in.Category = stream.UInt32LE()
     in.Score = stream.UInt32LE()
-    in.Groups = stream.List("byte", func (innerStream *InputStream) uint8 { return innerStream.UInt8() }).([]uint8)
+    in.Groups = stream.List_uint8()
     in.Param = stream.UInt64LE()
     in.CommonData = stream.Buffer()
     return
 }
-func (stream *OutputStream) StructRankingScoreData(out RankingScoreData) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_RankingScoreData(out RankingScoreData) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PrincipalId))
     stream.UInt64LE(out.UniqueId)
     stream.UInt32LE(out.Order)
     stream.UInt32LE(out.Category)
     stream.UInt32LE(out.Score)
-    stream.List(func (innerStream *OutputStream, data uint8) { innerStream.UInt8(data) }, out.Groups)
+    stream.List_uint8(out.Groups)
     stream.UInt64LE(out.Param)
     stream.Buffer(out.CommonData)
     return
 }
-func (stream *InputStream) StructRankingStats() (in RankingStats) {
-    in.Base = stream.Struct("Structure").(Structure)
-    in.StatsList = stream.List("Double", func (innerStream *InputStream) float64 { return innerStream.Float64LE() }).([]float64)
+func (stream *InputStream) Struct_RankingStats() (in RankingStats) {
+    in.Base = stream.Struct_Structure()
+    in.StatsList = stream.List_float64()
     return
 }
-func (stream *OutputStream) StructRankingStats(out RankingStats) {
-    stream.Struct(out.Base)
-    stream.List(func (innerStream *OutputStream, data float64) { innerStream.Float64LE(data) }, out.StatsList)
+func (stream *OutputStream) Struct_RankingStats(out RankingStats) {
+    stream.Struct_Structure(out.Base)
+    stream.List_float64(out.StatsList)
     return
 }
-func (stream *InputStream) StructRelationshipData() (in RelationshipData) {
+func (stream *InputStream) Struct_RelationshipData() (in RelationshipData) {
     in.Pid = stream.UInt32LE()
     in.StrName = string(stream.String())
     in.ByRelationship = stream.UInt8()
@@ -2702,7 +2442,7 @@ func (stream *InputStream) StructRelationshipData() (in RelationshipData) {
     in.ByStatus = stream.UInt8()
     return
 }
-func (stream *OutputStream) StructRelationshipData(out RelationshipData) {
+func (stream *OutputStream) Struct_RelationshipData(out RelationshipData) {
     stream.UInt32LE(out.Pid)
     stream.String(string(out.StrName))
     stream.UInt8(out.ByRelationship)
@@ -2710,73 +2450,73 @@ func (stream *OutputStream) StructRelationshipData(out RelationshipData) {
     stream.UInt8(out.ByStatus)
     return
 }
-func (stream *InputStream) StructResultRange() (in ResultRange) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_ResultRange() (in ResultRange) {
+    in.Base = stream.Struct_Structure()
     in.UiOffset = stream.UInt32LE()
     in.UiSize = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructResultRange(out ResultRange) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_ResultRange(out ResultRange) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.UiOffset)
     stream.UInt32LE(out.UiSize)
     return
 }
-func (stream *InputStream) StructSimpleCommunity() (in SimpleCommunity) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_SimpleCommunity() (in SimpleCommunity) {
+    in.Base = stream.Struct_Structure()
     in.GatheringID = stream.UInt32LE()
     in.MatchmakeSessionCount = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructSimpleCommunity(out SimpleCommunity) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_SimpleCommunity(out SimpleCommunity) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.GatheringID)
     stream.UInt32LE(out.MatchmakeSessionCount)
     return
 }
-func (stream *InputStream) StructSimplePlayingSession() (in SimplePlayingSession) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_SimplePlayingSession() (in SimplePlayingSession) {
+    in.Base = stream.Struct_Structure()
     in.PrincipalID = PID(stream.UInt32LE())
     in.GatheringID = stream.UInt32LE()
     in.GameMode = stream.UInt32LE()
     in.Attribute_0 = stream.UInt32LE()
     return
 }
-func (stream *OutputStream) StructSimplePlayingSession(out SimplePlayingSession) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_SimplePlayingSession(out SimplePlayingSession) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(uint32(out.PrincipalID))
     stream.UInt32LE(out.GatheringID)
     stream.UInt32LE(out.GameMode)
     stream.UInt32LE(out.Attribute_0)
     return
 }
-func (stream *InputStream) StructStructure() (in Structure) {
+func (stream *InputStream) Struct_Structure() (in Structure) {
     return
 }
-func (stream *OutputStream) StructStructure(out Structure) {
+func (stream *OutputStream) Struct_Structure(out Structure) {
     return
 }
-func (stream *InputStream) StructUniqueIdInfo() (in UniqueIdInfo) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_UniqueIdInfo() (in UniqueIdInfo) {
+    in.Base = stream.Struct_Structure()
     in.NexUniqueId = stream.UInt64LE()
     in.NexUniqueIdPassword = stream.UInt64LE()
     return
 }
-func (stream *OutputStream) StructUniqueIdInfo(out UniqueIdInfo) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_UniqueIdInfo(out UniqueIdInfo) {
+    stream.Struct_Structure(out.Base)
     stream.UInt64LE(out.NexUniqueId)
     stream.UInt64LE(out.NexUniqueIdPassword)
     return
 }
-func (stream *InputStream) StructUpdateMatchmakeSessionParam() (in UpdateMatchmakeSessionParam) {
-    in.Base = stream.Struct("Structure").(Structure)
+func (stream *InputStream) Struct_UpdateMatchmakeSessionParam() (in UpdateMatchmakeSessionParam) {
+    in.Base = stream.Struct_Structure()
     in.Gid = stream.UInt32LE()
     in.ModificationFlag = stream.UInt32LE()
-    in.Attributes = stream.List("Uint32", func (innerStream *InputStream) uint32 { return innerStream.UInt32LE() }).([]uint32)
+    in.Attributes = stream.List_uint32()
     in.OpenParticipation = stream.Bool()
     in.ApplicationBuffer = stream.Buffer()
     in.ProgressScore = stream.UInt8()
-    in.MatchmakeParam = stream.Struct("MatchmakeParam").(MatchmakeParam)
+    in.MatchmakeParam = stream.Struct_MatchmakeParam()
     in.StartedTime = DateTime(stream.UInt64LE())
     in.UserPassword = string(stream.String())
     in.GameMode = stream.UInt32LE()
@@ -2789,15 +2529,15 @@ func (stream *InputStream) StructUpdateMatchmakeSessionParam() (in UpdateMatchma
     in.Codeword = string(stream.String())
     return
 }
-func (stream *OutputStream) StructUpdateMatchmakeSessionParam(out UpdateMatchmakeSessionParam) {
-    stream.Struct(out.Base)
+func (stream *OutputStream) Struct_UpdateMatchmakeSessionParam(out UpdateMatchmakeSessionParam) {
+    stream.Struct_Structure(out.Base)
     stream.UInt32LE(out.Gid)
     stream.UInt32LE(out.ModificationFlag)
-    stream.List(func (innerStream *OutputStream, data uint32) { innerStream.UInt32LE(data) }, out.Attributes)
+    stream.List_uint32(out.Attributes)
     stream.Bool(out.OpenParticipation)
     stream.Buffer(out.ApplicationBuffer)
     stream.UInt8(out.ProgressScore)
-    stream.Struct(out.MatchmakeParam)
+    stream.Struct_MatchmakeParam(out.MatchmakeParam)
     stream.UInt64LE(uint64(out.StartedTime))
     stream.String(string(out.UserPassword))
     stream.UInt32LE(out.GameMode)
@@ -2810,7 +2550,7 @@ func (stream *OutputStream) StructUpdateMatchmakeSessionParam(out UpdateMatchmak
     stream.String(string(out.Codeword))
     return
 }
-func (stream *InputStream) StructUserMessage() (in UserMessage) {
+func (stream *InputStream) Struct_UserMessage() (in UserMessage) {
     in.UiID = stream.UInt32LE()
     in.UiParentID = stream.UInt32LE()
     in.PidSender = PID(stream.UInt32LE())
@@ -2819,10 +2559,10 @@ func (stream *InputStream) StructUserMessage() (in UserMessage) {
     in.UiFlags = stream.UInt32LE()
     in.StrSubject = string(stream.String())
     in.StrSender = string(stream.String())
-    in.MessageRecipient = stream.Struct("MessageRecipient").(MessageRecipient)
+    in.MessageRecipient = stream.Struct_MessageRecipient()
     return
 }
-func (stream *OutputStream) StructUserMessage(out UserMessage) {
+func (stream *OutputStream) Struct_UserMessage(out UserMessage) {
     stream.UInt32LE(out.UiID)
     stream.UInt32LE(out.UiParentID)
     stream.UInt32LE(uint32(out.PidSender))
@@ -2831,980 +2571,1364 @@ func (stream *OutputStream) StructUserMessage(out UserMessage) {
     stream.UInt32LE(out.UiFlags)
     stream.String(string(out.StrSubject))
     stream.String(string(out.StrSender))
-    stream.Struct(out.MessageRecipient)
+    stream.Struct_MessageRecipient(out.MessageRecipient)
     return
 }
-func (stream *InputStream) ListBasicAccountInfo(cb func(*InputStream)BasicAccountInfo) []BasicAccountInfo {
+func (stream *InputStream) List_BasicAccountInfo() []BasicAccountInfo {
     list_len := int(stream.UInt32LE())
     list := make([]BasicAccountInfo, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_BasicAccountInfo()
 	}
 	return list
 }
-func (stream *OutputStream) ListBasicAccountInfo(cb func(*OutputStream,BasicAccountInfo)(), out []BasicAccountInfo) () {
+func (stream *OutputStream) List_BasicAccountInfo(out []BasicAccountInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_BasicAccountInfo(item)
 	}
 	return
 }
-func (stream *InputStream) ListBlacklistedPrincipal(cb func(*InputStream)BlacklistedPrincipal) []BlacklistedPrincipal {
+func (stream *InputStream) List_BlacklistedPrincipal() []BlacklistedPrincipal {
     list_len := int(stream.UInt32LE())
     list := make([]BlacklistedPrincipal, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_BlacklistedPrincipal()
 	}
 	return list
 }
-func (stream *OutputStream) ListBlacklistedPrincipal(cb func(*OutputStream,BlacklistedPrincipal)(), out []BlacklistedPrincipal) () {
+func (stream *OutputStream) List_BlacklistedPrincipal(out []BlacklistedPrincipal) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_BlacklistedPrincipal(item)
 	}
 	return
 }
-func (stream *InputStream) ListBuffer(cb func(*InputStream)Buffer) []Buffer {
+func (stream *InputStream) List_Buffer() []Buffer {
     list_len := int(stream.UInt32LE())
     list := make([]Buffer, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Buffer()
 	}
 	return list
 }
-func (stream *OutputStream) ListBuffer(cb func(*OutputStream,Buffer)(), out []Buffer) () {
+func (stream *OutputStream) List_Buffer(out []Buffer) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Buffer(item)
 	}
 	return
 }
-func (stream *InputStream) ListBufferQueueParam(cb func(*InputStream)BufferQueueParam) []BufferQueueParam {
+func (stream *InputStream) List_BufferQueueParam() []BufferQueueParam {
     list_len := int(stream.UInt32LE())
     list := make([]BufferQueueParam, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_BufferQueueParam()
 	}
 	return list
 }
-func (stream *OutputStream) ListBufferQueueParam(cb func(*OutputStream,BufferQueueParam)(), out []BufferQueueParam) () {
+func (stream *OutputStream) List_BufferQueueParam(out []BufferQueueParam) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_BufferQueueParam(item)
 	}
 	return
 }
-func (stream *InputStream) ListConnectionData(cb func(*InputStream)ConnectionData) []ConnectionData {
+func (stream *InputStream) List_ConnectionData() []ConnectionData {
     list_len := int(stream.UInt32LE())
     list := make([]ConnectionData, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_ConnectionData()
 	}
 	return list
 }
-func (stream *OutputStream) ListConnectionData(cb func(*OutputStream,ConnectionData)(), out []ConnectionData) () {
+func (stream *OutputStream) List_ConnectionData(out []ConnectionData) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_ConnectionData(item)
 	}
 	return
 }
-func (stream *InputStream) ListData(cb func(*InputStream)Data) []Data {
+func (stream *InputStream) List_Data() []Data {
     list_len := int(stream.UInt32LE())
     list := make([]Data, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_Data()
 	}
 	return list
 }
-func (stream *OutputStream) ListData(cb func(*OutputStream,Data)(), out []Data) () {
+func (stream *OutputStream) List_Data(out []Data) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_Data(item)
 	}
 	return
 }
-func (stream *InputStream) ListDeletionEntry(cb func(*InputStream)DeletionEntry) []DeletionEntry {
+func (stream *InputStream) List_DataStoreChangeMetaParam() []DataStoreChangeMetaParam {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreChangeMetaParam, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreChangeMetaParam()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreChangeMetaParam(out []DataStoreChangeMetaParam) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreChangeMetaParam(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreChangeMetaParamV1() []DataStoreChangeMetaParamV1 {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreChangeMetaParamV1, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreChangeMetaParamV1()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreChangeMetaParamV1(out []DataStoreChangeMetaParamV1) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreChangeMetaParamV1(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreDeleteParam() []DataStoreDeleteParam {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreDeleteParam, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreDeleteParam()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreDeleteParam(out []DataStoreDeleteParam) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreDeleteParam(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreFetchMyInfosBalloonResult() []DataStoreFetchMyInfosBalloonResult {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreFetchMyInfosBalloonResult, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreFetchMyInfosBalloonResult()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreFetchMyInfosBalloonResult(out []DataStoreFetchMyInfosBalloonResult) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreFetchMyInfosBalloonResult(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreGetMetaParam() []DataStoreGetMetaParam {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreGetMetaParam, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreGetMetaParam()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreGetMetaParam(out []DataStoreGetMetaParam) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreGetMetaParam(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreKeyValue() []DataStoreKeyValue {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreKeyValue, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreKeyValue()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreKeyValue(out []DataStoreKeyValue) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreKeyValue(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreMetaInfo() []DataStoreMetaInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreMetaInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreMetaInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreMetaInfo(out []DataStoreMetaInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreMetaInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreNotification() []DataStoreNotification {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreNotification, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreNotification()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreNotification(out []DataStoreNotification) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreNotification(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreNotificationV1() []DataStoreNotificationV1 {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreNotificationV1, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreNotificationV1()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreNotificationV1(out []DataStoreNotificationV1) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreNotificationV1(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStorePasswordInfo() []DataStorePasswordInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStorePasswordInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStorePasswordInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStorePasswordInfo(out []DataStorePasswordInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStorePasswordInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStorePersistenceInfo() []DataStorePersistenceInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStorePersistenceInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStorePersistenceInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStorePersistenceInfo(out []DataStorePersistenceInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStorePersistenceInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStorePreparePostParam() []DataStorePreparePostParam {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStorePreparePostParam, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStorePreparePostParam()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStorePreparePostParam(out []DataStorePreparePostParam) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStorePreparePostParam(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreRateObjectParam() []DataStoreRateObjectParam {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreRateObjectParam, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreRateObjectParam()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreRateObjectParam(out []DataStoreRateObjectParam) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreRateObjectParam(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreRatingInfo() []DataStoreRatingInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreRatingInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreRatingInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreRatingInfo(out []DataStoreRatingInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreRatingInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreRatingInfoWithSlot() []DataStoreRatingInfoWithSlot {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreRatingInfoWithSlot, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreRatingInfoWithSlot()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreRatingInfoWithSlot(out []DataStoreRatingInfoWithSlot) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreRatingInfoWithSlot(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreRatingInitParamWithSlot() []DataStoreRatingInitParamWithSlot {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreRatingInitParamWithSlot, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreRatingInitParamWithSlot()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreRatingInitParamWithSlot(out []DataStoreRatingInitParamWithSlot) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreRatingInitParamWithSlot(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreRatingTarget() []DataStoreRatingTarget {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreRatingTarget, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreRatingTarget()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreRatingTarget(out []DataStoreRatingTarget) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreRatingTarget(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreReqGetInfo() []DataStoreReqGetInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreReqGetInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreReqGetInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreReqGetInfo(out []DataStoreReqGetInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreReqGetInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreSearchBalloonResult() []DataStoreSearchBalloonResult {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreSearchBalloonResult, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreSearchBalloonResult()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreSearchBalloonResult(out []DataStoreSearchBalloonResult) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreSearchBalloonResult(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreSearchBalloonResultSet() []DataStoreSearchBalloonResultSet {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreSearchBalloonResultSet, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreSearchBalloonResultSet()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreSearchBalloonResultSet(out []DataStoreSearchBalloonResultSet) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreSearchBalloonResultSet(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreSpecificMetaInfo() []DataStoreSpecificMetaInfo {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreSpecificMetaInfo, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreSpecificMetaInfo()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreSpecificMetaInfo(out []DataStoreSpecificMetaInfo) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreSpecificMetaInfo(item)
+	}
+	return
+}
+func (stream *InputStream) List_DataStoreSpecificMetaInfoV1() []DataStoreSpecificMetaInfoV1 {
+    list_len := int(stream.UInt32LE())
+    list := make([]DataStoreSpecificMetaInfoV1, list_len)
+    for i := 0; i < list_len; i++ {
+		list[i] = stream.Struct_DataStoreSpecificMetaInfoV1()
+	}
+	return list
+}
+func (stream *OutputStream) List_DataStoreSpecificMetaInfoV1(out []DataStoreSpecificMetaInfoV1) () {
+
+	length := len(out)
+    stream.UInt32LE(uint32(length))
+    for _, item := range out {
+		stream.Struct_DataStoreSpecificMetaInfoV1(item)
+	}
+	return
+}
+func (stream *InputStream) List_DeletionEntry() []DeletionEntry {
     list_len := int(stream.UInt32LE())
     list := make([]DeletionEntry, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_DeletionEntry()
 	}
 	return list
 }
-func (stream *OutputStream) ListDeletionEntry(cb func(*OutputStream,DeletionEntry)(), out []DeletionEntry) () {
+func (stream *OutputStream) List_DeletionEntry(out []DeletionEntry) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_DeletionEntry(item)
 	}
 	return
 }
-func (stream *InputStream) ListDouble(cb func(*InputStream)float64) []float64 {
+func (stream *InputStream) List_float64() []float64 {
     list_len := int(stream.UInt32LE())
     list := make([]float64, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Float64LE()
 	}
 	return list
 }
-func (stream *OutputStream) ListDouble(cb func(*OutputStream,float64)(), out []float64) () {
+func (stream *OutputStream) List_float64(out []float64) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Float64LE(item)
 	}
 	return
 }
-func (stream *InputStream) ListFindMatchmakeSessionByParticipantResult(cb func(*InputStream)FindMatchmakeSessionByParticipantResult) []FindMatchmakeSessionByParticipantResult {
+func (stream *InputStream) List_FindMatchmakeSessionByParticipantResult() []FindMatchmakeSessionByParticipantResult {
     list_len := int(stream.UInt32LE())
     list := make([]FindMatchmakeSessionByParticipantResult, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FindMatchmakeSessionByParticipantResult()
 	}
 	return list
 }
-func (stream *OutputStream) ListFindMatchmakeSessionByParticipantResult(cb func(*OutputStream,FindMatchmakeSessionByParticipantResult)(), out []FindMatchmakeSessionByParticipantResult) () {
+func (stream *OutputStream) List_FindMatchmakeSessionByParticipantResult(out []FindMatchmakeSessionByParticipantResult) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FindMatchmakeSessionByParticipantResult(item)
 	}
 	return
 }
-func (stream *InputStream) ListFloat(cb func(*InputStream)float32) []float32 {
+func (stream *InputStream) List_float32() []float32 {
     list_len := int(stream.UInt32LE())
     list := make([]float32, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Float32LE()
 	}
 	return list
 }
-func (stream *OutputStream) ListFloat(cb func(*OutputStream,float32)(), out []float32) () {
+func (stream *OutputStream) List_float32(out []float32) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Float32LE(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendData(cb func(*InputStream)FriendData) []FriendData {
+func (stream *InputStream) List_FriendData() []FriendData {
     list_len := int(stream.UInt32LE())
     list := make([]FriendData, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendData()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendData(cb func(*OutputStream,FriendData)(), out []FriendData) () {
+func (stream *OutputStream) List_FriendData(out []FriendData) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendData(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendInfo(cb func(*InputStream)FriendInfo) []FriendInfo {
+func (stream *InputStream) List_FriendInfo() []FriendInfo {
     list_len := int(stream.UInt32LE())
     list := make([]FriendInfo, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendInfo()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendInfo(cb func(*OutputStream,FriendInfo)(), out []FriendInfo) () {
+func (stream *OutputStream) List_FriendInfo(out []FriendInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendInfo(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendMii(cb func(*InputStream)FriendMii) []FriendMii {
+func (stream *InputStream) List_FriendMii() []FriendMii {
     list_len := int(stream.UInt32LE())
     list := make([]FriendMii, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendMii()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendMii(cb func(*OutputStream,FriendMii)(), out []FriendMii) () {
+func (stream *OutputStream) List_FriendMii(out []FriendMii) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendMii(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendMiiList(cb func(*InputStream)FriendMiiList) []FriendMiiList {
+func (stream *InputStream) List_FriendMiiList() []FriendMiiList {
     list_len := int(stream.UInt32LE())
     list := make([]FriendMiiList, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendMiiList()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendMiiList(cb func(*OutputStream,FriendMiiList)(), out []FriendMiiList) () {
+func (stream *OutputStream) List_FriendMiiList(out []FriendMiiList) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendMiiList(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendMiiRequest(cb func(*InputStream)FriendMiiRequest) []FriendMiiRequest {
+func (stream *InputStream) List_FriendMiiRequest() []FriendMiiRequest {
     list_len := int(stream.UInt32LE())
     list := make([]FriendMiiRequest, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendMiiRequest()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendMiiRequest(cb func(*OutputStream,FriendMiiRequest)(), out []FriendMiiRequest) () {
+func (stream *OutputStream) List_FriendMiiRequest(out []FriendMiiRequest) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendMiiRequest(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendPersistentInfo(cb func(*InputStream)FriendPersistentInfo) []FriendPersistentInfo {
+func (stream *InputStream) List_FriendPersistentInfo() []FriendPersistentInfo {
     list_len := int(stream.UInt32LE())
     list := make([]FriendPersistentInfo, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendPersistentInfo()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendPersistentInfo(cb func(*OutputStream,FriendPersistentInfo)(), out []FriendPersistentInfo) () {
+func (stream *OutputStream) List_FriendPersistentInfo(out []FriendPersistentInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendPersistentInfo(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendPicture(cb func(*InputStream)FriendPicture) []FriendPicture {
+func (stream *InputStream) List_FriendPicture() []FriendPicture {
     list_len := int(stream.UInt32LE())
     list := make([]FriendPicture, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendPicture()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendPicture(cb func(*OutputStream,FriendPicture)(), out []FriendPicture) () {
+func (stream *OutputStream) List_FriendPicture(out []FriendPicture) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendPicture(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendPresence(cb func(*InputStream)FriendPresence) []FriendPresence {
+func (stream *InputStream) List_FriendPresence() []FriendPresence {
     list_len := int(stream.UInt32LE())
     list := make([]FriendPresence, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendPresence()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendPresence(cb func(*OutputStream,FriendPresence)(), out []FriendPresence) () {
+func (stream *OutputStream) List_FriendPresence(out []FriendPresence) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendPresence(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendRelationship(cb func(*InputStream)FriendRelationship) []FriendRelationship {
+func (stream *InputStream) List_FriendRelationship() []FriendRelationship {
     list_len := int(stream.UInt32LE())
     list := make([]FriendRelationship, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendRelationship()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendRelationship(cb func(*OutputStream,FriendRelationship)(), out []FriendRelationship) () {
+func (stream *OutputStream) List_FriendRelationship(out []FriendRelationship) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendRelationship(item)
 	}
 	return
 }
-func (stream *InputStream) ListFriendRequest(cb func(*InputStream)FriendRequest) []FriendRequest {
+func (stream *InputStream) List_FriendRequest() []FriendRequest {
     list_len := int(stream.UInt32LE())
     list := make([]FriendRequest, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_FriendRequest()
 	}
 	return list
 }
-func (stream *OutputStream) ListFriendRequest(cb func(*OutputStream,FriendRequest)(), out []FriendRequest) () {
+func (stream *OutputStream) List_FriendRequest(out []FriendRequest) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_FriendRequest(item)
 	}
 	return
 }
-func (stream *InputStream) ListGatheringStats(cb func(*InputStream)GatheringStats) []GatheringStats {
+func (stream *InputStream) List_GatheringStats() []GatheringStats {
     list_len := int(stream.UInt32LE())
     list := make([]GatheringStats, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_GatheringStats()
 	}
 	return list
 }
-func (stream *OutputStream) ListGatheringStats(cb func(*OutputStream,GatheringStats)(), out []GatheringStats) () {
+func (stream *OutputStream) List_GatheringStats(out []GatheringStats) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_GatheringStats(item)
 	}
 	return
 }
-func (stream *InputStream) ListGatheringURLs(cb func(*InputStream)GatheringURLs) []GatheringURLs {
+func (stream *InputStream) List_GatheringURLs() []GatheringURLs {
     list_len := int(stream.UInt32LE())
     list := make([]GatheringURLs, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_GatheringURLs()
 	}
 	return list
 }
-func (stream *OutputStream) ListGatheringURLs(cb func(*OutputStream,GatheringURLs)(), out []GatheringURLs) () {
+func (stream *OutputStream) List_GatheringURLs(out []GatheringURLs) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_GatheringURLs(item)
 	}
 	return
 }
-func (stream *InputStream) ListInvitation(cb func(*InputStream)Invitation) []Invitation {
+func (stream *InputStream) List_Invitation() []Invitation {
     list_len := int(stream.UInt32LE())
     list := make([]Invitation, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_Invitation()
 	}
 	return list
 }
-func (stream *OutputStream) ListInvitation(cb func(*OutputStream,Invitation)(), out []Invitation) () {
+func (stream *OutputStream) List_Invitation(out []Invitation) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_Invitation(item)
 	}
 	return
 }
-func (stream *InputStream) ListList_DataStoreRatingInfoWithSlot_(cb func(*InputStream)[]DataStoreRatingInfoWithSlot) [][]DataStoreRatingInfoWithSlot {
+func (stream *InputStream) List_List_DataStoreRatingInfoWithSlot() [][]DataStoreRatingInfoWithSlot {
     list_len := int(stream.UInt32LE())
     list := make([][]DataStoreRatingInfoWithSlot, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.List_DataStoreRatingInfoWithSlot()
 	}
 	return list
 }
-func (stream *OutputStream) ListList_DataStoreRatingInfoWithSlot_(cb func(*OutputStream,[]DataStoreRatingInfoWithSlot)(), out [][]DataStoreRatingInfoWithSlot) () {
+func (stream *OutputStream) List_List_DataStoreRatingInfoWithSlot(out [][]DataStoreRatingInfoWithSlot) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.List_DataStoreRatingInfoWithSlot(item)
 	}
 	return
 }
-func (stream *InputStream) ListList_qBuffer_(cb func(*InputStream)[]QBuffer) [][]QBuffer {
+func (stream *InputStream) List_List_QBuffer() [][]QBuffer {
     list_len := int(stream.UInt32LE())
     list := make([][]QBuffer, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.List_QBuffer()
 	}
 	return list
 }
-func (stream *OutputStream) ListList_qBuffer_(cb func(*OutputStream,[]QBuffer)(), out [][]QBuffer) () {
+func (stream *OutputStream) List_List_QBuffer(out [][]QBuffer) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.List_QBuffer(item)
 	}
 	return
 }
-func (stream *InputStream) ListMatchmakeSession(cb func(*InputStream)MatchmakeSession) []MatchmakeSession {
+func (stream *InputStream) List_MatchmakeSession() []MatchmakeSession {
     list_len := int(stream.UInt32LE())
     list := make([]MatchmakeSession, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_MatchmakeSession()
 	}
 	return list
 }
-func (stream *OutputStream) ListMatchmakeSession(cb func(*OutputStream,MatchmakeSession)(), out []MatchmakeSession) () {
+func (stream *OutputStream) List_MatchmakeSession(out []MatchmakeSession) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_MatchmakeSession(item)
 	}
 	return
 }
-func (stream *InputStream) ListMatchmakeSessionSearchCriteria(cb func(*InputStream)MatchmakeSessionSearchCriteria) []MatchmakeSessionSearchCriteria {
+func (stream *InputStream) List_MatchmakeSessionSearchCriteria() []MatchmakeSessionSearchCriteria {
     list_len := int(stream.UInt32LE())
     list := make([]MatchmakeSessionSearchCriteria, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_MatchmakeSessionSearchCriteria()
 	}
 	return list
 }
-func (stream *OutputStream) ListMatchmakeSessionSearchCriteria(cb func(*OutputStream,MatchmakeSessionSearchCriteria)(), out []MatchmakeSessionSearchCriteria) () {
+func (stream *OutputStream) List_MatchmakeSessionSearchCriteria(out []MatchmakeSessionSearchCriteria) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_MatchmakeSessionSearchCriteria(item)
 	}
 	return
 }
-func (stream *InputStream) ListNotificationEvent(cb func(*InputStream)NotificationEvent) []NotificationEvent {
+func (stream *InputStream) List_NotificationEvent() []NotificationEvent {
     list_len := int(stream.UInt32LE())
     list := make([]NotificationEvent, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_NotificationEvent()
 	}
 	return list
 }
-func (stream *OutputStream) ListNotificationEvent(cb func(*OutputStream,NotificationEvent)(), out []NotificationEvent) () {
+func (stream *OutputStream) List_NotificationEvent(out []NotificationEvent) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_NotificationEvent(item)
 	}
 	return
 }
-func (stream *InputStream) ListPID(cb func(*InputStream)PID) []PID {
+func (stream *InputStream) List_PID() []PID {
     list_len := int(stream.UInt32LE())
     list := make([]PID, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = PID(stream.UInt32LE())
 	}
 	return list
 }
-func (stream *OutputStream) ListPID(cb func(*OutputStream,PID)(), out []PID) () {
+func (stream *OutputStream) List_PID(out []PID) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt32LE(uint32(item))
 	}
 	return
 }
-func (stream *InputStream) ListParticipantDetails(cb func(*InputStream)ParticipantDetails) []ParticipantDetails {
+func (stream *InputStream) List_ParticipantDetails() []ParticipantDetails {
     list_len := int(stream.UInt32LE())
     list := make([]ParticipantDetails, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_ParticipantDetails()
 	}
 	return list
 }
-func (stream *OutputStream) ListParticipantDetails(cb func(*OutputStream,ParticipantDetails)(), out []ParticipantDetails) () {
+func (stream *OutputStream) List_ParticipantDetails(out []ParticipantDetails) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_ParticipantDetails(item)
 	}
 	return
 }
-func (stream *InputStream) ListPersistentGathering(cb func(*InputStream)PersistentGathering) []PersistentGathering {
+func (stream *InputStream) List_PersistentGathering() []PersistentGathering {
     list_len := int(stream.UInt32LE())
     list := make([]PersistentGathering, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PersistentGathering()
 	}
 	return list
 }
-func (stream *OutputStream) ListPersistentGathering(cb func(*OutputStream,PersistentGathering)(), out []PersistentGathering) () {
+func (stream *OutputStream) List_PersistentGathering(out []PersistentGathering) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PersistentGathering(item)
 	}
 	return
 }
-func (stream *InputStream) ListPersistentNotification(cb func(*InputStream)PersistentNotification) []PersistentNotification {
+func (stream *InputStream) List_PersistentNotification() []PersistentNotification {
     list_len := int(stream.UInt32LE())
     list := make([]PersistentNotification, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PersistentNotification()
 	}
 	return list
 }
-func (stream *OutputStream) ListPersistentNotification(cb func(*OutputStream,PersistentNotification)(), out []PersistentNotification) () {
+func (stream *OutputStream) List_PersistentNotification(out []PersistentNotification) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PersistentNotification(item)
 	}
 	return
 }
-func (stream *InputStream) ListPlayedGame(cb func(*InputStream)PlayedGame) []PlayedGame {
+func (stream *InputStream) List_PlayedGame() []PlayedGame {
     list_len := int(stream.UInt32LE())
     list := make([]PlayedGame, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PlayedGame()
 	}
 	return list
 }
-func (stream *OutputStream) ListPlayedGame(cb func(*OutputStream,PlayedGame)(), out []PlayedGame) () {
+func (stream *OutputStream) List_PlayedGame(out []PlayedGame) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PlayedGame(item)
 	}
 	return
 }
-func (stream *InputStream) ListPlayingSession(cb func(*InputStream)PlayingSession) []PlayingSession {
+func (stream *InputStream) List_PlayingSession() []PlayingSession {
     list_len := int(stream.UInt32LE())
     list := make([]PlayingSession, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PlayingSession()
 	}
 	return list
 }
-func (stream *OutputStream) ListPlayingSession(cb func(*OutputStream,PlayingSession)(), out []PlayingSession) () {
+func (stream *OutputStream) List_PlayingSession(out []PlayingSession) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PlayingSession(item)
 	}
 	return
 }
-func (stream *InputStream) ListPrincipalBasicInfo(cb func(*InputStream)PrincipalBasicInfo) []PrincipalBasicInfo {
+func (stream *InputStream) List_PrincipalBasicInfo() []PrincipalBasicInfo {
     list_len := int(stream.UInt32LE())
     list := make([]PrincipalBasicInfo, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PrincipalBasicInfo()
 	}
 	return list
 }
-func (stream *OutputStream) ListPrincipalBasicInfo(cb func(*OutputStream,PrincipalBasicInfo)(), out []PrincipalBasicInfo) () {
+func (stream *OutputStream) List_PrincipalBasicInfo(out []PrincipalBasicInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PrincipalBasicInfo(item)
 	}
 	return
 }
-func (stream *InputStream) ListPrincipalRequestBlockSetting(cb func(*InputStream)PrincipalRequestBlockSetting) []PrincipalRequestBlockSetting {
+func (stream *InputStream) List_PrincipalRequestBlockSetting() []PrincipalRequestBlockSetting {
     list_len := int(stream.UInt32LE())
     list := make([]PrincipalRequestBlockSetting, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_PrincipalRequestBlockSetting()
 	}
 	return list
 }
-func (stream *OutputStream) ListPrincipalRequestBlockSetting(cb func(*OutputStream,PrincipalRequestBlockSetting)(), out []PrincipalRequestBlockSetting) () {
+func (stream *OutputStream) List_PrincipalRequestBlockSetting(out []PrincipalRequestBlockSetting) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_PrincipalRequestBlockSetting(item)
 	}
 	return
 }
-func (stream *InputStream) ListRankingCachedResult(cb func(*InputStream)RankingCachedResult) []RankingCachedResult {
+func (stream *InputStream) List_RankingCachedResult() []RankingCachedResult {
     list_len := int(stream.UInt32LE())
     list := make([]RankingCachedResult, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_RankingCachedResult()
 	}
 	return list
 }
-func (stream *OutputStream) ListRankingCachedResult(cb func(*OutputStream,RankingCachedResult)(), out []RankingCachedResult) () {
+func (stream *OutputStream) List_RankingCachedResult(out []RankingCachedResult) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_RankingCachedResult(item)
 	}
 	return
 }
-func (stream *InputStream) ListRankingOrderParam(cb func(*InputStream)RankingOrderParam) []RankingOrderParam {
+func (stream *InputStream) List_RankingOrderParam() []RankingOrderParam {
     list_len := int(stream.UInt32LE())
     list := make([]RankingOrderParam, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_RankingOrderParam()
 	}
 	return list
 }
-func (stream *OutputStream) ListRankingOrderParam(cb func(*OutputStream,RankingOrderParam)(), out []RankingOrderParam) () {
+func (stream *OutputStream) List_RankingOrderParam(out []RankingOrderParam) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_RankingOrderParam(item)
 	}
 	return
 }
-func (stream *InputStream) ListRankingRankData(cb func(*InputStream)RankingRankData) []RankingRankData {
+func (stream *InputStream) List_RankingRankData() []RankingRankData {
     list_len := int(stream.UInt32LE())
     list := make([]RankingRankData, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_RankingRankData()
 	}
 	return list
 }
-func (stream *OutputStream) ListRankingRankData(cb func(*OutputStream,RankingRankData)(), out []RankingRankData) () {
+func (stream *OutputStream) List_RankingRankData(out []RankingRankData) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_RankingRankData(item)
 	}
 	return
 }
-func (stream *InputStream) ListRelationshipData(cb func(*InputStream)RelationshipData) []RelationshipData {
+func (stream *InputStream) List_RelationshipData() []RelationshipData {
     list_len := int(stream.UInt32LE())
     list := make([]RelationshipData, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_RelationshipData()
 	}
 	return list
 }
-func (stream *OutputStream) ListRelationshipData(cb func(*OutputStream,RelationshipData)(), out []RelationshipData) () {
+func (stream *OutputStream) List_RelationshipData(out []RelationshipData) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_RelationshipData(item)
 	}
 	return
 }
-func (stream *InputStream) ListResult(cb func(*InputStream)Result) []Result {
+func (stream *InputStream) List_Result() []Result {
     list_len := int(stream.UInt32LE())
     list := make([]Result, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = Result(stream.UInt32LE())
 	}
 	return list
 }
-func (stream *OutputStream) ListResult(cb func(*OutputStream,Result)(), out []Result) () {
+func (stream *OutputStream) List_Result(out []Result) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt32LE(uint32(item))
 	}
 	return
 }
-func (stream *InputStream) ListSimpleCommunity(cb func(*InputStream)SimpleCommunity) []SimpleCommunity {
+func (stream *InputStream) List_SimpleCommunity() []SimpleCommunity {
     list_len := int(stream.UInt32LE())
     list := make([]SimpleCommunity, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_SimpleCommunity()
 	}
 	return list
 }
-func (stream *OutputStream) ListSimpleCommunity(cb func(*OutputStream,SimpleCommunity)(), out []SimpleCommunity) () {
+func (stream *OutputStream) List_SimpleCommunity(out []SimpleCommunity) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_SimpleCommunity(item)
 	}
 	return
 }
-func (stream *InputStream) ListSimplePlayingSession(cb func(*InputStream)SimplePlayingSession) []SimplePlayingSession {
+func (stream *InputStream) List_SimplePlayingSession() []SimplePlayingSession {
     list_len := int(stream.UInt32LE())
     list := make([]SimplePlayingSession, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_SimplePlayingSession()
 	}
 	return list
 }
-func (stream *OutputStream) ListSimplePlayingSession(cb func(*OutputStream,SimplePlayingSession)(), out []SimplePlayingSession) () {
+func (stream *OutputStream) List_SimplePlayingSession(out []SimplePlayingSession) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_SimplePlayingSession(item)
 	}
 	return
 }
-func (stream *InputStream) ListStationURL(cb func(*InputStream)StationURL) []StationURL {
+func (stream *InputStream) List_StationURL() []StationURL {
     list_len := int(stream.UInt32LE())
     list := make([]StationURL, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = StationURL(stream.String())
 	}
 	return list
 }
-func (stream *OutputStream) ListStationURL(cb func(*OutputStream,StationURL)(), out []StationURL) () {
+func (stream *OutputStream) List_StationURL(out []StationURL) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.String(string(item))
 	}
 	return
 }
-func (stream *InputStream) ListString(cb func(*InputStream)string) []string {
+func (stream *InputStream) List_string() []string {
     list_len := int(stream.UInt32LE())
     list := make([]string, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = string(stream.String())
 	}
 	return list
 }
-func (stream *OutputStream) ListString(cb func(*OutputStream,string)(), out []string) () {
+func (stream *OutputStream) List_string(out []string) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.String(string(item))
 	}
 	return
 }
-func (stream *InputStream) ListUint16(cb func(*InputStream)uint16) []uint16 {
+func (stream *InputStream) List_uint16() []uint16 {
     list_len := int(stream.UInt32LE())
     list := make([]uint16, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.UInt16LE()
 	}
 	return list
 }
-func (stream *OutputStream) ListUint16(cb func(*OutputStream,uint16)(), out []uint16) () {
+func (stream *OutputStream) List_uint16(out []uint16) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt16LE(item)
 	}
 	return
 }
-func (stream *InputStream) ListUint32(cb func(*InputStream)uint32) []uint32 {
+func (stream *InputStream) List_uint32() []uint32 {
     list_len := int(stream.UInt32LE())
     list := make([]uint32, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.UInt32LE()
 	}
 	return list
 }
-func (stream *OutputStream) ListUint32(cb func(*OutputStream,uint32)(), out []uint32) () {
+func (stream *OutputStream) List_uint32(out []uint32) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt32LE(item)
 	}
 	return
 }
-func (stream *InputStream) ListUint64(cb func(*InputStream)uint64) []uint64 {
+func (stream *InputStream) List_uint64() []uint64 {
     list_len := int(stream.UInt32LE())
     list := make([]uint64, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.UInt64LE()
 	}
 	return list
 }
-func (stream *OutputStream) ListUint64(cb func(*OutputStream,uint64)(), out []uint64) () {
+func (stream *OutputStream) List_uint64(out []uint64) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt64LE(item)
 	}
 	return
 }
-func (stream *InputStream) ListUint8(cb func(*InputStream)uint8) []uint8 {
+func (stream *InputStream) List_uint8() []uint8 {
     list_len := int(stream.UInt32LE())
     list := make([]uint8, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.UInt8()
 	}
 	return list
 }
-func (stream *OutputStream) ListUint8(cb func(*OutputStream,uint8)(), out []uint8) () {
+func (stream *OutputStream) List_uint8(out []uint8) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.UInt8(item)
 	}
 	return
 }
-func (stream *InputStream) ListUniqueIdInfo(cb func(*InputStream)UniqueIdInfo) []UniqueIdInfo {
+func (stream *InputStream) List_UniqueIdInfo() []UniqueIdInfo {
     list_len := int(stream.UInt32LE())
     list := make([]UniqueIdInfo, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_UniqueIdInfo()
 	}
 	return list
 }
-func (stream *OutputStream) ListUniqueIdInfo(cb func(*OutputStream,UniqueIdInfo)(), out []UniqueIdInfo) () {
+func (stream *OutputStream) List_UniqueIdInfo(out []UniqueIdInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_UniqueIdInfo(item)
 	}
 	return
 }
-func (stream *InputStream) ListUserMessage(cb func(*InputStream)UserMessage) []UserMessage {
+func (stream *InputStream) List_UserMessage() []UserMessage {
     list_len := int(stream.UInt32LE())
     list := make([]UserMessage, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.Struct_UserMessage()
 	}
 	return list
 }
-func (stream *OutputStream) ListUserMessage(cb func(*OutputStream,UserMessage)(), out []UserMessage) () {
+func (stream *OutputStream) List_UserMessage(out []UserMessage) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.Struct_UserMessage(item)
 	}
 	return
 }
-func (stream *InputStream) ListqBuffer(cb func(*InputStream)QBuffer) []QBuffer {
+func (stream *InputStream) List_QBuffer() []QBuffer {
     list_len := int(stream.UInt32LE())
     list := make([]QBuffer, list_len)
     for i := 0; i < list_len; i++ {
-		list[i] = cb(stream)
+		list[i] = stream.QBuffer()
 	}
 	return list
 }
-func (stream *OutputStream) ListqBuffer(cb func(*OutputStream,QBuffer)(), out []QBuffer) () {
+func (stream *OutputStream) List_QBuffer(out []QBuffer) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for _, item := range out {
-		cb(stream, item)
+		stream.QBuffer(item)
 	}
 	return
 }
-func (stream *InputStream) MapSint8_DataStoreRatingInfo(cb func(*InputStream)(int8,DataStoreRatingInfo)) map[int8]DataStoreRatingInfo {
+func (stream *InputStream) Map_int8_DataStoreRatingInfo() map[int8]DataStoreRatingInfo {
     map_len := int(stream.UInt32LE())
     m := make(map[int8]DataStoreRatingInfo)
     for i := 0; i < map_len; i++ {
-		key, value := cb(stream)
+		key := stream.Int8()
+		value := stream.Struct_DataStoreRatingInfo()
 		m[key] = value
 	}
 	return m
 }
-func (stream *OutputStream) MapSint8_DataStoreRatingInfo(cb func(*OutputStream,int8,DataStoreRatingInfo)(), out map[int8]DataStoreRatingInfo) () {
+func (stream *OutputStream) Map_int8_DataStoreRatingInfo(out map[int8]DataStoreRatingInfo) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for key, value := range out {
-		cb(stream, key, value)
+    	stream.Int8(key)
+    	stream.Struct_DataStoreRatingInfo(value)
 	}
 	return
 }
-func (stream *InputStream) MapSint8_List_qBuffer_(cb func(*InputStream)(int8,[]QBuffer)) map[int8][]QBuffer {
+func (stream *InputStream) Map_int8_List_QBuffer() map[int8][]QBuffer {
     map_len := int(stream.UInt32LE())
     m := make(map[int8][]QBuffer)
     for i := 0; i < map_len; i++ {
-		key, value := cb(stream)
+		key := stream.Int8()
+		value := stream.List_QBuffer()
 		m[key] = value
 	}
 	return m
 }
-func (stream *OutputStream) MapSint8_List_qBuffer_(cb func(*OutputStream,int8,[]QBuffer)(), out map[int8][]QBuffer) () {
+func (stream *OutputStream) Map_int8_List_QBuffer(out map[int8][]QBuffer) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for key, value := range out {
-		cb(stream, key, value)
+    	stream.Int8(key)
+    	stream.List_QBuffer(value)
 	}
 	return
 }
-func (stream *InputStream) MapString_Variant(cb func(*InputStream)(string,Variant)) map[string]Variant {
+func (stream *InputStream) Map_string_Variant() map[string]Variant {
     map_len := int(stream.UInt32LE())
     m := make(map[string]Variant)
     for i := 0; i < map_len; i++ {
-		key, value := cb(stream)
+		key := string(stream.String())
+		value := stream.Variant()
 		m[key] = value
 	}
 	return m
 }
-func (stream *OutputStream) MapString_Variant(cb func(*OutputStream,string,Variant)(), out map[string]Variant) () {
+func (stream *OutputStream) Map_string_Variant(out map[string]Variant) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for key, value := range out {
-		cb(stream, key, value)
+    	stream.String(string(key))
+    	stream.Variant(value)
 	}
 	return
 }
-func (stream *InputStream) MapUint16_Sint32(cb func(*InputStream)(uint16,int32)) map[uint16]int32 {
+func (stream *InputStream) Map_uint16_int32() map[uint16]int32 {
     map_len := int(stream.UInt32LE())
     m := make(map[uint16]int32)
     for i := 0; i < map_len; i++ {
-		key, value := cb(stream)
+		key := stream.UInt16LE()
+		value := stream.Int32LE()
 		m[key] = value
 	}
 	return m
 }
-func (stream *OutputStream) MapUint16_Sint32(cb func(*OutputStream,uint16,int32)(), out map[uint16]int32) () {
+func (stream *OutputStream) Map_uint16_int32(out map[uint16]int32) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for key, value := range out {
-		cb(stream, key, value)
+    	stream.UInt16LE(key)
+    	stream.Int32LE(value)
 	}
 	return
 }
-func (stream *InputStream) MapUint16_String(cb func(*InputStream)(uint16,string)) map[uint16]string {
+func (stream *InputStream) Map_uint16_string() map[uint16]string {
     map_len := int(stream.UInt32LE())
     m := make(map[uint16]string)
     for i := 0; i < map_len; i++ {
-		key, value := cb(stream)
+		key := stream.UInt16LE()
+		value := string(stream.String())
 		m[key] = value
 	}
 	return m
 }
-func (stream *OutputStream) MapUint16_String(cb func(*OutputStream,uint16,string)(), out map[uint16]string) () {
+func (stream *OutputStream) Map_uint16_string(out map[uint16]string) () {
 
 	length := len(out)
     stream.UInt32LE(uint32(length))
     for key, value := range out {
-		cb(stream, key, value)
+    	stream.UInt16LE(key)
+    	stream.String(string(value))
 	}
 	return
 }
