@@ -26,6 +26,8 @@ type Settings struct {
 	IntSize                 int
 	Version                 int
 	AccessKey               string
+	AuthPort				int
+	SecurePort				int
 }
 
 // NewSettings returns a set of default server settings
@@ -80,13 +82,16 @@ func NewServer(settings Settings) *Server {
 }
 
 // Listen starts a NEX server on a given port
-func (server *Server) Listen(port string) {
-
+func (server *Server) Listen(port int) {
 	protocol := "udp"
 
-	address, _ := net.ResolveUDPAddr(protocol, port)
-	UDPServer, _ := net.ListenUDP(protocol, address)
+	address := &net.UDPAddr {
+		IP: net.ParseIP("0.0.0.0"),
+		Port: port,
+		Zone: "",
+	};
 
+	UDPServer, _ := net.ListenUDP(protocol, address)
 	server._UDPServer = UDPServer
 
 	fmt.Println("NEX server listening on port", port)
